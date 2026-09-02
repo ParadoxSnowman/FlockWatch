@@ -1,0 +1,31 @@
+name: Refresh agency watchlist
+
+on:
+  schedule:
+    - cron: "41 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flockwatch-agencies
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Import documented Flock agencies and resolve public accounts
+        run: python scripts/update_agencies.py --discover-socials --batch 24
+      - name: Commit changed watchlist
+        run: |
+          git config user.name "flockwatch-bot"
+          git config user.email "flockwatch-bot@users.noreply.github.com"
+          git add data/agencies.json
+          git diff --cached --quiet || git commit -m "data: refresh agency watchlist"
+          git push
