@@ -16,9 +16,11 @@ jobs:
           python-version: "3.12"
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
       - run: npm ci --no-audit --no-fund
       - name: Reuse-detection checks
         run: python3 scripts/test_analysis.py
+      - name: Timeline refusal checks
+        run: python3 scripts/test_timeline.py
       - name: Interface smoke test
         run: node scripts/smoke_test.mjs
