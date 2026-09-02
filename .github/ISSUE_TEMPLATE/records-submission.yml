@@ -1,0 +1,45 @@
+name: Share public Flock records
+description: Submit a public MuckRock request or DocumentCloud record for review and indexing.
+title: "Records submission: "
+labels: ["records-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share public links only. Before publishing records, remove personal contact information, victim or witness information, information about minors, access credentials, and material the agency inadvertently failed to redact.
+  - type: input
+    id: agency
+    attributes:
+      label: Agency
+      placeholder: Example Police Department
+    validations:
+      required: true
+  - type: input
+    id: state
+    attributes:
+      label: State
+      placeholder: OH
+    validations:
+      required: false
+  - type: input
+    id: public_url
+    attributes:
+      label: Public MuckRock or DocumentCloud URL
+      description: The records must already be publicly available through MuckRock or DocumentCloud.
+      placeholder: https://www.muckrock.com/foi/...
+    validations:
+      required: true
+  - type: textarea
+    id: contents
+    attributes:
+      label: What the records contain
+      description: Summarize any Flock communications, draft posts, talking points, news pitches, media outreach, or incentives.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Publication check
+      options:
+        - label: I reviewed the public record for sensitive personal information and understand this submission will be public.
+          required: true
