@@ -1,0 +1,56 @@
+[
+  {
+    "id": "media-relations-role",
+    "date": "2026-08-01",
+    "type": "Company hiring document",
+    "title": "Flock media-relations role describes a success-story publicity pipeline",
+    "finding": "The role solicits customer stories, drafts press releases, pitches news outlets, supports press conferences, and seeks a high volume of positive press coverage each week.",
+    "strength": "Direct",
+    "url": "https://app.welcometothejungle.com/jobs/YtjJI4Fc"
+  },
+  {
+    "id": "customer-advocate",
+    "date": "2026-08-01",
+    "type": "Company program",
+    "title": "Flock asks customers to become public advocates",
+    "finding": "The program asks customers to volunteer for a case study, news pitch, quote, referral, or event—documenting a formal mechanism for turning customer outcomes into marketing and press material.",
+    "strength": "Direct",
+    "url": "https://stories.flocksafety.com/"
+  },
+  {
+    "id": "agency-talking-points",
+    "date": "2026-08-28",
+    "type": "Public-record reporting",
+    "title": "Records show Flock supplying copy-ready talking points to a police chief",
+    "finding": "A Virginia investigation reports that a Flock executive gave a chief scripted responses and said the text could be forwarded as-is or copied into a public memo.",
+    "strength": "Direct records",
+    "url": "https://www.whro.org/virginia-center-for-investigative-journalism/2026-08-28/inside-virginias-city-halls-concerns-confusion-rise-with-flock-protests"
+  },
+  {
+    "id": "sample-social-copy",
+    "date": "2026-08-01",
+    "type": "Company resource",
+    "title": "Flock publishes sample social-media and email copy",
+    "finding": "The resource provides ready-made promotional language. The page is aimed mainly at residential and community customers, so it should not be represented as a police-department template without additional records.",
+    "strength": "Direct, scoped",
+    "url": "https://resources.flocksafety.com/community/"
+  },
+  {
+    "id": "sponsored-content-strategy",
+    "date": "2025-02-01",
+    "type": "Procurement response",
+    "title": "Flock describes sponsored trade-publication content as part of its marketing strategy",
+    "finding": "A procurement response lists sponsored content, trade-publication advertising, social content, email campaigns, and webinars among its marketing channels.",
+    "strength": "Direct",
+    "url": "https://www.omniapartners.com/suppliers-files/E-J/Flock_Safety/Contract_Documents/R250203/25-02_Flock_Response_2024_11_14_Combined.pdf"
+  },
+  {
+    "id": "press-release-wire",
+    "date": "2026-07-23",
+    "type": "Press-release distribution",
+    "title": "Flock distributes company-authored stories through GlobeNewswire",
+    "finding": "Paid wire distribution is documented and disclosed. It is evidence of press-release promotion—not evidence that an independent newsroom was secretly paid.",
+    "strength": "Direct",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3332207/0/en/flock-s-audit-assistance-tool-identifies-misuse-across-multiple-cases-reinforcing-that-accountability-is-built-into-the-technology.html"
+  }
+]

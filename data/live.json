@@ -1,0 +1,326 @@
+[
+  {
+    "id": "flock-independent-study",
+    "published_at": "2026-08-31T12:00:00Z",
+    "title": "Independent Study: Vehicle Thefts Fell 11% After Flock Cameras Went Live",
+    "summary": "Flock Safety highlights a study and frames the result as evidence of measurable public-safety impact.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 5,
+    "matched_terms": [
+      "real outcomes",
+      "went live"
+    ],
+    "cluster_id": "real-outcomes",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "laredo-transparency-post",
+    "published_at": "2026-08-31T10:30:00Z",
+    "title": "Laredo Police says Flock partnership responsibly prevents and investigates crime",
+    "summary": "An agency post emphasizes accountability, says the system does not track individuals, and credits the partnership with crime prevention and investigations.",
+    "publisher": "Laredo Police Department",
+    "url": "https://www.facebook.com/laredopd/posts/1415995687387437/",
+    "domain": "facebook.com",
+    "channel": "agency",
+    "disclosure": "editorial",
+    "promotion_score": 4,
+    "matched_terms": [
+      "transparency",
+      "responsibly prevent"
+    ],
+    "cluster_id": "privacy-first",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "northglenn-success-story",
+    "published_at": "2026-08-28T15:00:00Z",
+    "title": "Flock Success Story: alert helps Northglenn officers locate stolen vehicle",
+    "summary": "The police department says a Flock alert helped officers quickly locate a stolen vehicle within minutes.",
+    "publisher": "Northglenn Police Department",
+    "url": "https://www.facebook.com/northglennpolice/posts/1481475370688431/",
+    "domain": "facebook.com",
+    "channel": "agency",
+    "disclosure": "editorial",
+    "promotion_score": 4,
+    "matched_terms": [
+      "success story",
+      "within minutes"
+    ],
+    "cluster_id": "within-minutes",
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0
+  },
+  {
+    "id": "auto-09947d65266a32",
+    "published_at": "2026-08-15T14:53:21Z",
+    "title": "Flock founder says technology would have helped find Nancy Guthrie - Scripps News",
+    "summary": "Flock founder says technology would have helped find Nancy Guthrie Scripps News",
+    "publisher": "Scripps News",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRk56V3dnUFNDLVBBOEt2SkNYVnR1WlBqdG40ekEtaC1IbHhEemtyUlpJek5Cc05KQWdZQ1pfOHhLX0QxVkM0Z0dDNVpLT01taVZjVzdnYzVQVVZVcVdTMVBrRHNUWk5BY0M4U0JRSUpNcUdOcDVXb19hWFZPX0M0ME1JUVhKS25Kcng1ZGw2V1B5ay12VF9GMGcxaklOTV9xR1k3eDFwYlg5UHdf?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 2,
+    "matched_terms": [
+      "helped locate"
+    ],
+    "origin_indicators": [
+      "company quote"
+    ],
+    "cluster_id": null,
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "galt-kidnapping-five-minutes",
+    "published_at": "2026-08-07T17:00:00Z",
+    "title": "Galt police say Flock cameras helped track kidnapping suspect in five minutes",
+    "summary": "A local television report leads with the department's claim that the camera network rapidly located a kidnapping suspect.",
+    "publisher": "ABC10",
+    "url": "https://www.abc10.com/article/entertainment/television/programs/to-the-point/galt-police-say-flock-cameras-helped-track-kidnapping-suspect-in-5-minutes/103-0c673cca-21e1-4a82-9d7f-05df9b3e8aad",
+    "domain": "abc10.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 4,
+    "matched_terms": [
+      "helped track",
+      "five minutes"
+    ],
+    "cluster_id": "within-minutes",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "dothan-child-kidnapping-gray",
+    "published_at": "2026-07-30T16:53:00Z",
+    "title": "Police department credits Flock cameras in capture of child kidnapping suspect",
+    "summary": "A Gray News report says Florida investigators used Flock cameras to confirm the suspect vehicle was in Dothan before officers and drone teams made the arrest.",
+    "publisher": "Gray News / WTVY",
+    "url": "https://www.fox34.com/2026/07/30/police-department-credits-flock-cameras-capture-child-kidnapping-suspect/",
+    "domain": "fox34.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 3,
+    "matched_terms": [
+      "credits Flock",
+      "capture"
+    ],
+    "cluster_id": "credits-flock",
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0
+  },
+  {
+    "id": "auto-0805426ad83fba",
+    "published_at": "2026-07-24T16:47:15.209000Z",
+    "title": "How Community And Technology Are Shaping A Safer Future In Dunwoody Georgia",
+    "summary": "Flock-owned page discovered through the company sitemap.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/blog/how-community-and-technology-are-shaping-a-safer-future-in-dunwoody-georgia",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 2,
+    "matched_terms": [
+      "safer community"
+    ],
+    "origin_indicators": [],
+    "cluster_id": "safer-community",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "auto-61758f7d7f93aa",
+    "published_at": "2026-07-24T16:47:15.209000Z",
+    "title": "How San Jose California Is Utilizing Technology To Solve More Crime And Shape A Safer Community",
+    "summary": "Flock-owned page discovered through the company sitemap.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/blog/how-san-jose-california-is-utilizing-technology-to-solve-more-crime-and-shape-a-safer-community",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 2,
+    "matched_terms": [
+      "safer community"
+    ],
+    "origin_indicators": [],
+    "cluster_id": "safer-community",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "auto-5c0c2c8b94b7d6",
+    "published_at": "2026-07-24T16:47:15.209000Z",
+    "title": "Shaping Safer Communities The Power Of Layered Technology",
+    "summary": "Flock-owned page discovered through the company sitemap.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/blog/shaping-safer-communities-the-power-of-layered-technology",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 2,
+    "matched_terms": [
+      "safer community"
+    ],
+    "origin_indicators": [],
+    "cluster_id": "safer-community",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "vicksburg-stolen-truck",
+    "published_at": "2026-07-05T11:56:00Z",
+    "title": "Vicksburg PD credits Flock cameras with locating stolen truck, arresting suspect",
+    "summary": "The station reports a police statement saying a Flock alert located a truck tied to an alleged fraud scheme.",
+    "publisher": "WLBT",
+    "url": "https://www.wlbt.com/2026/07/05/vicksburg-pd-credits-flock-cameras-with-locating-stolen-truck-arresting-suspect/",
+    "domain": "wlbt.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 3,
+    "matched_terms": [
+      "credits Flock",
+      "locating"
+    ],
+    "cluster_id": "credits-flock",
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0
+  },
+  {
+    "id": "akron-missing-person-video",
+    "published_at": "2026-07-01T14:00:00Z",
+    "title": "Akron Police video says Flock detection narrowed a search within minutes",
+    "summary": "The agency video describes entering a vehicle in the Flock system and receiving a detection within minutes.",
+    "publisher": "Akron Police Department",
+    "url": "https://www.facebook.com/AkronPoliceDepartment/videos/1629544972205368/",
+    "domain": "facebook.com",
+    "channel": "agency",
+    "disclosure": "editorial",
+    "promotion_score": 4,
+    "matched_terms": [
+      "within minutes",
+      "safely"
+    ],
+    "cluster_id": "within-minutes",
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0
+  },
+  {
+    "id": "roseville-thirty-minutes",
+    "published_at": "2026-06-20T12:00:00Z",
+    "title": "Flock cameras aid police in arrest just 30 minutes after going live",
+    "summary": "A Flock-owned customer case study says Roseville police made an arrest thirty minutes after a private shopping center activated its cameras.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/customers/flock-safety-cameras-aid-police-in-arrest-just-30-minutes-after-going-live",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 5,
+    "matched_terms": [
+      "30 minutes",
+      "going live",
+      "success"
+    ],
+    "cluster_id": "within-minutes",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "auto-00e745103e1bf3",
+    "published_at": "2025-09-23T07:00:00Z",
+    "title": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert - Denver7",
+    "summary": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert Denver7",
+    "publisher": "Denver7",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVGw5U1llWnFtX20yaGs5TDNsWldNVWw3QzNfRjVtTTBRVEotV3VBcERZRnlLZ2FWbVJpVE5Vd05fb292X21NTmgxallaakM0YWR2SEFLVG50SWRodGxDeXo5eTQzTmNsMzRwSnIwbmJQdXBydXpxUEJNd2Rkc0lyVWpKU2toWFlKTkJva09wN3FaTDBteGUxeVpDRDdRNVIya0EyQWVaSTdvU2JLRk9fcFVBMFNUNVdINUhYaGFkcERQLXgwdHUtbEs1Z3lTRlYwc3pzQ1ZwSTRzTjUxazRRbmN0Z1ktSm5RTlE?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 2,
+    "matched_terms": [
+      "credits Flock"
+    ],
+    "origin_indicators": [
+      "single-source police attribution"
+    ],
+    "cluster_id": "credits-flock",
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0
+  },
+  {
+    "id": "police1-sponsored-podcast",
+    "published_at": "2025-08-27T12:00:00Z",
+    "title": "From early lessons to AI integration: the evolution of drones as first responders",
+    "summary": "Police1 explicitly states that the episode is sponsored by Flock Safety and includes company product messaging.",
+    "publisher": "Police1",
+    "url": "https://www.police1.com/drones/from-early-lessons-to-ai-integration-the-evolution-of-drones-as-first-responders",
+    "domain": "police1.com",
+    "channel": "sponsored",
+    "disclosure": "disclosed",
+    "promotion_score": 5,
+    "matched_terms": [
+      "sponsored by Flock Safety",
+      "solve crime faster"
+    ],
+    "cluster_id": "sponsored-platform",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "police1-sponsored-ebook",
+    "published_at": "2024-06-27T12:00:00Z",
+    "title": "Police1 guide to building a real-time crime center",
+    "summary": "Police1 labels the downloadable guide as sponsored by Flock Safety.",
+    "publisher": "Police1",
+    "url": "https://www.police1.com/tech-pulse/ebook-police1-guide-to-building-a-real-time-crime-center",
+    "domain": "police1.com",
+    "channel": "sponsored",
+    "disclosure": "disclosed",
+    "promotion_score": 4,
+    "matched_terms": [
+      "sponsored by Flock Safety"
+    ],
+    "cluster_id": "sponsored-platform",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  },
+  {
+    "id": "flock-solved-stories-49",
+    "published_at": "2024-05-17T12:00:00Z",
+    "title": "#SolvedStories: Hopkinsville chief says Flock is worth its weight in gold",
+    "summary": "A Flock-owned roundup packages several agency outcomes and invites customers to submit their own solved stories.",
+    "publisher": "Flock Safety",
+    "url": "https://www.flocksafety.com/blog/flock-safety-solved-stories-recap-edition-049",
+    "domain": "flocksafety.com",
+    "channel": "flock",
+    "disclosure": "disclosed",
+    "promotion_score": 5,
+    "matched_terms": [
+      "solved stories",
+      "worth its weight in gold"
+    ],
+    "cluster_id": "solved-stories",
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0
+  }
+]

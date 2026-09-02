@@ -1,0 +1,17 @@
+{
+  "name": "flockwatch-media-monitor",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "python3 scripts/test_analysis.py && node scripts/smoke_test.mjs",
+    "test:analysis": "python3 scripts/test_analysis.py",
+    "test:ui": "node scripts/smoke_test.mjs",
+    "reanalyze": "python3 scripts/reanalyze.py",
+    "reanalyze:dry": "python3 scripts/reanalyze.py --dry-run"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}

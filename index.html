@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A sourced monitor of Flock Safety success-story coverage, police social posts, sponsored media, and repeated narratives." />
+    <meta name="theme-color" content="#07100e" />
+    <title>FlockWatch — Media & PR Monitor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="FlockWatch home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>FLOCK<span>WATCH</span></span>
+      </a>
+      <nav class="topnav" aria-label="Primary views">
+        <button class="active" type="button" data-view="signals" aria-selected="true">Signals</button>
+        <button type="button" data-view="newsrooms" aria-selected="false">Newsrooms</button>
+        <button type="button" data-view="agencies" aria-selected="false">Agency watchlist</button>
+        <button type="button" data-view="cases" aria-selected="false">Caseboard</button>
+        <button type="button" data-view="publicRecords" aria-selected="false">Public records</button>
+        <button type="button" data-view="records" aria-selected="false">Records request</button>
+      </nav>
+      <div class="topbar-actions">
+        <div class="topbar-status"><span class="live-dot" aria-hidden="true"></span><span id="freshness">Loading monitor…</span></div>
+        <button class="about-button" id="aboutButton" type="button">Methodology</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="view active" id="signalsView">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">MEDIA &amp; PR INTELLIGENCE / UNITED STATES</p>
+          <h1 id="page-title">Who starts the story—and who amplifies it?</h1>
+          <p class="deck">Tracking positive Flock Safety “wins” across company channels, police and sheriff accounts, local news, press-release wires, and disclosed sponsored media.</p>
+        </div>
+        <div class="scope-note">
+          <span class="scope-label">EVIDENCE RULE</span>
+          Stories are grouped only when they share long, contiguous runs of identical text. A shared topic or a common phrase is not grouped, and overlap is a lead rather than proof of payment.
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Monitor summary">
+        <article><span class="metric-label">Signals / 30 days</span><strong id="metricSignals">—</strong><small id="metricSignalsDelta">Monitored mentions</small></article>
+        <article><span class="metric-label">Agency posts</span><strong id="metricAgency">—</strong><small>Police, sheriff, city</small></article>
+        <article><span class="metric-label">Local news</span><strong id="metricNews">—</strong><small>Positive or crediting Flock</small></article>
+        <article><span class="metric-label">Sponsored</span><strong id="metricSponsored">—</strong><small>Explicitly disclosed</small></article>
+        <article><span class="metric-label">Reuse lanes</span><strong id="metricLanes">—</strong><small>Verbatim text shared between publishers</small></article>
+        <article class="accent-metric"><span class="metric-label">Coverage balance</span><strong id="metricBalance">—</strong><small id="metricBalanceNote">Promotional vs critical</small></article>
+      </section>
+
+      <section class="workspace">
+        <aside class="filters" aria-label="Filter signals">
+          <div class="panel-heading">
+            <span>FILTER SIGNALS</span>
+            <button id="clearFilters" type="button">Reset</button>
+          </div>
+          <label class="search-field">
+            <span class="sr-only">Search monitored content</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+            <input id="searchInput" type="search" placeholder="Agency, outlet, phrase…" autocomplete="off" />
+          </label>
+
+          <fieldset>
+            <legend>TIME WINDOW</legend>
+            <div class="segmented" id="timeFilters">
+              <button type="button" data-days="7">7D</button>
+              <button type="button" data-days="30" class="active">30D</button>
+              <button type="button" data-days="3650">ALL</button>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>CHANNEL</legend>
+            <label><input type="checkbox" value="agency" checked /> <span class="channel-dot agency"></span>Agency social / site <b id="countAgency">0</b></label>
+            <label><input type="checkbox" value="news" checked /> <span class="channel-dot news"></span>News coverage <b id="countNews">0</b></label>
+            <label><input type="checkbox" value="flock" checked /> <span class="channel-dot flock"></span>Flock-owned <b id="countFlock">0</b></label>
+            <label><input type="checkbox" value="sponsored" checked /> <span class="channel-dot sponsored"></span>Sponsored / paid <b id="countSponsored">0</b></label>
+            <label><input type="checkbox" value="wire" checked /> <span class="channel-dot wire"></span>Press-release wire <b id="countWire">0</b></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>DISCLOSURE</legend>
+            <label><input type="radio" name="disclosure" value="all" checked /> All signals</label>
+            <label><input type="radio" name="disclosure" value="disclosed" /> Paid / press release disclosed</label>
+            <label><input type="radio" name="disclosure" value="editorial" /> Editorial or agency-originated</label>
+            <label><input type="radio" name="disclosure" value="unknown" /> Origin unclear</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>STANCE</legend>
+            <label><input type="radio" name="stance" value="all" checked /> Any stance</label>
+            <label><input type="radio" name="stance" value="promotional" /> Promotional</label>
+            <label><input type="radio" name="stance" value="critical" /> Critical / accountability</label>
+            <label><input type="radio" name="stance" value="mixed" /> Mixed</label>
+          </fieldset>
+
+          <div class="watchlist">
+            <span>WATCH PHRASES</span>
+            <div id="watchTerms"></div>
+          </div>
+        </aside>
+
+        <section class="feed-panel" aria-labelledby="feed-title">
+          <div class="panel-heading feed-heading">
+            <div>
+              <span id="feed-title">SIGNAL FEED</span>
+              <small id="resultCount">0 items</small>
+            </div>
+            <div class="feed-actions">
+              <button class="export-button" id="exportSignals" type="button">Export CSV</button>
+              <label class="sort-control">SORT
+                <select id="sortSelect">
+                  <option value="newest">Newest first</option>
+                  <option value="score">Strongest promotional framing</option>
+                  <option value="reuse">Strongest verbatim reuse</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="feed" id="signalFeed" aria-live="polite"></div>
+          <div class="empty-state" id="emptyState" hidden>No signals match those filters.</div>
+        </section>
+
+        <aside class="analysis-rail" aria-label="Narrative analysis">
+          <section class="analysis-card cluster-card">
+            <div class="panel-heading"><span>REUSE LANES</span><small>VERBATIM OVERLAP</small></div>
+            <div id="laneList"></div>
+          </section>
+
+          <section class="analysis-card chain-card">
+            <div class="panel-heading"><span>LANE DETAIL</span><small id="chainConfidence">NO LANE SELECTED</small></div>
+            <div id="chainView" class="chain-empty">Select a reuse lane to see which publishers ran overlapping text and in what order it was captured.</div>
+          </section>
+
+          <section class="analysis-card evidence-card">
+            <div class="panel-heading"><span>PR PIPELINE EVIDENCE</span><button id="evidenceButton" type="button">View all</button></div>
+            <div id="evidencePreview"></div>
+          </section>
+        </aside>
+      </section>
+      </div>
+
+      <div class="view" id="newsroomsView" hidden>
+        <section class="section-intro newsroom-intro">
+          <div>
+            <p class="eyebrow">OUTLET OWNERSHIP / STORY ORIGIN / SYNDICATION</p>
+            <h1>Newsroom watch</h1>
+            <p class="deck">Follow which outlets publish Flock “wins,” who owns them, whether sponsorship is disclosed, and when the same framing moves from an agency or company source into local coverage.</p>
+          </div>
+          <div class="scope-note"><span class="scope-label">READ THE LABELS</span>Ownership does not establish editorial coordination, and a station group running one story across its properties is ordinary practice rather than a finding. Read the critical column beside the promotional one: an outlet that never publishes accountability coverage is the pattern worth a second look.</div>
+        </section>
+        <section class="newsroom-metrics" aria-label="Newsroom watch summary">
+          <article><span>NEWS ITEMS</span><strong id="outletStoryTotal">—</strong><small>News, sponsored and wire</small></article>
+          <article><span>OUTLETS</span><strong id="outletTotal">—</strong><small>Publishers observed</small></article>
+          <article><span>PARENTS VERIFIED</span><strong id="ownerVerified">—</strong><small>Ownership source attached</small></article>
+          <article><span>REUSED TEXT</span><strong id="outletReuseTotal">—</strong><small>Stories sharing verbatim passages</small></article>
+          <article><span>CRITICAL</span><strong id="outletCriticalTotal">—</strong><small>Accountability coverage found</small></article>
+          <article><span>DISCLOSED PAID</span><strong id="outletPaidTotal">—</strong><small>Sponsored items only</small></article>
+        </section>
+        <section class="newsroom-surface">
+          <div class="newsroom-toolbar">
+            <label class="search-field"><span class="sr-only">Search newsrooms</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><input id="outletSearch" type="search" placeholder="Outlet, owner, story or phrase…" autocomplete="off"></label>
+            <label>OUTLET TYPE<select id="outletType"><option value="all">All outlet types</option></select></label>
+            <label>OWNERSHIP<select id="outletOwnership"><option value="all">All ownership states</option><option value="verified">Verified parent</option><option value="unresolved">Ownership unresolved</option></select></label>
+            <div class="segmented grouping" id="newsroomGrouping" role="tablist" aria-label="Group newsrooms by">
+              <button type="button" class="active" data-grouping="outlet" role="tab" aria-selected="true">By outlet</button>
+              <button type="button" data-grouping="owner" role="tab" aria-selected="false">By owner</button>
+            </div>
+            <button class="export-button toolbar-button" id="exportOutlets" type="button">Export CSV</button>
+          </div>
+          <div class="newsroom-layout">
+            <section class="outlet-panel" aria-labelledby="outlet-list-title"><div class="panel-heading"><span id="outlet-list-title">OUTLET PROFILES</span><small id="outletResultCount">0 outlets</small></div><div id="outletList"></div></section>
+            <aside class="lineage-panel" aria-labelledby="lineage-title"><div class="panel-heading"><span id="lineage-title">SHARED TEXT</span><small>EARLIEST CAPTURE FIRST</small></div><div id="outletLineages"></div></aside>
+          </div>
+          <div class="agency-source-note" id="bodyCoverage"></div>
+          <div class="agency-source-note">Ownership entries are manually sourced from current corporate or outlet pages. Unresolved ownership remains labeled unresolved; the monitor does not infer ownership from a logo, network affiliation, or story byline.</div>
+        </section>
+      </div>
+
+      <div class="view" id="agenciesView" hidden>
+        <section class="section-intro">
+          <div>
+            <p class="eyebrow">CONFIRMED FLOCK USERS / PUBLIC COMMUNICATIONS</p>
+            <h1>Agency watchlist</h1>
+            <p class="deck">Built from official Flock transparency portals and public agency disclosures—not camera locations. The monitor rotates through the full list every 24 hours and checks known social accounts for Flock-related posts.</p>
+          </div>
+          <div class="cadence-card"><span>COLLECTION CADENCE</span><strong>News: hourly</strong><strong>Agency rotation: daily</strong><small>GitHub Actions starts at :17 past each hour. Public search indexing can delay individual posts.</small></div>
+        </section>
+        <section class="agency-metrics" aria-label="Agency watchlist coverage">
+          <article><span>DOCUMENTED AGENCIES</span><strong id="agencyTotal">—</strong><small>Official portal or disclosure</small></article>
+          <article><span>SOCIALS RESOLVED</span><strong id="agencySocialCount">—</strong><small>At least one account</small></article>
+          <article><span>DISCOVERY QUEUE</span><strong id="agencyQueueCount">—</strong><small>Accounts still being resolved</small></article>
+          <article><span>LAST FULL ROTATION</span><strong id="agencyRotation">24H</strong><small>Each agency checked once daily</small></article>
+        </section>
+        <section class="agency-surface">
+          <div class="agency-toolbar">
+            <label class="search-field"><span class="sr-only">Search agencies</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><input id="agencySearch" type="search" placeholder="Search agency or state…" autocomplete="off"></label>
+            <label>STATE <select id="agencyState"><option value="all">All states</option></select></label>
+            <label>ACCOUNTS <select id="agencyCoverage"><option value="all">All agencies</option><option value="resolved">Socials resolved</option><option value="pending">Discovery pending</option></select></label>
+            <button class="export-button toolbar-button" id="exportAgencies" type="button">Export CSV</button>
+          </div>
+          <div class="agency-table-wrap">
+            <table class="agency-table">
+              <thead><tr><th>Agency</th><th>Flock evidence</th><th>Monitored accounts</th><th>Last checked</th><th></th></tr></thead>
+              <tbody id="agencyRows"></tbody>
+            </table>
+          </div>
+          <div class="agency-source-note">Initial national coverage is sourced from official Flock transparency portals collected by <a href="https://github.com/mcclatchy-southeast/private_eyes" target="_blank" rel="noreferrer">The News &amp; Observer’s Private Eyes project</a>, then rechecked by the monitor. A historical portal proves documented use; it does not guarantee an agency remains an active customer.</div>
+        </section>
+      </div>
+
+      <div class="view" id="casesView" hidden>
+        <section class="section-intro case-intro">
+          <div>
+            <p class="eyebrow">INVESTIGATIVE TRIAGE / LOCAL WORKSPACE</p>
+            <h1>Caseboard</h1>
+            <p class="deck">Agencies rise here when the monitor finds promotional posts, repeated language, or coverage across multiple channels. Priority is a lead score—not a finding of coordination.</p>
+          </div>
+          <div class="scope-note"><span class="scope-label">PRIVATE BY DEFAULT</span>Request status, dates, and reference numbers stay in this browser. They are never uploaded with the public monitor data.</div>
+        </section>
+        <section class="case-metrics" aria-label="Caseboard summary">
+          <article><span>ACTIVE LEADS</span><strong id="caseTotal">—</strong><small>Agencies linked to signals</small></article>
+          <article><span>UNSTARTED</span><strong id="caseUnstarted">—</strong><small>No request drafted</small></article>
+          <article><span>SUBMITTED</span><strong id="caseSubmitted">—</strong><small>Marked sent locally</small></article>
+          <article><span>RESPONSES</span><strong id="caseResponded">—</strong><small>Response received</small></article>
+        </section>
+        <section class="case-surface">
+          <div class="case-toolbar">
+            <label class="search-field"><span class="sr-only">Search caseboard</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><input id="caseSearch" type="search" placeholder="Search agency or signal…" autocomplete="off"></label>
+            <label>STATUS <select id="caseStatusFilter"><option value="all">All statuses</option><option value="unstarted">Unstarted</option><option value="drafted">Drafted</option><option value="submitted">Submitted</option><option value="responded">Response received</option><option value="closed">Closed</option></select></label>
+            <button class="export-button toolbar-button" id="exportCases" type="button">Export CSV</button>
+          </div>
+          <div class="case-list" id="caseList"></div>
+          <div class="agency-source-note">Priority combines signal count, promotional framing, agency-originated posts, repeated-language clusters, and cross-channel pickup. It is designed to decide what to review first, not to accuse an agency or outlet.</div>
+        </section>
+      </div>
+
+      <div class="view" id="publicRecordsView" hidden>
+        <section class="section-intro public-records-intro">
+          <div>
+            <p class="eyebrow">MUCKROCK + DOCUMENTCLOUD / COMMUNITY SOURCES</p>
+            <h1>Public records exchange</h1>
+            <p class="deck">File and track a request through MuckRock, publish returned files through DocumentCloud, and submit the public link for FlockWatch to index alongside the related agency and coverage.</p>
+          </div>
+          <div class="records-bridge">
+            <span>SAFE HANDOFF</span>
+            <a href="https://www.muckrock.com/foi/create/" target="_blank" rel="noreferrer">File through MuckRock ↗</a>
+            <a href="https://www.documentcloud.org/" target="_blank" rel="noreferrer">Publish in DocumentCloud ↗</a>
+            <small>FlockWatch never asks for or stores either service’s password or API token.</small>
+          </div>
+        </section>
+        <section class="public-record-metrics" aria-label="Public records library summary">
+          <article><span>PUBLIC LINKS</span><strong id="recordTotal">—</strong><small>Requests and documents</small></article>
+          <article><span>MUCKROCK</span><strong id="muckrockTotal">—</strong><small>Tracked public requests</small></article>
+          <article><span>DOCUMENTCLOUD</span><strong id="documentCloudTotal">—</strong><small>Published source files</small></article>
+          <article><span>PR / MEDIA TOPICS</span><strong id="mediaRecordTotal">—</strong><small>Communications or messaging</small></article>
+        </section>
+        <section class="public-records-surface">
+          <div class="record-library">
+            <div class="record-toolbar">
+              <label class="search-field"><span class="sr-only">Search public records</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg><input id="recordSearch" type="search" placeholder="Agency, topic or document…" autocomplete="off"></label>
+              <label>PLATFORM<select id="recordPlatform"><option value="all">All platforms</option><option value="MuckRock">MuckRock</option><option value="DocumentCloud">DocumentCloud</option></select></label>
+              <button class="export-button toolbar-button" id="exportRecords" type="button">Export CSV</button>
+            </div>
+            <div class="record-list" id="recordList"></div>
+          </div>
+          <form class="share-records" id="shareRecordsForm">
+            <div class="panel-heading"><span>SHARE A PUBLIC RESPONSE</span><small>GITHUB-MODERATED</small></div>
+            <p>Publish the response on MuckRock or DocumentCloud first, then submit its public URL. The GitHub Pages deployment opens a public review issue for the site maintainer.</p>
+            <label>Agency<input id="shareAgency" type="text" required placeholder="Agency name"></label>
+            <div class="form-grid"><label>State<input id="shareState" type="text" maxlength="2" placeholder="OH"></label><label>Public platform<select id="sharePlatform"><option>MuckRock</option><option>DocumentCloud</option></select></label></div>
+            <label>Public URL<input id="shareUrl" type="url" required placeholder="https://www.muckrock.com/foi/..."></label>
+            <label>What the records show<textarea id="shareSummary" required placeholder="Describe communications, draft posts, talking points, pitches or incentives found in the response."></textarea></label>
+            <button class="primary-button" type="submit">Submit for public review</button>
+            <div class="submission-status" id="submissionStatus" aria-live="polite"></div>
+            <div class="request-note"><strong>Publication check:</strong> remove personal contact information, credentials, victim or witness information, information about minors, and anything the agency appears to have failed to redact.</div>
+          </form>
+        </section>
+      </div>
+
+      <div class="view" id="recordsView" hidden>
+        <section class="section-intro records-intro">
+          <div>
+            <p class="eyebrow">PUBLIC RECORDS / PR COORDINATION</p>
+            <h1>Request the communications behind a “win.”</h1>
+            <p class="deck">Generate a targeted state or local public-records request for messages, drafts, talking points, and incentives connected to Flock publicity. Nothing is sent automatically.</p>
+          </div>
+          <div class="scope-note"><span class="scope-label">WHY THIS MATTERS</span>A police post can be spontaneous, suggested by Flock, drafted collaboratively, or connected to a case-study or news pitch. The responsive communications distinguish those possibilities.</div>
+        </section>
+        <section class="records-workspace">
+          <form class="request-controls" id="recordsForm">
+            <div class="panel-heading"><span>BUILD REQUEST</span><small>STATE / LOCAL RECORDS</small></div>
+            <label>Agency<select id="requestAgency" required></select></label>
+            <div class="form-grid"><label>Start date<input id="requestStart" type="date" required></label><label>End date<input id="requestEnd" type="date" required></label></div>
+            <label>Your name <span>(optional)</span><input id="requestName" type="text" placeholder="Leave blank to use [Your Name]"></label>
+            <fieldset class="request-options">
+              <legend>INCLUDE</legend>
+              <label><input type="checkbox" value="drafts" checked> Draft posts, press releases and talking points</label>
+              <label><input type="checkbox" value="communications" checked> Emails, texts and attachments with Flock</label>
+              <label><input type="checkbox" value="incentives" checked> Discounts, credits or benefits tied to publicity</label>
+              <label><input type="checkbox" value="news" checked> News pitches, interviews and press conferences</label>
+              <label><input type="checkbox" value="approvals" checked> Pre-publication review or approval of agency statements</label>
+              <label><input type="checkbox" value="analytics"> Media-coverage metrics and reporting back to Flock</label>
+            </fieldset>
+            <button class="primary-button" type="submit">Generate request</button>
+            <div class="filing-links"><a class="records-link" id="recordsSearchLink" href="#" target="_blank" rel="noreferrer">Find agency submission portal ↗</a><button class="records-link link-button" id="fileMuckRock" type="button">Copy + file with MuckRock ↗</button></div>
+          </form>
+          <section class="request-output" aria-labelledby="request-output-title">
+            <div class="panel-heading"><span id="request-output-title">REQUEST DRAFT</span><button id="copyRequest" type="button">Copy text</button></div>
+            <label>Subject<input id="requestSubject" type="text" readonly></label>
+            <textarea id="requestText" readonly spellcheck="false"></textarea>
+            <section class="request-tracker" aria-labelledby="tracker-title">
+              <div class="panel-heading"><span id="tracker-title">REQUEST TRACKING</span><small>SAVED IN THIS BROWSER</small></div>
+              <div class="tracker-grid">
+                <label>Status<select id="requestStatus"><option value="unstarted">Not started</option><option value="drafted">Drafted</option><option value="submitted">Submitted</option><option value="responded">Response received</option><option value="closed">Closed</option></select></label>
+                <label>Submitted date<input id="requestSubmitted" type="date"></label>
+                <label class="tracker-reference">Reference / confirmation<input id="requestReference" type="text" placeholder="Portal number, email, or note"></label>
+              </div>
+              <button class="secondary-button" id="saveTracking" type="button">Save to caseboard</button>
+            </section>
+            <div class="request-note"><strong>Before sending:</strong> confirm the correct city clerk, records officer, or police records portal. “FOIA” technically governs federal agencies; requests to local departments usually fall under the applicable state public-records law.</div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <dialog id="aboutDialog">
+      <form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form>
+      <p class="eyebrow">METHODOLOGY</p>
+      <h2>Designed to test a theory, not assume it.</h2>
+      <p>FlockWatch collects public coverage of Flock Safety, labels the channel, preserves the original link, detects explicit sponsorship and press-release distribution, and groups stories that share long runs of identical text.</p>
+
+      <h3>How stories get grouped</h3>
+      <p>Two stories are linked only when they share contiguous sequences of eight or more identical words, or five where only a short feed snippet was captured. Independent reporters covering the same incident share vocabulary; they do not share long word runs. The overlapping passage itself is stored and displayed so the grouping can be checked rather than trusted.</p>
+      <p>An earlier version grouped stories by which watch phrase they contained, so every story using “within minutes” was presented as one amplification cluster. That produced confident-looking findings from coincidence, and it has been removed.</p>
+
+      <h3>Why critical coverage is collected too</h3>
+      <p>The monitor deliberately searches for lawsuits, audits, privacy objections, cancelled contracts and studies finding no effect, and keeps them in the same dataset. Without that denominator an outlet running twelve promotional stories looks identical whether or not it also ran five accountability pieces, and the tool could only ever confirm the theory it was built to test.</p>
+
+      <h3>What this cannot tell you</h3>
+      <ul>
+        <li>Who wrote a passage first. Capture order reflects when the monitor saw an item and what date its feed reported, not provenance.</li>
+        <li>Whether money changed hands. Only explicit sponsorship labels are evidence of payment; nothing else here is.</li>
+        <li>Whether a police post was prompted by Flock. That question is answered by the responsive communications, which is what the records builder is for.</li>
+        <li>The full picture of any outlet. Only Flock-related coverage is collected, so these counts describe one beat, not a newsroom.</li>
+      </ul>
+
+      <h3>What the labels mean</h3>
+      <dl>
+        <dt>Agency-originated</dt><dd>Published by a police department, sheriff, city, or other public body.</dd>
+        <dt>Editorial</dt><dd>Published by a newsroom without an observed sponsorship disclosure.</dd>
+        <dt>Sponsored</dt><dd>The publisher explicitly labels the item as sponsored, presented by, or paid for.</dd>
+        <dt>Press release</dt><dd>Company-authored material distributed through a press-release wire or copied from one.</dd>
+        <dt>Unknown</dt><dd>The public page does not establish who initiated or paid for the item.</dd>
+        <dt>Promotional / Critical</dt><dd>Detected stance of the item, from language about outcomes and credit on one side and privacy, litigation, audits, misuse or cancellation on the other. Keyword-based and approximate; correct it at the source before relying on a count.</dd>
+        <dt>Syndicated copy</dt><dd>Near-identical text under more than one publisher name, typically a station group or wire pickup. Count it as one story.</dd>
+      </dl>
+      <p class="caution">A reuse lane is an investigative lead. It does not by itself establish payment, hidden sponsorship, or coordination.</p>
+    </dialog>
+
+    <dialog id="evidenceDialog" class="wide-dialog">
+      <form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form>
+      <p class="eyebrow">DOCUMENTED MECHANISM</p>
+      <h2>Evidence behind the publicity pipeline</h2>
+      <div id="evidenceLedger"></div>
+    </dialog>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

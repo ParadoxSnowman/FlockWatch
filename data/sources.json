@@ -1,0 +1,40 @@
+{
+  "_comment": "google_news_queries find promotional coverage. accountability_queries deliberately find coverage that cuts the other way, so per-outlet balance can be measured instead of assumed. newsroom_queries target the syndication and sponsorship surface directly.",
+  "fetch_article_text": true,
+  "google_news_queries": [
+    "\"Flock Safety\" (helped OR credits OR solved OR success OR arrest)",
+    "\"Flock camera\" police (helped OR located OR recovered OR arrested)",
+    "\"Flock Success Story\" police",
+    "\"Flock Safety\" \"within minutes\"",
+    "\"Flock Safety\" (\"according to police\" OR \"news release\" OR \"press release\")",
+    "\"Flock cameras\" (\"said in a statement\" OR \"according to a release\")",
+    "\"Flock Safety\" (\"game changer\" OR \"force multiplier\" OR \"invaluable tool\")"
+  ],
+  "accountability_queries": [
+    "\"Flock Safety\" (privacy OR surveillance OR \"civil liberties\")",
+    "\"Flock Safety\" (lawsuit OR sued OR audit OR investigation)",
+    "\"Flock Safety\" (\"voted to\" OR canceled OR \"declined to renew\" OR moratorium OR ban)",
+    "\"Flock Safety\" (ACLU OR EFF OR \"Electronic Frontier\")",
+    "\"Flock Safety\" (\"unauthorized\" OR \"improper\" OR misuse OR \"without a case number\")",
+    "\"license plate reader\" (\"no evidence\" OR \"did not reduce\" OR \"failed to\") crime",
+    "\"Flock Safety\" (ICE OR \"immigration enforcement\" OR \"data sharing\")",
+    "\"Flock Safety\" (\"public records\" OR transparency OR \"open records\")"
+  ],
+  "newsroom_queries": [
+    "\"Flock Safety\" (sponsored OR \"partner content\" OR \"brand studio\" OR \"paid content\")",
+    "site:police1.com \"Flock Safety\"",
+    "site:govtech.com \"Flock Safety\"",
+    "\"Flock Safety\" site:globenewswire.com",
+    "\"Flock Safety\" (\"Gray News\" OR \"Nexstar\" OR \"Sinclair\" OR \"Scripps\")",
+    "\"Flock Safety\" \"this story was originally published\""
+  ],
+  "bing_social_queries": [
+    "site:facebook.com police \"Flock Safety\" \"success\"",
+    "site:facebook.com sheriff \"Flock cameras\" \"helped\"",
+    "site:instagram.com police \"Flock Safety\"",
+    "site:linkedin.com police \"Flock Safety\" \"success story\""
+  ],
+  "owned_feeds": [
+    "https://www.flocksafety.com/sitemap.xml"
+  ]
+}

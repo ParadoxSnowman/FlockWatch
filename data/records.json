@@ -1,0 +1,68 @@
+[
+  {
+    "id": "muckrock-taylor-county-215797",
+    "title": "Taylor County Flock communications and public information",
+    "agency": "Taylor County",
+    "state": "",
+    "platform": "MuckRock",
+    "url": "https://www.muckrock.com/foi/taylor-county-4962/flock-vandalism-taylor-county-215797/",
+    "published_at": "2026-07-20T00:00:00Z",
+    "status": "Public request",
+    "topics": [
+      "Flock communications",
+      "public information officers",
+      "media statements"
+    ],
+    "summary": "A public request covering Flock communications and public-information records, including media material.",
+    "source": "public-index"
+  },
+  {
+    "id": "muckrock-cross-county-199685",
+    "title": "Cross County supplemental Flock records request",
+    "agency": "Cross County Sheriff's Office",
+    "state": "AR",
+    "platform": "MuckRock",
+    "url": "https://www.muckrock.com/foi/cross-county-9600/supplemental-foia-afoia-record-request-litigation-hold-flock-automated-license-plate-reader-program-cross-county-sheriffs-office-199685/",
+    "published_at": "2025-12-10T00:00:00Z",
+    "status": "Public request",
+    "topics": [
+      "press releases",
+      "social-media posts",
+      "public messaging"
+    ],
+    "summary": "A public request that includes releases, FAQ handouts, and social-media posts explaining the agency's Flock rollout.",
+    "source": "public-index"
+  },
+  {
+    "id": "muckrock-moreno-valley-179603",
+    "title": "Flock and Moreno — communications with Flock Safety",
+    "agency": "Moreno Valley Police Department",
+    "state": "CA",
+    "platform": "MuckRock",
+    "url": "https://www.muckrock.com/foi/moreno-valley-3336/flock-and-moreno-moreno-valley-police-department-179603/",
+    "published_at": "2025-01-12T00:00:00Z",
+    "status": "Public request",
+    "topics": [
+      "Flock communications",
+      "@flocksafety.com"
+    ],
+    "summary": "A public request seeking communications involving Flock Safety and @flocksafety.com addresses.",
+    "source": "public-index"
+  },
+  {
+    "id": "documentcloud-flock-user-guide-20419116",
+    "title": "Flock Safety ALPR User Guide",
+    "agency": "",
+    "state": "",
+    "platform": "DocumentCloud",
+    "url": "https://www.documentcloud.org/documents/20419116-flock-safety-alpr-user-guide/",
+    "published_at": "2021-01-01T00:00:00Z",
+    "status": "Published document",
+    "topics": [
+      "user guide",
+      "source document"
+    ],
+    "summary": "A publicly hosted Flock Safety ALPR user guide available for source-document review.",
+    "source": "public-index"
+  }
+]

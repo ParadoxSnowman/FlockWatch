@@ -1,0 +1,68 @@
+[
+  {
+    "id": "abc10-kxtv",
+    "name": "ABC10 / KXTV",
+    "aliases": ["ABC10", "KXTV"],
+    "outlet_type": "Local television",
+    "owner": "TEGNA Inc.",
+    "ultimate_owner": "Nexstar Media Group",
+    "ownership_source": "https://www.tegna.com/tegna-station-kxtv-wins-prestigious-2025-alfred-i-dupont-columbia-university-award/",
+    "notes": "TEGNA identifies KXTV as a TEGNA station. TEGNA states that it is a Nexstar subsidiary operating under a court-ordered hold-separate arrangement.",
+    "verified_at": "2026-09-01"
+  },
+  {
+    "id": "gray-wtvy",
+    "name": "WTVY",
+    "aliases": ["WTVY", "Gray News / WTVY"],
+    "outlet_type": "Local television",
+    "owner": "Gray Media",
+    "ultimate_owner": "Gray Media",
+    "ownership_source": "https://graymedia.com/brands/markets/",
+    "notes": "Station ownership is sourced from Gray Media's current market directory.",
+    "verified_at": "2026-09-01"
+  },
+  {
+    "id": "gray-wlbt",
+    "name": "WLBT",
+    "aliases": ["WLBT"],
+    "outlet_type": "Local television",
+    "owner": "Gray Media",
+    "ultimate_owner": "Gray Media",
+    "ownership_source": "https://graymedia.com/brands/markets/",
+    "notes": "Station ownership is sourced from Gray Media's current market directory.",
+    "verified_at": "2026-09-01"
+  },
+  {
+    "id": "denver7-kmgh",
+    "name": "Denver7 / KMGH",
+    "aliases": ["Denver7", "KMGH"],
+    "outlet_type": "Local television",
+    "owner": "The E.W. Scripps Company",
+    "ultimate_owner": "The E.W. Scripps Company",
+    "ownership_source": "https://scripps.com/press-releases/scripps-unites-television-operations-under-dean-littletons-leadership/",
+    "notes": "Scripps identifies KMGH Denver7 as its ABC affiliate in Denver.",
+    "verified_at": "2026-09-01"
+  },
+  {
+    "id": "scripps-news",
+    "name": "Scripps News",
+    "aliases": ["Scripps News"],
+    "outlet_type": "National digital news",
+    "owner": "The E.W. Scripps Company",
+    "ultimate_owner": "The E.W. Scripps Company",
+    "ownership_source": "https://scripps.com/our-brands/local-media/",
+    "notes": "Scripps lists Scripps News within its current news operations.",
+    "verified_at": "2026-09-01"
+  },
+  {
+    "id": "police1",
+    "name": "Police1",
+    "aliases": ["Police1"],
+    "outlet_type": "Law-enforcement trade media",
+    "owner": "Lexipol",
+    "ultimate_owner": "Lexipol",
+    "ownership_source": "https://www.police1.com/about-police1",
+    "notes": "Police1 states that it is part of Lexipol. Flock-sponsored items remain separately labeled in the signal data.",
+    "verified_at": "2026-09-01"
+  }
+]
