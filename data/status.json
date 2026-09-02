@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T11:16:08.021251Z",
+  "updated_at": "2026-09-02T11:16:57.472744Z",
   "collector": "public-rss",
   "queries_ok": 53,
   "queries_total": 53,
@@ -7,11 +7,11 @@
   "agency_total": 375,
   "article_cadence_minutes": 60,
   "agency_rotation_hours": 24,
-  "signals_retained": 305,
+  "signals_retained": 306,
   "bodies_captured": 0,
   "bodies_enriched_this_run": 0,
   "stance_counts": {
-    "critical": 187,
+    "critical": 188,
     "neutral": 106,
     "promotional": 12
   },
@@ -21,10 +21,10 @@
   "agency_feeds_ok": 0,
   "agency_feeds_total": 0,
   "opposition_events": 108,
-  "jurisdictions_tagged": 21,
+  "jurisdictions_tagged": 23,
   "monitoring_started": "2025-09-23",
   "periods_comparable": 32,
-  "records_updated_at": "2026-09-02T11:16:20.125979Z",
+  "records_updated_at": "2026-09-02T11:17:03.402041Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3

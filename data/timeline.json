@@ -503,9 +503,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 46,
+        "total": 47,
         "promotional": 0,
-        "critical": 22,
+        "critical": 23,
         "mixed": 0,
         "neutral": 24,
         "opposition_events": 23,
@@ -533,14 +533,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 27,
+      "events_usable": 28,
       "window_days": 30,
       "promotional_before": 0,
       "promotional_after": 0,
       "ratio": null,
       "events_rose": 0,
       "events_fell": 0,
-      "events_flat": 27,
+      "events_flat": 28,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -664,6 +664,13 @@
         {
           "jurisdiction": "CT",
           "event_date": "2026-08-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "VA",
+          "event_date": "2026-08-18",
           "before": 0,
           "after": 0,
           "change": 0
@@ -952,9 +959,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 39,
+        "total": 40,
         "promotional": 0,
-        "critical": 19,
+        "critical": 20,
         "mixed": 0,
         "neutral": 20,
         "opposition_events": 21,
@@ -982,14 +989,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 27,
+      "events_usable": 28,
       "window_days": 30,
       "promotional_before": 0,
       "promotional_after": 0,
       "ratio": null,
       "events_rose": 0,
       "events_fell": 0,
-      "events_flat": 27,
+      "events_flat": 28,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -1113,6 +1120,13 @@
         {
           "jurisdiction": "CT",
           "event_date": "2026-08-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "VA",
+          "event_date": "2026-08-18",
           "before": 0,
           "after": 0,
           "change": 0
