@@ -8,6 +8,6 @@ await mkdir(new URL("../dist/data/", import.meta.url), { recursive: true });
 for (const file of ["index.html", "styles.css", "app.js"]) {
   await cp(new URL(`../${file}`, import.meta.url), new URL(`../dist/${file}`, import.meta.url));
 }
-for (const file of ["agencies.json", "evidence.json", "live.json", "outlets.json", "records.json", "status.json"]) {
+for (const file of ["agencies.json", "evidence.json", "live.json", "outlets.json", "records.json", "status.json", "timeline.json"]) {
   await cp(new URL(`../data/${file}`, import.meta.url), new URL(`../dist/data/${file}`, import.meta.url));
 }

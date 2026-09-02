@@ -1,6 +1,7 @@
 {
-  "_comment": "google_news_queries find promotional coverage. accountability_queries deliberately find coverage that cuts the other way, so per-outlet balance can be measured instead of assumed. newsroom_queries target the syndication and sponsorship surface directly.",
+  "_comment": "Query sets are deliberately balanced. google_news_queries find promotional coverage; accountability_queries find coverage that cuts the other way; opposition_queries find the removal-pressure events the timeline measures against; newsroom_queries target sponsorship and syndication. Removing the accountability or opposition sets would leave the monitor able only to confirm, never to disconfirm.",
   "fetch_article_text": true,
+
   "google_news_queries": [
     "\"Flock Safety\" (helped OR credits OR solved OR success OR arrest)",
     "\"Flock camera\" police (helped OR located OR recovered OR arrested)",
@@ -8,18 +9,32 @@
     "\"Flock Safety\" \"within minutes\"",
     "\"Flock Safety\" (\"according to police\" OR \"news release\" OR \"press release\")",
     "\"Flock cameras\" (\"said in a statement\" OR \"according to a release\")",
-    "\"Flock Safety\" (\"game changer\" OR \"force multiplier\" OR \"invaluable tool\")"
+    "\"Flock Safety\" (\"game changer\" OR \"force multiplier\" OR \"invaluable tool\")",
+    "\"Flock Safety\" (\"chief said\" OR \"sheriff said\") (crime OR arrest OR recovered)"
   ],
+
   "accountability_queries": [
     "\"Flock Safety\" (privacy OR surveillance OR \"civil liberties\")",
     "\"Flock Safety\" (lawsuit OR sued OR audit OR investigation)",
-    "\"Flock Safety\" (\"voted to\" OR canceled OR \"declined to renew\" OR moratorium OR ban)",
     "\"Flock Safety\" (ACLU OR EFF OR \"Electronic Frontier\")",
     "\"Flock Safety\" (\"unauthorized\" OR \"improper\" OR misuse OR \"without a case number\")",
     "\"license plate reader\" (\"no evidence\" OR \"did not reduce\" OR \"failed to\") crime",
     "\"Flock Safety\" (ICE OR \"immigration enforcement\" OR \"data sharing\")",
-    "\"Flock Safety\" (\"public records\" OR transparency OR \"open records\")"
+    "\"Flock Safety\" (\"public records\" OR transparency OR \"open records\")",
+    "\"Flock Safety\" (audit OR \"internal review\") findings"
   ],
+
+  "opposition_queries": [
+    "\"Flock\" cameras (\"city council\" OR \"county commission\") (vote OR hearing OR agenda)",
+    "\"Flock\" cameras (remove OR removal OR \"take down\" OR \"rip out\")",
+    "\"Flock Safety\" (\"declined to renew\" OR \"did not renew\" OR \"ended the contract\" OR terminated)",
+    "\"Flock Safety\" (moratorium OR ban OR banned OR paused OR suspend)",
+    "\"Flock\" cameras (petition OR residents OR protest OR \"public comment\" OR opposition)",
+    "\"Flock Safety\" (\"voted to\" OR \"voted against\" OR \"rejected\")",
+    "\"license plate readers\" (\"city council\" OR \"town council\") (debate OR opposition OR concerns)",
+    "\"Flock\" cameras (\"neighborhood association\" OR \"community meeting\") concerns"
+  ],
+
   "newsroom_queries": [
     "\"Flock Safety\" (sponsored OR \"partner content\" OR \"brand studio\" OR \"paid content\")",
     "site:police1.com \"Flock Safety\"",
@@ -28,12 +43,23 @@
     "\"Flock Safety\" (\"Gray News\" OR \"Nexstar\" OR \"Sinclair\" OR \"Scripps\")",
     "\"Flock Safety\" \"this story was originally published\""
   ],
+
+  "_station_note": "Google News collapses syndicated copies into one cluster and shows a single representative, which hides exactly the cross-property republication the reuse detector looks for. Querying station domains directly is what makes those duplicates visible. Add the domains of outlets you are actually tracking.",
+  "station_domains": [
+    "police1.com",
+    "govtech.com"
+  ],
+
+  "_agency_feed_note": "Public-agency press-release RSS. This is the highest-value source for the agency channel: Facebook and Instagram block most post indexing, but most departments publish releases on a city or county .gov page and many expose RSS. Add real feed URLs here as you confirm them. Format: {\"agency_id\": \"matches data/agencies.json\", \"name\": \"Display name\", \"state\": \"OH\", \"url\": \"https://...\"}",
+  "agency_feeds": [],
+
   "bing_social_queries": [
     "site:facebook.com police \"Flock Safety\" \"success\"",
     "site:facebook.com sheriff \"Flock cameras\" \"helped\"",
     "site:instagram.com police \"Flock Safety\"",
     "site:linkedin.com police \"Flock Safety\" \"success story\""
   ],
+
   "owned_feeds": [
     "https://www.flocksafety.com/sitemap.xml"
   ]

@@ -34,6 +34,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from analysis import analyze, classify_stance  # noqa: E402
+from timeline import summarize  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -64,6 +65,43 @@ ORIGIN_PATTERNS = {
     "single-source police attribution": r"\bpolice (?:say|said|credit|credited|report|reported)\b",
     "company quote": r"\bflock (?:safety )?(?:said|says|spokesperson|representative|founder|ceo)\b",
 }
+# An opposition event is a concrete act of removal pressure with a date, not
+# merely a critical opinion. The timeline measures promotional output against
+# these, so the bar is deliberately an action: a vote, a filing, a petition, a
+# scheduled hearing. Blurring the two would let ordinary critical commentary
+# masquerade as pressure and inflate every downstream comparison.
+OPPOSITION_EVENT = re.compile(
+    r"\b(city council|town council|county commission|board of (?:supervisors|aldermen)|"
+    r"village board|select ?board)\b.{0,80}\b(vote[ds]?|hearing|agenda|meeting|"
+    r"public comment|reject|approve|renew)\b"
+    r"|\b(voted (?:to|against|down)|declined to renew|did not renew|"
+    r"ended the contract|terminated the contract|cancel(?:s|ed|led)? the contract|"
+    r"moratorium|banned|ban on|removal of|voted to remove|will be removed|"
+    r"taking down the cameras|petition|signatures?)\b",
+    re.I,
+)
+# Jurisdiction is what makes the local before/after comparison possible. A
+# national aggregate cannot separate a promotional response from ordinary
+# deployment growth, so an item with no place attached is excluded from that
+# analysis rather than folded into a national number.
+STATE_CODES = {
+    "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA",
+    "ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK",
+    "OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC",
+}
+STATE_NAMES_TO_CODE = {
+    "alabama":"AL","alaska":"AK","arizona":"AZ","arkansas":"AR","california":"CA","colorado":"CO",
+    "connecticut":"CT","delaware":"DE","florida":"FL","georgia":"GA","hawaii":"HI","idaho":"ID",
+    "illinois":"IL","indiana":"IN","iowa":"IA","kansas":"KS","kentucky":"KY","louisiana":"LA",
+    "maine":"ME","maryland":"MD","massachusetts":"MA","michigan":"MI","minnesota":"MN",
+    "mississippi":"MS","missouri":"MO","montana":"MT","nebraska":"NE","nevada":"NV",
+    "new hampshire":"NH","new jersey":"NJ","new mexico":"NM","new york":"NY",
+    "north carolina":"NC","north dakota":"ND","ohio":"OH","oklahoma":"OK","oregon":"OR",
+    "pennsylvania":"PA","rhode island":"RI","south carolina":"SC","south dakota":"SD",
+    "tennessee":"TN","texas":"TX","utah":"UT","vermont":"VT","virginia":"VA",
+    "washington":"WA","west virginia":"WV","wisconsin":"WI","wyoming":"WY",
+}
+
 SPONSORED = re.compile(
     r"\b(sponsored by|presented by|paid content|brandvoice|partner content|sponsored content)\b", re.I
 )
@@ -150,6 +188,20 @@ def score_text(text: str) -> tuple[int, list[str]]:
     return min(5, len(terms)), terms
 
 
+def detect_jurisdiction(text: str, agency: dict | None = None) -> tuple[str | None, str | None]:
+    """Return (jurisdiction, state) for the local before/after comparison."""
+    if agency:
+        return agency.get("jurisdiction") or agency.get("name"), agency.get("state")
+    lowered = text.lower()
+    for name, code in STATE_NAMES_TO_CODE.items():
+        if re.search(rf"\b{re.escape(name)}\b", lowered):
+            return None, code
+    match = re.search(r",\s*([A-Z]{2})\b", text)
+    if match and match.group(1) in STATE_CODES:
+        return None, match.group(1)
+    return None, None
+
+
 def classify(item: dict) -> dict | None:
     combined = f"{item['title']} {item['summary']}"
     if not RELEVANCE.search(combined) and not item.get("agency_id"):
@@ -159,10 +211,11 @@ def classify(item: dict) -> dict | None:
     stance, promotional_hits, critical_hits = classify_stance(combined)
 
     # Keep anything recognisably about Flock that takes a position in either
-    # direction. Neutral items are kept only when they carry promotional
-    # framing, which filters routine mentions without silently deleting the
-    # accountability coverage the balance metrics depend on.
-    if stance == "neutral" and score < 2:
+    # direction, plus every opposition event regardless of tone: a procedural
+    # council-agenda item may read as neutral but is exactly the pressure
+    # signal the timeline is built to measure.
+    is_opposition = bool(OPPOSITION_EVENT.search(combined))
+    if stance == "neutral" and score < 2 and not is_opposition:
         return None
 
     origin_indicators = [
@@ -171,7 +224,11 @@ def classify(item: dict) -> dict | None:
 
     host = domain(item["url"])
     publisher = item.get("publisher") or host
-    if host == "flocksafety.com" or publisher == "Flock Safety":
+    if item.get("force_channel") == "agency":
+        # A press release on a department's own .gov page is agency-originated
+        # regardless of the domain it sits on.
+        channel, disclosure = "agency", "editorial"
+    elif host == "flocksafety.com" or publisher == "Flock Safety":
         channel, disclosure = "flock", "disclosed"
     elif SPONSORED.search(combined):
         channel, disclosure = "sponsored", "disclosed"
@@ -200,6 +257,13 @@ def classify(item: dict) -> dict | None:
         "matched_terms": terms[:5],
         "origin_indicators": origin_indicators,
     }
+    if is_opposition:
+        record["opposition_event"] = True
+    jurisdiction, detected_state = detect_jurisdiction(combined, item.get("agency"))
+    if jurisdiction:
+        record["jurisdiction"] = jurisdiction
+    if detected_state:
+        record["state"] = detected_state
     if item.get("agency_id"):
         record["agency_id"] = item["agency_id"]
     return record
@@ -281,6 +345,29 @@ def flock_sitemap(url: str) -> list[dict]:
     return out
 
 
+def agency_feed(feed: dict) -> list[dict]:
+    """Public-agency press-release RSS.
+
+    This is the strongest available source for the agency channel. Facebook and
+    Instagram block most post indexing, so a search-based check finds only a
+    fraction of what a department posts; a .gov release feed returns the full
+    text of what the agency actually published, which is also the text that
+    would show verbatim overlap if it were supplied by a vendor.
+    """
+    items = rss_items(fetch(feed["url"]), feed.get("name", "Agency"))
+    for entry in items:
+        entry["publisher"] = feed.get("name") or entry.get("publisher")
+        entry["agency"] = feed
+        if feed.get("agency_id"):
+            entry["agency_id"] = feed["agency_id"]
+        entry["force_channel"] = "agency"
+    return items
+
+
+def station_query(domain: str) -> str:
+    return f'site:{domain} "Flock"'
+
+
 def agencies_for_hour(agencies: list[dict], hour: int) -> list[dict]:
     """One stable shard per hour so the watchlist is covered every 24 hours."""
     documented = sorted(
@@ -332,14 +419,20 @@ def main() -> int:
     agencies = json.loads((DATA / "agencies.json").read_text())
 
     collected: list[dict] = []
-    ok = total = agencies_checked = 0
+    ok = total = agencies_checked = agency_feeds_ok = 0
     hour = datetime.now(timezone.utc).hour
     agency_shard = agencies_for_hour(agencies, hour)
 
     jobs = (
         [("google", q, None) for q in config.get("google_news_queries", [])]
         + [("google", q, None) for q in config.get("accountability_queries", [])]
+        + [("google", q, None) for q in config.get("opposition_queries", [])]
         + [("google", q, None) for q in config.get("newsroom_queries", [])]
+        # Station domains are queried directly because Google News collapses
+        # syndicated copies into one cluster, hiding the republication the
+        # reuse detector exists to find.
+        + [("google", station_query(d), None) for d in config.get("station_domains", [])]
+        + [("govfeed", f, None) for f in config.get("agency_feeds", [])]
         + [("bing", q, None) for q in config.get("bing_social_queries", [])]
         + [("flock", u, None) for u in config.get("owned_feeds", [])]
         + [("agency", agency_query(agency), agency) for agency in agency_shard]
@@ -350,6 +443,9 @@ def main() -> int:
         try:
             if kind == "google":
                 raw_items = google_news(value)
+            elif kind == "govfeed":
+                raw_items = agency_feed(value)
+                agency_feeds_ok += 1
             elif kind in {"bing", "agency"}:
                 raw_items = bing_social(value)
             else:
@@ -358,6 +454,7 @@ def main() -> int:
                 for entry in raw_items:
                     entry["publisher"] = agency["name"]
                     entry["agency_id"] = agency["id"]
+                    entry["agency"] = agency
                 agencies_checked += 1
             ok += 1
             collected.extend(raw_items)
@@ -398,6 +495,12 @@ def main() -> int:
     findings = analyze(merged)
     (DATA / "live.json").write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
 
+    weekly = summarize(merged, "week")
+    monthly = summarize(merged, "month")
+    (DATA / "timeline.json").write_text(
+        json.dumps({"weekly": weekly, "monthly": monthly}, indent=2) + "\n"
+    )
+
     stances: dict[str, int] = {}
     for item in merged:
         key = item.get("stance", "neutral")
@@ -419,6 +522,12 @@ def main() -> int:
         "reuse_groups": findings["reuse_groups"],
         "syndication_groups": findings["syndication_groups"],
         "reuse_window_words": findings["shingle_default"],
+        "agency_feeds_ok": agency_feeds_ok,
+        "agency_feeds_total": len(config.get("agency_feeds", [])),
+        "opposition_events": sum(1 for i in merged if i.get("opposition_event")),
+        "jurisdictions_tagged": len({i.get("jurisdiction") or i.get("state") for i in merged if i.get("jurisdiction") or i.get("state")}),
+        "monitoring_started": weekly["monitoring_started"],
+        "periods_comparable": weekly["periods_comparable"],
     }
     try:
         previous = json.loads((DATA / "status.json").read_text())
@@ -434,6 +543,8 @@ def main() -> int:
         f"checked {agencies_checked}/{len(agencies)} agencies; "
         f"{enriched} bodies fetched; "
         f"{findings['reuse_groups']} reuse / {findings['syndication_groups']} syndication groups; "
+        f"{status['opposition_events']} opposition events; "
+        f"{weekly['periods_comparable']} comparable weeks; "
         f"stance {stances}"
     )
     return 0 if ok else 1

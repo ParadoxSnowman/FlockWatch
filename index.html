@@ -17,6 +17,7 @@
       <nav class="topnav" aria-label="Primary views">
         <button class="active" type="button" data-view="signals" aria-selected="true">Signals</button>
         <button type="button" data-view="newsrooms" aria-selected="false">Newsrooms</button>
+        <button type="button" data-view="pressure" aria-selected="false">Pressure &amp; response</button>
         <button type="button" data-view="agencies" aria-selected="false">Agency watchlist</button>
         <button type="button" data-view="cases" aria-selected="false">Caseboard</button>
         <button type="button" data-view="publicRecords" aria-selected="false">Public records</button>
@@ -177,6 +178,65 @@
           </div>
           <div class="agency-source-note" id="bodyCoverage"></div>
           <div class="agency-source-note">Ownership entries are manually sourced from current corporate or outlet pages. Unresolved ownership remains labeled unresolved; the monitor does not infer ownership from a logo, network affiliation, or story byline.</div>
+        </section>
+      </div>
+
+      <div class="view" id="pressureView" hidden>
+        <section class="section-intro">
+          <div>
+            <p class="eyebrow">REMOVAL PRESSURE / PROMOTIONAL OUTPUT / TIMING</p>
+            <h1>Does promotional output rise when removal pressure rises?</h1>
+            <p class="deck">Opposition events — council votes, hearings, petitions, cancelled contracts — plotted against the share of Flock coverage that is promotional, nationally and then jurisdiction by jurisdiction.</p>
+          </div>
+          <div class="scope-note">
+            <span class="scope-label">READ THIS FIRST</span>
+            The headline series is promotional <em>share</em>, not promotional count. If Flock is simply in the news more, raw counts rise on their own and mean nothing. Periods before continuous monitoring began are shaded and excluded, because a new monitor always slopes upward as search indexes favour recent material.
+          </div>
+        </section>
+
+        <section class="metrics pressure-metrics" aria-label="Timeline summary">
+          <article><span class="metric-label">Monitoring since</span><strong id="pressureStart">—</strong><small id="pressureProvenance">Collection start</small></article>
+          <article><span class="metric-label">Comparable periods</span><strong id="pressureComparable">—</strong><small id="pressureBackfill">Excluding backfill</small></article>
+          <article><span class="metric-label">Opposition events</span><strong id="pressureEvents">—</strong><small>Votes, petitions, cancellations</small></article>
+          <article><span class="metric-label">Jurisdictions</span><strong id="pressurePlaces">—</strong><small>Tagged for local comparison</small></article>
+          <article><span class="metric-label">Share trend</span><strong id="pressureTrend">—</strong><small id="pressureTrendNote">Promotional share direction</small></article>
+          <article class="accent-metric"><span class="metric-label">Local response</span><strong id="pressureResponse">—</strong><small id="pressureResponseNote">After vs before, same place</small></article>
+        </section>
+
+        <section class="pressure-surface">
+          <div class="pressure-layout">
+            <section class="chart-panel" aria-labelledby="chart-title">
+              <div class="panel-heading">
+                <div><span id="chart-title">PRESSURE VS PROMOTIONAL SHARE</span><small id="chartSubtitle">—</small></div>
+                <div class="segmented grouping" id="pressureGranularity" role="tablist" aria-label="Time granularity">
+                  <button type="button" class="active" data-granularity="week" role="tab" aria-selected="true">Weekly</button>
+                  <button type="button" data-granularity="month" role="tab" aria-selected="false">Monthly</button>
+                </div>
+              </div>
+              <div id="pressureChart" class="chart-body"></div>
+              <div class="chart-legend">
+                <span><i class="swatch bars"></i>Opposition events</span>
+                <span><i class="swatch line"></i>Promotional share of Flock coverage</span>
+                <span><i class="swatch backfill"></i>Backfill — not comparable</span>
+              </div>
+            </section>
+
+            <aside class="finding-panel" aria-labelledby="finding-title">
+              <div class="panel-heading"><span id="finding-title">WHAT THE DATA SUPPORTS</span><small>PLAIN READING</small></div>
+              <div id="pressureFindings"></div>
+            </aside>
+          </div>
+
+          <section class="local-events" aria-labelledby="local-title">
+            <div class="panel-heading"><span id="local-title">LOCAL EVENT WINDOWS</span><small id="localWindowNote">—</small></div>
+            <div class="agency-table-wrap">
+              <table class="agency-table">
+                <thead><tr><th>Jurisdiction</th><th>Opposition event</th><th>Promotional before</th><th>Promotional after</th><th>Change</th></tr></thead>
+                <tbody id="localEventRows"></tbody>
+              </table>
+            </div>
+            <div class="agency-source-note">Each jurisdiction is compared against its own prior window, so growth in Flock deployments nationally cannot by itself produce a result here. An event is only measured when a full baseline window fits inside the monitored period.</div>
+          </section>
         </section>
       </div>
 

@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "python3 scripts/test_analysis.py && node scripts/smoke_test.mjs",
+    "test": "python3 scripts/test_analysis.py && python3 scripts/test_timeline.py && node scripts/smoke_test.mjs",
     "test:analysis": "python3 scripts/test_analysis.py",
     "test:ui": "node scripts/smoke_test.mjs",
     "reanalyze": "python3 scripts/reanalyze.py",
-    "reanalyze:dry": "python3 scripts/reanalyze.py --dry-run"
+    "reanalyze:dry": "python3 scripts/reanalyze.py --dry-run",
+    "test:timeline": "python3 scripts/test_timeline.py"
   },
   "devDependencies": {
     "jsdom": "^30.0.1"

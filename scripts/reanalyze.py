@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from analysis import analyze  # noqa: E402
+from timeline import summarize  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -54,6 +55,12 @@ def main() -> int:
 
     live.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n")
 
+    weekly = summarize(items, "week")
+    monthly = summarize(items, "month")
+    (DATA / "timeline.json").write_text(
+        json.dumps({"weekly": weekly, "monthly": monthly}, indent=2) + "\n"
+    )
+
     status_path = DATA / "status.json"
     try:
         status = json.loads(status_path.read_text())
@@ -67,10 +74,18 @@ def main() -> int:
             "syndication_groups": findings["syndication_groups"],
             "reuse_window_words": findings["shingle_default"],
             "bodies_captured": sum(1 for i in items if i.get("body_text")),
+            "opposition_events": sum(1 for i in items if i.get("opposition_event")),
+            "monitoring_started": weekly["monitoring_started"],
+            "periods_comparable": weekly["periods_comparable"],
         }
     )
     status_path.write_text(json.dumps(status, indent=2) + "\n")
-    print("\nwrote data/live.json and data/status.json")
+    print(f"\ncomparable weeks: {weekly['periods_comparable']} "
+          f"(backfill: {weekly['periods_backfill']})")
+    print(f"share trend: {weekly['share_trend'].get('status')} "
+          f"{weekly['share_trend'].get('direction', weekly['share_trend'].get('note', ''))}")
+    print(f"event response: {weekly['event_response'].get('status')}")
+    print("\nwrote data/live.json, data/timeline.json and data/status.json")
     return 0
 
 

@@ -525,3 +525,62 @@ dialog dd { margin: 0; }
 .metric-label + strong + small.warn { color: var(--amber); }
 
 .dead-link { pointer-events: none; opacity: .55; text-decoration: line-through; }
+
+/* ---------- pressure & response ---------- */
+
+.pressure-metrics { grid-template-columns: repeat(6, 1fr); }
+.pressure-surface { padding: 24px 0 40px; }
+.pressure-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; border: 1px solid var(--line); background: rgba(9,18,15,.55); }
+.chart-panel { border-right: 1px solid var(--line); min-width: 0; }
+.chart-body { padding: 14px 16px 4px; }
+.chart-empty { padding: 40px 16px; color: var(--muted); font-size: .82rem; text-align: center; }
+.chart-empty code { color: var(--signal); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+.pressure-chart { width: 100%; height: auto; display: block; }
+.pressure-chart .grid { stroke: var(--line); stroke-width: 1; }
+.pressure-chart .axis { fill: var(--dim); font: 600 9px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.pressure-chart .axis.end { text-anchor: end; }
+.pressure-chart .axis.mid { text-anchor: middle; }
+.pressure-chart .warn-text { fill: var(--amber); }
+.pressure-chart .bar { fill: rgba(102, 216, 233, .55); }
+.pressure-chart .bar.muted { fill: rgba(102, 216, 233, .16); }
+.pressure-chart .share-line { fill: none; stroke: var(--amber); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.pressure-chart .share-dot { fill: var(--amber); }
+
+.chart-legend { display: flex; flex-wrap: wrap; gap: 18px; padding: 10px 16px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .72rem; }
+.chart-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+.swatch.bars { background: rgba(102, 216, 233, .55); }
+.swatch.line { background: var(--amber); height: 3px; border-radius: 1px; }
+.swatch.backfill { background: rgba(255,191,105,.12); border: 1px solid rgba(255,191,105,.35); }
+
+.finding-panel { min-width: 0; }
+.finding { padding: 15px 16px; border-bottom: 1px solid var(--line); border-left: 2px solid var(--line-bright); }
+.finding:last-child { border-bottom: 0; }
+.finding h3 { margin: 0 0 7px; font-size: .84rem; line-height: 1.35; }
+.finding p { margin: 0; color: var(--muted); font-size: .76rem; line-height: 1.6; }
+/* The border colour encodes whether the data supports, contradicts, or cannot
+   yet speak to the hypothesis. "Pending" must not look like a weak yes. */
+.finding.supported { border-left-color: var(--signal); }
+.finding.supported h3 { color: var(--signal); }
+.finding.contradicted { border-left-color: var(--red); }
+.finding.contradicted h3 { color: var(--red); }
+.finding.neutral { border-left-color: var(--dim); }
+.finding.pending { border-left-color: var(--amber); }
+.finding.pending h3 { color: var(--amber); }
+.finding.unsupported { border-left-color: var(--amber); }
+.finding.unsupported h3 { color: var(--amber); }
+
+.local-events { margin-top: 24px; border: 1px solid var(--line); background: rgba(9,18,15,.55); }
+.local-events .panel-heading { padding: 14px 16px; }
+.change-up { color: var(--amber); font-weight: 700; }
+.change-down { color: var(--cyan); font-weight: 700; }
+small.warn, .metric-label + strong + small.warn { color: var(--amber); }
+
+@media (max-width: 1080px) {
+  .pressure-layout { grid-template-columns: 1fr; }
+  .chart-panel { border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 720px) {
+  .pressure-metrics { grid-template-columns: repeat(6, 150px); overflow-x: auto; }
+}

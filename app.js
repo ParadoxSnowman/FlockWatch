@@ -12,7 +12,8 @@ const state = {
   agencySearch: "", agencyState: "all", agencyCoverage: "all",
   caseSearch: "", caseStatus: "all", caseRecords: loadCaseRecords(),
   outletSearch: "", outletType: "all", outletOwnership: "all", newsroomGrouping: "outlet",
-  recordSearch: "", recordPlatform: "all"
+  recordSearch: "", recordPlatform: "all",
+  timeline: null, granularity: "week"
 };
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
@@ -66,6 +67,7 @@ async function load() {
     fetch("./data/records.json").then(r => r.json()),
     fetch("./data/status.json").then(r => r.json())
   ]);
+  state.timeline = await fetch("./data/timeline.json").then(r => r.json()).catch(() => null);
   state.items = items.map(item => ({ ...item, published: new Date(item.published_at) }));
   state.evidence = evidence;
   state.agencies = agencies.sort((a, b) => a.name.localeCompare(b.name));
@@ -128,6 +130,15 @@ function bind() {
   $("#recordPlatform").addEventListener("change", e => { state.recordPlatform = e.target.value; renderPublicRecords(); });
   $("#exportRecords").addEventListener("click", exportRecords);
   $("#shareRecordsForm").addEventListener("submit", sharePublicRecord);
+  $$("#pressureGranularity button").forEach(button => button.addEventListener("click", () => {
+    state.granularity = button.dataset.granularity;
+    $$("#pressureGranularity button").forEach(b => {
+      const active = b === button;
+      b.classList.toggle("active", active);
+      b.setAttribute("aria-selected", String(active));
+    });
+    renderPressure();
+  }));
 }
 
 function setView(view) {
@@ -143,6 +154,7 @@ function setView(view) {
   });
   if (view === "cases") renderCases();
   if (view === "newsrooms") renderNewsrooms();
+  if (view === "pressure") renderPressure();
   if (view === "publicRecords") renderPublicRecords();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -179,6 +191,7 @@ function filteredItems() {
 
 function render() {
   renderSignals();
+  renderPressure();
   renderAgencies();
   renderCases();
   renderNewsrooms();
@@ -517,7 +530,167 @@ function reviewOutletStories(query) {
   renderSignals();
 }
 
+
+/* ---------- pressure & response ---------- */
+
+function renderPressure() {
+  if (!$("#pressureChart")) return;
+  const data = state.timeline?.[state.granularity === "month" ? "monthly" : "weekly"];
+  if (!data) {
+    $("#pressureChart").innerHTML = '<div class="chart-empty">No timeline has been generated yet. It is written by the collector, or locally with <code>npm run reanalyze</code>.</div>';
+    $("#pressureFindings").innerHTML = "";
+    $("#localEventRows").innerHTML = '<tr><td colspan="5" class="table-empty">No timeline available.</td></tr>';
+    return;
+  }
+
+  const comparable = data.series.filter(bucket => !bucket.backfill);
+  $("#pressureStart").textContent = data.monitoring_started
+    ? new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(new Date(`${data.monitoring_started}T00:00:00Z`))
+    : "Unknown";
+  const provenance = $("#pressureProvenance");
+  provenance.textContent = data.provenance === "ok" ? "Collection start" : "No provenance — nothing comparable";
+  provenance.classList.toggle("warn", data.provenance !== "ok");
+
+  $("#pressureComparable").textContent = data.periods_comparable;
+  $("#pressureBackfill").textContent = `${data.periods_backfill} backfill excluded`;
+  $("#pressureEvents").textContent = data.series.reduce((total, b) => total + b.opposition_events, 0);
+  $("#pressurePlaces").textContent = state.status.jurisdictions_tagged ?? "—";
+
+  const share = data.share_trend;
+  $("#pressureTrend").textContent = share.status === "ok" ? share.direction : "—";
+  $("#pressureTrendNote").textContent = share.status === "ok"
+    ? `${share.buckets} comparable periods`
+    : "Not enough comparable periods";
+  $("#pressureTrendNote").classList.toggle("warn", share.status !== "ok");
+
+  const response = data.event_response;
+  $("#pressureResponse").textContent = response.status === "ok" && response.ratio ? `${response.ratio}×` : "—";
+  $("#pressureResponseNote").textContent = response.status === "ok"
+    ? `${response.events_usable} events · ${response.events_rose} rose, ${response.events_fell} fell`
+    : `Needs ${response.events_needed || 3} local events`;
+  $("#pressureResponseNote").classList.toggle("warn", response.status !== "ok");
+
+  $("#chartSubtitle").textContent = `${data.series.length} ${state.granularity === "month" ? "months" : "weeks"} · ${comparable.length} comparable`;
+  $("#localWindowNote").textContent = `${response.window_days || 30}-DAY WINDOW`;
+
+  $("#pressureChart").innerHTML = pressureChart(data);
+  $("#pressureFindings").innerHTML = pressureFindings(data);
+  $("#localEventRows").innerHTML = (response.measured || []).length
+    ? response.measured.map(row => `<tr>
+        <td><strong>${escapeHTML(row.jurisdiction)}</strong></td>
+        <td><time>${escapeHTML(row.event_date)}</time></td>
+        <td>${row.before}</td>
+        <td>${row.after}</td>
+        <td class="${row.change > 0 ? "change-up" : row.change < 0 ? "change-down" : ""}">${row.change > 0 ? "+" : ""}${row.change}</td>
+      </tr>`).join("")
+    : '<tr><td colspan="5" class="table-empty">No local opposition event yet has a full baseline window inside the monitored period.</td></tr>';
+}
+
+// Hand-rolled SVG: no chart library, and the shaded backfill region is part of
+// the drawing rather than a caption, so the untrustworthy stretch cannot be
+// read as data by someone skimming.
+function pressureChart(data) {
+  const series = data.series;
+  if (!series.length) return '<div class="chart-empty">No periods collected yet.</div>';
+
+  const W = 760, H = 260, padL = 44, padR = 44, padT = 16, padB = 34;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const maxEvents = Math.max(1, ...series.map(b => b.opposition_events));
+  const step = plotW / series.length;
+  const x = i => padL + i * step + step / 2;
+  const yShare = v => padT + plotH - v * plotH;
+  const yBar = v => padT + plotH - (v / maxEvents) * plotH;
+
+  const backfillCount = series.filter(b => b.backfill).length;
+  const backfillRect = backfillCount
+    ? `<rect x="${padL}" y="${padT}" width="${backfillCount * step}" height="${plotH}" fill="url(#hatch)" />
+       <text x="${padL + 6}" y="${padT + 14}" class="axis warn-text">backfill — not comparable</text>`
+    : "";
+
+  const bars = series.map((b, i) => b.opposition_events
+    ? `<rect x="${x(i) - Math.min(14, step * .34)}" y="${yBar(b.opposition_events)}" width="${Math.min(28, step * .68)}" height="${padT + plotH - yBar(b.opposition_events)}" class="bar ${b.backfill ? "muted" : ""}"><title>${b.period}: ${b.opposition_events} opposition events</title></rect>`
+    : "").join("");
+
+  // The line breaks wherever a period is too thin to support a rate, rather
+  // than interpolating across a gap that was never measured.
+  const segments = [];
+  let current = [];
+  for (const [i, b] of series.entries()) {
+    if (b.promotional_share === null || b.backfill) {
+      if (current.length > 1) segments.push(current);
+      current = [];
+    } else {
+      current.push(`${x(i)},${yShare(b.promotional_share)}`);
+    }
+  }
+  if (current.length > 1) segments.push(current);
+  const line = segments.map(points => `<polyline points="${points.join(" ")}" class="share-line" />`).join("");
+  const dots = series.map((b, i) => b.promotional_share !== null && !b.backfill
+    ? `<circle cx="${x(i)}" cy="${yShare(b.promotional_share)}" r="3" class="share-dot"><title>${b.period}: ${Math.round(b.promotional_share * 100)}% promotional (${b.promotional} of ${b.promotional + b.critical + b.mixed})</title></circle>`
+    : "").join("");
+
+  const ticks = [0, .25, .5, .75, 1].map(v =>
+    `<line x1="${padL}" y1="${yShare(v)}" x2="${W - padR}" y2="${yShare(v)}" class="grid" />
+     <text x="${padL - 8}" y="${yShare(v) + 4}" class="axis end">${v * 100}%</text>`).join("");
+  const eventTicks = [0, maxEvents].map(v =>
+    `<text x="${W - padR + 8}" y="${yBar(v) + 4}" class="axis">${v}</text>`).join("");
+
+  const everyN = Math.max(1, Math.ceil(series.length / 8));
+  const labels = series.map((b, i) => i % everyN === 0
+    ? `<text x="${x(i)}" y="${H - 10}" class="axis mid">${b.period.slice(5)}</text>` : "").join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" class="pressure-chart" role="img" aria-label="Opposition events and promotional share over time">
+    <defs><pattern id="hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="rgba(255,191,105,.05)" /><line x1="0" y1="0" x2="0" y2="6" stroke="rgba(255,191,105,.18)" stroke-width="1.5" />
+    </pattern></defs>
+    ${ticks}${backfillRect}${bars}${line}${dots}${eventTicks}${labels}
+  </svg>`;
+}
+
+// Written as sentences a reader can disagree with, including the sentence that
+// says there is not yet enough data — which is the correct output today.
+function pressureFindings(data) {
+  const cards = [];
+  const share = data.share_trend;
+  const response = data.event_response;
+
+  if (data.provenance !== "ok") {
+    cards.push(["unsupported", "No collection provenance",
+      "None of the stored items record when the monitor first saw them, so retrospective discovery cannot be told apart from measurement. Every period is treated as backfill until the collector has run and stamped items itself."]);
+  } else if (share.status !== "ok") {
+    cards.push(["pending", "Not enough comparable periods",
+      `${share.buckets} usable ${share.buckets === 1 ? "period" : "periods"} so far. A direction needs at least four, each with enough coverage to support a rate.`]);
+  } else if (share.direction === "rising") {
+    cards.push(["supported", "Promotional share is rising",
+      `Across ${share.buckets} comparable periods the promotional share moved from ${Math.round(share.first * 100)}% to ${Math.round(share.last * 100)}%. Because this is a share rather than a count, growth in overall Flock coverage does not by itself produce it.`]);
+  } else if (share.direction === "falling") {
+    cards.push(["contradicted", "Promotional share is falling",
+      `Across ${share.buckets} comparable periods the share moved from ${Math.round(share.first * 100)}% to ${Math.round(share.last * 100)}%. This cuts against the hypothesis and should be reported as readily as a rise would be.`]);
+  } else {
+    cards.push(["neutral", "Promotional share is flat",
+      `Across ${share.buckets} comparable periods the share has not moved meaningfully. Raw promotional counts may still be climbing; that would reflect more Flock coverage overall, not a shift in how it is framed.`]);
+  }
+
+  if (response.status !== "ok") {
+    cards.push(["pending", "Local response unmeasured",
+      response.note || `Needs ${response.events_needed || 3} local opposition events with a complete baseline window.`]);
+  } else if (response.ratio && response.ratio > 1.2) {
+    cards.push(["supported", `Promotional output ${response.ratio}× higher after local pressure`,
+      `Across ${response.events_usable} events, promotional items in the same jurisdiction rose from ${response.promotional_before} to ${response.promotional_after} in the ${response.window_days} days after. ${response.events_rose} of ${response.events_usable} rose, ${response.events_fell} fell. Each place is its own control, so national deployment growth cannot explain it — but timing is still not causation, and the records are what would show intent.`]);
+  } else if (response.ratio && response.ratio < 0.8) {
+    cards.push(["contradicted", "Promotional output falls after local pressure",
+      `Across ${response.events_usable} events, promotional items fell from ${response.promotional_before} to ${response.promotional_after}. That is the opposite of the expected pattern.`]);
+  } else {
+    cards.push(["neutral", "No clear local response",
+      `Across ${response.events_usable} events, promotional output was ${response.promotional_before} before and ${response.promotional_after} after. ${response.events_rose} rose and ${response.events_fell} fell, which is close to what chance would produce.`]);
+  }
+
+  return cards.map(([tone, title, body]) =>
+    `<article class="finding ${tone}"><h3>${escapeHTML(title)}</h3><p>${escapeHTML(body)}</p></article>`).join("");
+}
+
 /* ---------- agencies ---------- */
+
 
 function setupAgencyControls() {
   const states = [...new Set(state.agencies.map(a => a.state).filter(Boolean))].sort();

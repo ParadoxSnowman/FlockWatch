@@ -1,0 +1,305 @@
+{
+  "weekly": {
+    "granularity": "week",
+    "monitoring_started": null,
+    "periods_total": 12,
+    "periods_comparable": 0,
+    "periods_backfill": 12,
+    "provenance": "unknown",
+    "series": [
+      {
+        "period": "2024-05-13",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2024-06-24",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 1,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2025-08-25",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 1,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2025-09-22",
+        "total": 1,
+        "promotional": 1,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 0,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-06-15",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-06-29",
+        "total": 2,
+        "promotional": 2,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 0,
+        "opposition_events": 0,
+        "agency_posts": 1,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-07-20",
+        "total": 3,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 3,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-07-27",
+        "total": 1,
+        "promotional": 1,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 0,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-08-03",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-08-10",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-08-24",
+        "total": 1,
+        "promotional": 1,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 0,
+        "opposition_events": 0,
+        "agency_posts": 1,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-08-31",
+        "total": 2,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 2,
+        "opposition_events": 0,
+        "agency_posts": 1,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      }
+    ],
+    "share_trend": {
+      "status": "insufficient",
+      "buckets": 0,
+      "note": "At least four comparable periods are needed before a direction means anything."
+    },
+    "opposition_trend": {
+      "status": "insufficient",
+      "buckets": 0,
+      "note": "At least four comparable periods are needed before a direction means anything."
+    },
+    "event_response": {
+      "status": "insufficient",
+      "events_usable": 0,
+      "events_needed": 3,
+      "window_days": 30,
+      "measured": [],
+      "note": "No collection provenance on this dataset, so a before/after window cannot be separated from the monitor starting up."
+    }
+  },
+  "monthly": {
+    "granularity": "month",
+    "monitoring_started": null,
+    "periods_total": 7,
+    "periods_comparable": 0,
+    "periods_backfill": 7,
+    "provenance": "unknown",
+    "series": [
+      {
+        "period": "2024-05-01",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2024-06-01",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 1,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2025-08-01",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 1,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2025-09-01",
+        "total": 1,
+        "promotional": 1,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 0,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-06-01",
+        "total": 1,
+        "promotional": 0,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 1,
+        "opposition_events": 0,
+        "agency_posts": 0,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      },
+      {
+        "period": "2026-07-01",
+        "total": 6,
+        "promotional": 3,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 3,
+        "opposition_events": 0,
+        "agency_posts": 1,
+        "sponsored": 0,
+        "promotional_share": 1.0,
+        "backfill": true
+      },
+      {
+        "period": "2026-08-01",
+        "total": 5,
+        "promotional": 1,
+        "critical": 0,
+        "mixed": 0,
+        "neutral": 4,
+        "opposition_events": 0,
+        "agency_posts": 2,
+        "sponsored": 0,
+        "promotional_share": null,
+        "backfill": true
+      }
+    ],
+    "share_trend": {
+      "status": "insufficient",
+      "buckets": 0,
+      "note": "At least four comparable periods are needed before a direction means anything."
+    },
+    "opposition_trend": {
+      "status": "insufficient",
+      "buckets": 0,
+      "note": "At least four comparable periods are needed before a direction means anything."
+    },
+    "event_response": {
+      "status": "insufficient",
+      "events_usable": 0,
+      "events_needed": 3,
+      "window_days": 30,
+      "measured": [],
+      "note": "No collection provenance on this dataset, so a before/after window cannot be separated from the monitor starting up."
+    }
+  }
+}

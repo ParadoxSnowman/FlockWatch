@@ -59,7 +59,7 @@ check("agency total", $("#agencyTotal").textContent === "375", $("#agencyTotal")
 check("request draft built", $("#requestText").value.includes("Records Custodian"), `${$("#requestText").value.length} chars`);
 
 // Walk every view the way a user would.
-for (const view of ["newsrooms", "agencies", "cases", "publicRecords", "records", "signals"]) {
+for (const view of ["newsrooms", "pressure", "agencies", "cases", "publicRecords", "records", "signals"]) {
   try {
     window.eval(`setView(${JSON.stringify(view)})`);
   } catch (error) {
@@ -70,6 +70,22 @@ check("newsroom outlet list populated", $("#outletList").children.length > 0, `$
 check("body coverage note written", $("#bodyCoverage").textContent.length > 10, $("#bodyCoverage").textContent.slice(0, 60));
 check("caseboard populated", $("#caseList").children.length > 0, `${$("#caseList").children.length}`);
 check("public records populated", $("#recordList").children.length > 0, `${$("#recordList").children.length}`);
+
+// Pressure view: the chart must draw and the findings must state a position,
+// including "not enough data", which is the correct answer today.
+window.eval('setView("pressure")');
+check("pressure chart drawn", /<svg|chart-empty/.test($("#pressureChart").innerHTML), "");
+check("findings rendered", $("#pressureFindings").children.length >= 2, `${$("#pressureFindings").children.length} cards`);
+check("monitoring start reported", $("#pressureStart").textContent.length > 0, $("#pressureStart").textContent);
+check("backfill counted", /backfill/.test($("#pressureBackfill").textContent), $("#pressureBackfill").textContent);
+// With no provenance the tool must refuse, not estimate.
+check("refuses without provenance", /Not enough|No collection provenance|unmeasured/.test($("#pressureFindings").textContent), "");
+check("local event table has a state", $("#localEventRows").children.length > 0, "");
+try {
+  window.document.querySelector('#pressureGranularity button[data-granularity="month"]').click();
+  check("monthly toggle works", /<svg|chart-empty/.test($("#pressureChart").innerHTML), "");
+  window.document.querySelector('#pressureGranularity button[data-granularity="week"]').click();
+} catch (error) { errors.push(`granularity toggle threw: ${error.message}`); }
 
 // Owner rollup toggle.
 try {
