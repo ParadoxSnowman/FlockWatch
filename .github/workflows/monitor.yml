@@ -1,0 +1,38 @@
+name: Refresh media monitor
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: flockwatch-monitor
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify reuse detection before collecting
+        run: python3 scripts/test_analysis.py
+      - name: Collect public signals
+        run: python scripts/update_feeds.py
+      - name: Refresh public records library
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_records.py
+      - name: Commit changed data
+        run: |
+          git config user.name "flockwatch-bot"
+          git config user.email "flockwatch-bot@users.noreply.github.com"
+          git add data/live.json data/records.json data/status.json
+          git diff --cached --quiet || git commit -m "data: refresh media signals"
+          git push
