@@ -570,7 +570,7 @@ function renderPressure() {
     : `Needs ${response.events_needed || 3} local events`;
   $("#pressureResponseNote").classList.toggle("warn", response.status !== "ok");
 
-  $("#chartSubtitle").textContent = `${data.series.length} ${state.granularity === "month" ? "months" : "weeks"} · ${comparable.length} comparable`;
+  $("#chartSubtitle").textContent = `${data.series.length} ${state.granularity === "month" ? "months" : "weeks"} · ${comparable.length} comparable · ${data.baseline_items ?? 0} baseline items`;
   $("#localWindowNote").textContent = `${response.window_days || 30}-DAY WINDOW`;
 
   $("#pressureChart").innerHTML = pressureChart(data);
@@ -653,6 +653,14 @@ function pressureFindings(data) {
   const cards = [];
   const share = data.share_trend;
   const response = data.event_response;
+
+  // The rate is only meaningful over a sample that was not selected on stance.
+  // Without baseline items there is no honest denominator, and saying so is
+  // more useful than drawing a line through a number the query mix produced.
+  if (!data.baseline_items) {
+    cards.push(["unsupported", "No stance-neutral sample yet",
+      "Promotional share is computed only from baseline_queries, which contain no stance words. Every other query set searches explicitly for promotional or for critical material, so pooling them would measure the query mix rather than what is being published. Until baseline items are collected, no rate is reported."]);
+  }
 
   if (data.provenance !== "ok") {
     cards.push(["unsupported", "No collection provenance",

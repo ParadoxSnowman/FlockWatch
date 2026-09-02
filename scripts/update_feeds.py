@@ -202,7 +202,7 @@ def detect_jurisdiction(text: str, agency: dict | None = None) -> tuple[str | No
     return None, None
 
 
-def classify(item: dict) -> dict | None:
+def classify(item: dict, query_set: str = "other") -> dict | None:
     combined = f"{item['title']} {item['summary']}"
     if not RELEVANCE.search(combined) and not item.get("agency_id"):
         return None
@@ -256,6 +256,9 @@ def classify(item: dict) -> dict | None:
         "critical_hits": critical_hits,
         "matched_terms": terms[:5],
         "origin_indicators": origin_indicators,
+        # Which search surface found this. Only "baseline" items may be used to
+        # compute a rate; the rest select on stance by construction.
+        "query_set": query_set,
     }
     if is_opposition:
         record["opposition_event"] = True
@@ -279,6 +282,14 @@ def enrich_body(record: dict) -> bool:
     body coverage, and body_status records which is which.
     """
     if record.get("body_text") or record["channel"] == "agency":
+        return False
+    # Google News hands back an opaque redirect token rather than the
+    # publisher's URL, and since 2024 that token can only be resolved by
+    # Google's own servers. Fetching it returns a script shim with no article
+    # text, so these are marked rather than retried every hour forever. Full
+    # text for these outlets requires their own RSS in publisher_feeds.
+    if record.get("domain", "").endswith("news.google.com"):
+        record["body_status"] = "google-redirect"
         return False
     try:
         raw = fetch(record["url"], timeout=ENRICH_TIMEOUT)
@@ -364,6 +375,20 @@ def agency_feed(feed: dict) -> list[dict]:
     return items
 
 
+def publisher_feed(feed: dict) -> list[dict]:
+    """A newsroom's own RSS, which returns real article URLs.
+
+    This is the only way to get full article text into the monitor. Google News
+    returns a redirect token and a roughly fourteen-word snippet, which is too
+    little for verbatim reuse detection to say much. A publisher feed gives a
+    real link that can be fetched and compared.
+    """
+    items = rss_items(fetch(feed["url"]), feed.get("name", ""))
+    for entry in items:
+        entry["publisher"] = feed.get("name") or entry.get("publisher")
+    return items
+
+
 def station_query(domain: str) -> str:
     return f'site:{domain} "Flock"'
 
@@ -419,26 +444,28 @@ def main() -> int:
     agencies = json.loads((DATA / "agencies.json").read_text())
 
     collected: list[dict] = []
-    ok = total = agencies_checked = agency_feeds_ok = 0
+    ok = total = agencies_checked = agency_feeds_ok = publisher_feeds_ok = 0
     hour = datetime.now(timezone.utc).hour
     agency_shard = agencies_for_hour(agencies, hour)
 
     jobs = (
-        [("google", q, None) for q in config.get("google_news_queries", [])]
-        + [("google", q, None) for q in config.get("accountability_queries", [])]
-        + [("google", q, None) for q in config.get("opposition_queries", [])]
-        + [("google", q, None) for q in config.get("newsroom_queries", [])]
+        [("google", q, None, "baseline") for q in config.get("baseline_queries", [])]
+        + [("google", q, None, "promotional") for q in config.get("google_news_queries", [])]
+        + [("google", q, None, "accountability") for q in config.get("accountability_queries", [])]
+        + [("google", q, None, "opposition") for q in config.get("opposition_queries", [])]
+        + [("google", q, None, "newsroom") for q in config.get("newsroom_queries", [])]
         # Station domains are queried directly because Google News collapses
         # syndicated copies into one cluster, hiding the republication the
         # reuse detector exists to find.
-        + [("google", station_query(d), None) for d in config.get("station_domains", [])]
-        + [("govfeed", f, None) for f in config.get("agency_feeds", [])]
-        + [("bing", q, None) for q in config.get("bing_social_queries", [])]
-        + [("flock", u, None) for u in config.get("owned_feeds", [])]
-        + [("agency", agency_query(agency), agency) for agency in agency_shard]
+        + [("google", station_query(d), None, "newsroom") for d in config.get("station_domains", [])]
+        + [("govfeed", f, None, "agency") for f in config.get("agency_feeds", [])]
+        + [("pubfeed", f, None, "baseline") for f in config.get("publisher_feeds", [])]
+        + [("bing", q, None, "agency") for q in config.get("bing_social_queries", [])]
+        + [("flock", u, None, "owned") for u in config.get("owned_feeds", [])]
+        + [("agency", agency_query(agency), agency, "agency") for agency in agency_shard]
     )
 
-    for kind, value, agency in jobs:
+    for kind, value, agency, query_set in jobs:
         total += 1
         try:
             if kind == "google":
@@ -446,10 +473,15 @@ def main() -> int:
             elif kind == "govfeed":
                 raw_items = agency_feed(value)
                 agency_feeds_ok += 1
+            elif kind == "pubfeed":
+                raw_items = publisher_feed(value)
+                publisher_feeds_ok += 1
             elif kind in {"bing", "agency"}:
                 raw_items = bing_social(value)
             else:
                 raw_items = flock_sitemap(value)
+            for entry in raw_items:
+                entry["query_set"] = query_set
             if agency:
                 for entry in raw_items:
                     entry["publisher"] = agency["name"]
@@ -461,7 +493,8 @@ def main() -> int:
         except Exception as exc:  # one blocked feed must not erase the monitor
             print(f"warning: {kind} source failed: {exc}", file=sys.stderr)
 
-    normalized = [record for entry in collected if (record := classify(entry))]
+    normalized = [record for entry in collected
+                  if (record := classify(entry, entry.get("query_set", "other")))]
     by_url = {item["url"]: item for item in existing if safe_url(item.get("url", ""))}
     now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     for record in normalized:
@@ -472,7 +505,13 @@ def main() -> int:
                 record["body_text"] = prior["body_text"]
             if prior.get("body_status"):
                 record["body_status"] = prior["body_status"]
-            record["first_seen"] = prior.get("first_seen", prior.get("published_at"))
+            # Only a genuine prior stamp carries over. Falling back to
+            # published_at would backdate the collection record by months and
+            # silently switch off the backfill guard in timeline.py.
+            if prior.get("first_seen"):
+                record["first_seen"] = prior["first_seen"]
+            else:
+                record["first_seen"] = now_iso
         else:
             record["first_seen"] = now_iso
         by_url[record["url"]] = record
@@ -486,7 +525,7 @@ def main() -> int:
             for item in merged
             if item.get("channel") in {"news", "sponsored", "wire"}
             and not item.get("body_text")
-            and item.get("body_status") != "unavailable"
+            and item.get("body_status") not in {"unavailable", "google-redirect"}
         ][:ENRICH_LIMIT]
         for record in candidates:
             if enrich_body(record):
@@ -495,8 +534,16 @@ def main() -> int:
     findings = analyze(merged)
     (DATA / "live.json").write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
 
-    weekly = summarize(merged, "week")
-    monthly = summarize(merged, "month")
+    # Recorded once, on the first run that ever collects, and never moved after.
+    # Everything published before it is backfill by definition.
+    try:
+        prior_status = json.loads((DATA / "status.json").read_text())
+    except (OSError, ValueError):
+        prior_status = {}
+    monitoring_since = prior_status.get("monitoring_since") or now_iso
+
+    weekly = summarize(merged, "week", declared_start=monitoring_since)
+    monthly = summarize(merged, "month", declared_start=monitoring_since)
     (DATA / "timeline.json").write_text(
         json.dumps({"weekly": weekly, "monthly": monthly}, indent=2) + "\n"
     )
@@ -523,11 +570,18 @@ def main() -> int:
         "syndication_groups": findings["syndication_groups"],
         "reuse_window_words": findings["shingle_default"],
         "agency_feeds_ok": agency_feeds_ok,
+        "publisher_feeds_ok": publisher_feeds_ok,
+        "publisher_feeds_total": len(config.get("publisher_feeds", [])),
+        "google_redirect_items": sum(1 for i in merged if i.get("body_status") == "google-redirect"),
         "agency_feeds_total": len(config.get("agency_feeds", [])),
         "opposition_events": sum(1 for i in merged if i.get("opposition_event")),
         "jurisdictions_tagged": len({i.get("jurisdiction") or i.get("state") for i in merged if i.get("jurisdiction") or i.get("state")}),
+        "monitoring_since": monitoring_since,
         "monitoring_started": weekly["monitoring_started"],
         "periods_comparable": weekly["periods_comparable"],
+        "baseline_items": weekly["baseline_items"],
+        "query_sets": {name: sum(1 for i in merged if i.get("query_set") == name)
+                       for name in sorted({i.get("query_set", "other") for i in merged})},
     }
     try:
         previous = json.loads((DATA / "status.json").read_text())

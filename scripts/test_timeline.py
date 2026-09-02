@@ -17,7 +17,8 @@ from timeline import bucket_series, comparable_series, event_response, summarize
 START = datetime(2026, 3, 2, tzinfo=timezone.utc)
 
 
-def item(day, stance="promotional", *, first_seen_day=None, opposition=False, place=None, channel="news"):
+def item(day, stance="promotional", *, first_seen_day=None, opposition=False, place=None,
+         channel="news", query_set="baseline"):
     published = START + timedelta(days=day)
     seen = START + timedelta(days=first_seen_day if first_seen_day is not None else day)
     record = {
@@ -26,6 +27,7 @@ def item(day, stance="promotional", *, first_seen_day=None, opposition=False, pl
         "first_seen": seen.isoformat().replace("+00:00", "Z"),
         "stance": stance,
         "channel": channel,
+        "query_set": query_set,
     }
     if opposition:
         record["opposition_event"] = True
@@ -116,6 +118,40 @@ def run():
     if edge_result["status"] == "ok" and any(m["event_date"].endswith("-03-07") for m in edge_result["measured"]):
         failures.append("an event without a full baseline window was measured anyway")
 
+    # 7c. Items found by stance-selecting queries must not move the rate.
+    #     This is the sampling trap: most queries search explicitly for
+    #     promotional or for critical material, so pooling them would measure
+    #     the query mix rather than what is being published. Adding critical
+    #     queries would otherwise crater the "share" with nothing having changed.
+    neutral_sample = []
+    for week in range(6):
+        for n in range(4):
+            neutral_sample.append(item(week * 7 + n, "promotional", query_set="baseline"))
+        for n in range(4):
+            neutral_sample.append(item(week * 7 + n, "critical", query_set="baseline"))
+    balanced = [b["promotional_share"] for b in bucket_series(neutral_sample) if b["promotional_share"] is not None]
+
+    skewed = list(neutral_sample)
+    for week in range(6):
+        for n in range(40):  # a flood from accountability queries
+            skewed.append(item(week * 7 + n % 5, "critical", query_set="accountability"))
+    skewed_shares = [b["promotional_share"] for b in bucket_series(skewed) if b["promotional_share"] is not None]
+    if balanced != skewed_shares:
+        failures.append(
+            f"stance-selected items changed the rate: {balanced[:3]} -> {skewed_shares[:3]}"
+        )
+
+    # 7d. A declared collector start must override a first_seen dragged
+    #     backwards by a publication-date fallback, or the guard silently dies.
+    poisoned = [item(-300, first_seen_day=-300), item(5), item(12), item(19), item(26)]
+    declared = (START + timedelta(days=1)).isoformat().replace("+00:00", "Z")
+    guarded = bucket_series(poisoned, declared_start=declared)
+    if not any(b["backfill"] for b in guarded):
+        failures.append("declared start did not re-enable the backfill guard")
+    ungarded = bucket_series(poisoned)
+    if sum(1 for b in ungarded if b["backfill"]) >= sum(1 for b in guarded if b["backfill"]):
+        failures.append("declared start did not tighten the comparable window")
+
     # 8. No local effect must report a ratio near 1, not a finding.
     null = []
     for index, place in enumerate(["OH", "TX", "CA", "GA"]):
@@ -141,7 +177,7 @@ def run():
         for failure in failures:
             print(f"  - {failure}")
         return 1
-    print("all timeline checks passed (including four refusal cases)")
+    print("all timeline checks passed (including six refusal cases)")
     return 0
 
 

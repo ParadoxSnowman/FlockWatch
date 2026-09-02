@@ -5,12 +5,20 @@ The claim this supports is a timing claim, so it needs a time series rather
 than a feed. Three things make the difference between a defensible chart and
 a misleading one, and all three are enforced here.
 
-1. Share, not raw count.
+1. Share, computed only over a stance-neutral sample.
    If Flock is simply in the news more, promotional items rise, critical items
    rise, and a raw promotional line goes up while nothing interesting has
    happened. The headline series is therefore promotional items as a share of
-   all Flock coverage in the same bucket. A rising share while opposition rises
-   is a real observation. A rising count with a flat share is not.
+   Flock coverage in the same bucket.
+
+   But a share is only meaningful if the sample was not selected on stance.
+   Most of the collector's queries search explicitly for promotional or for
+   critical material, so pooling them measures the query mix rather than the
+   world: adding two promotional queries would lift the "share" with nothing
+   having changed. The rate is therefore computed only over items found by
+   baseline_queries, which contain no stance words. Stance-selecting queries
+   still find items for the lanes, the event log and the leads; they are simply
+   barred from the denominator.
 
 2. A backfill guard.
    A monitor that started last month will always show an upward slope, because
@@ -59,7 +67,7 @@ def month_start(moment: datetime) -> datetime:
     return datetime(day.year, day.month, 1, tzinfo=timezone.utc)
 
 
-def monitoring_start(items: list[dict]) -> datetime | None:
+def monitoring_start(items: list[dict], declared=None) -> datetime | None:
     """When continuous collection actually began.
 
     first_seen is stamped the first time the collector encounters a URL, so the
@@ -68,28 +76,41 @@ def monitoring_start(items: list[dict]) -> datetime | None:
     the collector found it retrospectively, at whatever rate the search index
     still surfaced it, which is not a measurement of how much was published.
 
-    Returns None when no item carries first_seen. Callers must treat that as
-    "provenance unknown, nothing is comparable" rather than "no backfill" —
-    the absence of the stamp is the least safe case, not the safest.
+    A declared start recorded by the collector on its first ever run always
+    wins. Inferring the start from item data is fragile: a single record whose
+    first_seen was backfilled from a publication date drags the inferred start
+    backwards by months and silently switches the guard off, which is the exact
+    failure it exists to prevent. The declared value cannot be moved earlier by
+    bad data.
+
+    Returns None when nothing is declared and no item carries first_seen.
+    Callers must treat that as "provenance unknown, nothing is comparable"
+    rather than "no backfill" — the absence of a stamp is the least safe case.
     """
+    if declared:
+        return parse_time(declared)
     seen = [parse_time(item["first_seen"]) for item in items if item.get("first_seen")]
     return min(seen) if seen else None
 
 
-def bucket_series(items: list[dict], granularity: str = "week") -> list[dict]:
+def bucket_series(items: list[dict], granularity: str = "week", declared_start=None) -> list[dict]:
     """Counts per period, with promotional share and a backfill flag."""
     bucket_of = week_start if granularity == "week" else month_start
-    start = monitoring_start(items)
+    start = monitoring_start(items, declared_start)
     buckets: dict[datetime, dict] = defaultdict(
         lambda: {"promotional": 0, "critical": 0, "mixed": 0, "neutral": 0,
-                 "opposition_events": 0, "agency_posts": 0, "sponsored": 0}
+                 "baseline_promotional": 0, "baseline_critical": 0, "baseline_mixed": 0,
+                 "baseline_neutral": 0, "opposition_events": 0, "agency_posts": 0, "sponsored": 0}
     )
 
     for item in items:
         published = parse_time(item.get("published_at"))
         key = bucket_of(published)
         bucket = buckets[key]
-        bucket[item.get("stance", "neutral")] = bucket.get(item.get("stance", "neutral"), 0) + 1
+        stance = item.get("stance", "neutral")
+        bucket[stance] = bucket.get(stance, 0) + 1
+        if item.get("query_set") == "baseline":
+            bucket[f"baseline_{stance}"] = bucket.get(f"baseline_{stance}", 0) + 1
         if item.get("opposition_event"):
             bucket["opposition_events"] += 1
         if item.get("channel") == "agency":
@@ -101,13 +122,16 @@ def bucket_series(items: list[dict], granularity: str = "week") -> list[dict]:
     for key in sorted(buckets):
         bucket = buckets[key]
         total = bucket["promotional"] + bucket["critical"] + bucket["mixed"] + bucket["neutral"]
-        stance_total = bucket["promotional"] + bucket["critical"] + bucket["mixed"]
+        # Denominator drawn only from the stance-neutral sample.
+        stance_total = (bucket["baseline_promotional"] + bucket["baseline_critical"]
+                        + bucket["baseline_mixed"])
         series.append({
             "period": key.date().isoformat(),
             "total": total,
             **bucket,
             # Share is undefined on a thin bucket; two items is noise, not a rate.
-            "promotional_share": round(bucket["promotional"] / stance_total, 3) if stance_total >= MIN_BUCKET_ITEMS else None,
+            "baseline_stance_items": stance_total,
+            "promotional_share": round(bucket["baseline_promotional"] / stance_total, 3) if stance_total >= MIN_BUCKET_ITEMS else None,
             # No monitoring start means no way to tell measurement from
             # retrospective discovery, so nothing is treated as comparable.
             "backfill": True if start is None else key < bucket_of(start),
@@ -151,7 +175,7 @@ def jurisdiction_of(item: dict) -> str | None:
     return item.get("jurisdiction") or item.get("state") or None
 
 
-def event_response(items: list[dict], window_days: int = DEFAULT_WINDOW_DAYS) -> dict:
+def event_response(items: list[dict], window_days: int = DEFAULT_WINDOW_DAYS, declared_start=None) -> dict:
     """Promotional output after a local opposition event vs. that place's own baseline.
 
     For each opposition event in a jurisdiction, promotional items in that same
@@ -160,7 +184,7 @@ def event_response(items: list[dict], window_days: int = DEFAULT_WINDOW_DAYS) ->
     removes the deployment-growth confound that makes a national comparison
     uninformative.
     """
-    start = monitoring_start(items)
+    start = monitoring_start(items, declared_start)
     window = timedelta(days=window_days)
     if start is None:
         return {
@@ -230,10 +254,11 @@ def event_response(items: list[dict], window_days: int = DEFAULT_WINDOW_DAYS) ->
     }
 
 
-def summarize(items: list[dict], granularity: str = "week", window_days: int = DEFAULT_WINDOW_DAYS) -> dict:
-    series = bucket_series(items, granularity)
+def summarize(items: list[dict], granularity: str = "week", window_days: int = DEFAULT_WINDOW_DAYS,
+              declared_start=None) -> dict:
+    series = bucket_series(items, granularity, declared_start)
     comparable = comparable_series(series)
-    start = monitoring_start(items)
+    start = monitoring_start(items, declared_start)
     return {
         "granularity": granularity,
         "monitoring_started": start.date().isoformat() if start else None,
@@ -241,10 +266,11 @@ def summarize(items: list[dict], granularity: str = "week", window_days: int = D
         "periods_comparable": len(comparable),
         "periods_backfill": len(series) - len(comparable),
         "provenance": "ok" if start else "unknown",
+        "baseline_items": sum(1 for i in items if i.get("query_set") == "baseline"),
         "series": series,
         "share_trend": trend(series, "promotional_share"),
         "opposition_trend": trend(
             [{**b, "opposition_rate": b["opposition_events"]} for b in series], "opposition_rate"
         ),
-        "event_response": event_response(items, window_days),
+        "event_response": event_response(items, window_days, declared_start),
     }

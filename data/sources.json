@@ -1,7 +1,13 @@
 {
   "_comment": "Query sets are deliberately balanced. google_news_queries find promotional coverage; accountability_queries find coverage that cuts the other way; opposition_queries find the removal-pressure events the timeline measures against; newsroom_queries target sponsorship and syndication. Removing the accountability or opposition sets would leave the monitor able only to confirm, never to disconfirm.",
+  "_baseline_note": "baseline_queries are the ONLY set used to compute promotional share. They contain no stance words, so the promotional/critical mix they return reflects what is being published rather than what was searched for. Every other set selects on stance and is used only to FIND items \u2014 leads, reuse lanes, opposition events. Pooling them into a rate would measure the query mix instead of the world: add two promotional queries and the 'share' jumps.",
   "fetch_article_text": true,
-
+  "baseline_queries": [
+    "\"Flock Safety\"",
+    "\"Flock cameras\"",
+    "\"Flock\" license plate reader",
+    "\"Flock Safety\" police department"
+  ],
   "google_news_queries": [
     "\"Flock Safety\" (helped OR credits OR solved OR success OR arrest)",
     "\"Flock camera\" police (helped OR located OR recovered OR arrested)",
@@ -12,7 +18,6 @@
     "\"Flock Safety\" (\"game changer\" OR \"force multiplier\" OR \"invaluable tool\")",
     "\"Flock Safety\" (\"chief said\" OR \"sheriff said\") (crime OR arrest OR recovered)"
   ],
-
   "accountability_queries": [
     "\"Flock Safety\" (privacy OR surveillance OR \"civil liberties\")",
     "\"Flock Safety\" (lawsuit OR sued OR audit OR investigation)",
@@ -23,7 +28,6 @@
     "\"Flock Safety\" (\"public records\" OR transparency OR \"open records\")",
     "\"Flock Safety\" (audit OR \"internal review\") findings"
   ],
-
   "opposition_queries": [
     "\"Flock\" cameras (\"city council\" OR \"county commission\") (vote OR hearing OR agenda)",
     "\"Flock\" cameras (remove OR removal OR \"take down\" OR \"rip out\")",
@@ -34,7 +38,6 @@
     "\"license plate readers\" (\"city council\" OR \"town council\") (debate OR opposition OR concerns)",
     "\"Flock\" cameras (\"neighborhood association\" OR \"community meeting\") concerns"
   ],
-
   "newsroom_queries": [
     "\"Flock Safety\" (sponsored OR \"partner content\" OR \"brand studio\" OR \"paid content\")",
     "site:police1.com \"Flock Safety\"",
@@ -43,24 +46,22 @@
     "\"Flock Safety\" (\"Gray News\" OR \"Nexstar\" OR \"Sinclair\" OR \"Scripps\")",
     "\"Flock Safety\" \"this story was originally published\""
   ],
-
   "_station_note": "Google News collapses syndicated copies into one cluster and shows a single representative, which hides exactly the cross-property republication the reuse detector looks for. Querying station domains directly is what makes those duplicates visible. Add the domains of outlets you are actually tracking.",
   "station_domains": [
     "police1.com",
     "govtech.com"
   ],
-
   "_agency_feed_note": "Public-agency press-release RSS. This is the highest-value source for the agency channel: Facebook and Instagram block most post indexing, but most departments publish releases on a city or county .gov page and many expose RSS. Add real feed URLs here as you confirm them. Format: {\"agency_id\": \"matches data/agencies.json\", \"name\": \"Display name\", \"state\": \"OH\", \"url\": \"https://...\"}",
   "agency_feeds": [],
-
   "bing_social_queries": [
     "site:facebook.com police \"Flock Safety\" \"success\"",
     "site:facebook.com sheriff \"Flock cameras\" \"helped\"",
     "site:instagram.com police \"Flock Safety\"",
     "site:linkedin.com police \"Flock Safety\" \"success story\""
   ],
-
   "owned_feeds": [
     "https://www.flocksafety.com/sitemap.xml"
-  ]
+  ],
+  "_publisher_feed_note": "Direct newsroom RSS. Google News returns a redirect token plus a ~14-word snippet, which is too little text for verbatim reuse detection to work well, and its token cannot be resolved offline. A publisher's own feed returns a real article URL that can be fetched in full. Add the outlets you actually track. Format: {\"name\": \"WLBT\", \"url\": \"https://www.wlbt.com/arc/outboundfeeds/rss/\"}",
+  "publisher_feeds": []
 }
