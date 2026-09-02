@@ -217,15 +217,15 @@
       },
       {
         "period": "2026-02-23",
-        "total": 2,
+        "total": 3,
         "promotional": 0,
-        "critical": 2,
+        "critical": 3,
         "mixed": 0,
         "neutral": 0,
         "opposition_events": 0,
         "agency_posts": 0,
         "sponsored": 0,
-        "promotional_share": null,
+        "promotional_share": 0.0,
         "backfill": false
       },
       {
@@ -412,12 +412,12 @@
       },
       {
         "period": "2026-07-13",
-        "total": 14,
+        "total": 17,
         "promotional": 1,
         "critical": 13,
         "mixed": 0,
-        "neutral": 0,
-        "opposition_events": 0,
+        "neutral": 3,
+        "opposition_events": 3,
         "agency_posts": 0,
         "sponsored": 0,
         "promotional_share": 0.071,
@@ -438,12 +438,12 @@
       },
       {
         "period": "2026-07-27",
-        "total": 14,
+        "total": 16,
         "promotional": 2,
         "critical": 8,
         "mixed": 0,
-        "neutral": 4,
-        "opposition_events": 5,
+        "neutral": 6,
+        "opposition_events": 7,
         "agency_posts": 0,
         "sponsored": 0,
         "promotional_share": 0.2,
@@ -464,9 +464,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 45,
+        "total": 50,
         "promotional": 0,
-        "critical": 28,
+        "critical": 33,
         "mixed": 0,
         "neutral": 17,
         "opposition_events": 16,
@@ -477,15 +477,15 @@
       },
       {
         "period": "2026-08-17",
-        "total": 42,
+        "total": 47,
         "promotional": 2,
-        "critical": 29,
+        "critical": 34,
         "mixed": 0,
         "neutral": 11,
         "opposition_events": 16,
         "agency_posts": 0,
         "sponsored": 0,
-        "promotional_share": 0.065,
+        "promotional_share": 0.056,
         "backfill": false
       },
       {
@@ -503,12 +503,12 @@
       },
       {
         "period": "2026-08-31",
-        "total": 43,
+        "total": 46,
         "promotional": 0,
-        "critical": 21,
+        "critical": 22,
         "mixed": 0,
-        "neutral": 22,
-        "opposition_events": 21,
+        "neutral": 24,
+        "opposition_events": 23,
         "agency_posts": 1,
         "sponsored": 0,
         "promotional_share": 0.0,
@@ -517,8 +517,8 @@
     ],
     "share_trend": {
       "status": "ok",
-      "buckets": 11,
-      "slope_per_period": 0.0005,
+      "buckets": 12,
+      "slope_per_period": 0.0018,
       "first": 0.0,
       "last": 0.0,
       "direction": "flat"
@@ -526,21 +526,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 32,
-      "slope_per_period": 0.4388,
+      "slope_per_period": 0.4672,
       "first": 0,
-      "last": 21,
+      "last": 23,
       "direction": "rising"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 24,
+      "events_usable": 27,
       "window_days": 30,
       "promotional_before": 0,
       "promotional_after": 0,
       "ratio": null,
       "events_rose": 0,
       "events_fell": 0,
-      "events_flat": 24,
+      "events_flat": 27,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -579,6 +579,20 @@
         },
         {
           "jurisdiction": "FL",
+          "event_date": "2026-09-01",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
+          "event_date": "2026-09-01",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "NE",
           "event_date": "2026-09-01",
           "before": 0,
           "after": 0,
@@ -655,13 +669,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "VA",
-          "event_date": "2026-08-18",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "AZ",
           "event_date": "2026-08-18",
           "before": 0,
@@ -706,6 +713,20 @@
         {
           "jurisdiction": "OK",
           "event_date": "2026-08-02",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "IN",
+          "event_date": "2026-07-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "IN",
+          "event_date": "2026-07-13",
           "before": 0,
           "after": 0,
           "change": 0
@@ -840,9 +861,9 @@
       },
       {
         "period": "2026-02-01",
-        "total": 4,
+        "total": 5,
         "promotional": 0,
-        "critical": 4,
+        "critical": 5,
         "mixed": 0,
         "neutral": 0,
         "opposition_events": 0,
@@ -905,12 +926,12 @@
       },
       {
         "period": "2026-07-01",
-        "total": 51,
+        "total": 56,
         "promotional": 6,
         "critical": 37,
         "mixed": 0,
-        "neutral": 8,
-        "opposition_events": 7,
+        "neutral": 13,
+        "opposition_events": 12,
         "agency_posts": 1,
         "sponsored": 0,
         "promotional_share": 0.14,
@@ -918,25 +939,25 @@
       },
       {
         "period": "2026-08-01",
-        "total": 156,
+        "total": 166,
         "promotional": 4,
-        "critical": 94,
+        "critical": 104,
         "mixed": 0,
         "neutral": 58,
         "opposition_events": 63,
         "agency_posts": 2,
         "sponsored": 0,
-        "promotional_share": 0.041,
+        "promotional_share": 0.037,
         "backfill": false
       },
       {
         "period": "2026-09-01",
-        "total": 36,
+        "total": 39,
         "promotional": 0,
-        "critical": 18,
+        "critical": 19,
         "mixed": 0,
-        "neutral": 18,
-        "opposition_events": 19,
+        "neutral": 20,
+        "opposition_events": 21,
         "agency_posts": 0,
         "sponsored": 0,
         "promotional_share": 0.0,
@@ -946,7 +967,7 @@
     "share_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": 0.005,
+      "slope_per_period": 0.0048,
       "first": 0.0,
       "last": 0.0,
       "direction": "flat"
@@ -954,21 +975,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 13,
-      "slope_per_period": 2.5275,
+      "slope_per_period": 2.7033,
       "first": 1,
-      "last": 19,
+      "last": 21,
       "direction": "rising"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 24,
+      "events_usable": 27,
       "window_days": 30,
       "promotional_before": 0,
       "promotional_after": 0,
       "ratio": null,
       "events_rose": 0,
       "events_fell": 0,
-      "events_flat": 24,
+      "events_flat": 27,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -1007,6 +1028,20 @@
         },
         {
           "jurisdiction": "FL",
+          "event_date": "2026-09-01",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
+          "event_date": "2026-09-01",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "NE",
           "event_date": "2026-09-01",
           "before": 0,
           "after": 0,
@@ -1083,13 +1118,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "VA",
-          "event_date": "2026-08-18",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "AZ",
           "event_date": "2026-08-18",
           "before": 0,
@@ -1134,6 +1162,20 @@
         {
           "jurisdiction": "OK",
           "event_date": "2026-08-02",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "IN",
+          "event_date": "2026-07-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "IN",
+          "event_date": "2026-07-13",
           "before": 0,
           "after": 0,
           "change": 0
