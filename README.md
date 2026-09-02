@@ -6,19 +6,6 @@ It is a lead generator for records requests. It is not a payment detector, and n
 
 ---
 
-## What changed in v2, and why
-
-**Grouping by shared phrase was removed.** v1 grouped stories by which watch phrase they contained, so every story using “within minutes” became one “amplification cluster.” Run against the current dataset, that method reported seven clusters; verbatim analysis of the same data reports zero. Two departments in different states can independently tell a reporter a plate hit came back within minutes. The old method turned that coincidence into a finding.
-
-Grouping now requires **contiguous runs of eight or more identical words** (five where only a short feed snippet was captured). Independent writers covering the same event share vocabulary, not long word runs. The overlapping passage is stored and displayed next to the claim so it can be checked rather than trusted.
-
-**Critical coverage is now collected.** v1 scored stories for promotional language and discarded anything below a threshold, so accountability reporting could never enter the dataset. Every per-outlet statistic was therefore uninterpretable: an outlet with twelve promotional stories looked identical whether or not it had also run five critical ones. The collector now deliberately searches for lawsuits, audits, privacy objections, cancelled contracts, ICE data-sharing and studies finding no crime effect, and keeps them. The **coverage balance** metric is the result, and an outlet that never publishes accountability coverage is a far more defensible observation than a phrase count.
-
-**Syndication is separated from independent pickup.** Station groups routinely run one story across many properties. Counted naively that looks like broad independent interest. Near-identical copy under different publisher names is now labelled as syndication and rolled up under the parent company, so one story counts as one story.
-
-Also: article body text is fetched where possible so reuse detection sees more than a 30-word RSS snippet; feed URLs are scheme-checked before they reach an `href`; derived views are cached so typing in a search box no longer rebuilds 375 agency matches per keystroke; and CSV exports are guarded against spreadsheet formula injection.
-
----
 
 ## Pressure & response: the timing claim
 
