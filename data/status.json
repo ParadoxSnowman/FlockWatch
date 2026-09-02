@@ -1,23 +1,24 @@
 {
-  "updated_at": "2026-09-01T23:49:47.290989Z",
+  "updated_at": "2026-09-02T05:49:12.635707Z",
   "collector": "public-rss",
-  "queries_ok": 0,
-  "queries_total": 41,
-  "agencies_checked": 0,
+  "queries_ok": 42,
+  "queries_total": 42,
+  "agencies_checked": 16,
   "agency_total": 375,
   "article_cadence_minutes": 60,
   "agency_rotation_hours": 24,
-  "signals_retained": 16,
+  "signals_retained": 189,
   "bodies_captured": 0,
   "bodies_enriched_this_run": 0,
   "stance_counts": {
+    "critical": 166,
     "neutral": 11,
-    "promotional": 5
+    "promotional": 12
   },
   "reuse_groups": 0,
   "syndication_groups": 0,
   "reuse_window_words": 8,
-  "records_updated_at": "2026-09-01T21:34:38.082534Z",
+  "records_updated_at": "2026-09-02T05:49:20.603056Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
