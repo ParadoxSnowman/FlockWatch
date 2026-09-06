@@ -1,7 +1,35 @@
 [
   {
+    "id": "auto-6d21d6ab87dc48",
+    "published_at": "2026-09-05T23:42:44Z",
+    "title": "2 metro Atlanta agencies promise new Flock rules amid misuse findings - ajc.com",
+    "summary": "2 metro Atlanta agencies promise new Flock rules amid misuse findings ajc.com",
+    "publisher": "ajc.com",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQkkxT18yX2pVd3RRUEVoUG5LQWF2V0FJb0hkcVFPQnpZVU1VZms0aDZLV3pXaHJ5cHYteFJGVmVWZDk5SDJjREhLQlVfZzZOZU4yTU9Yb3NjcmM2SUVnSi1uMlRFcm1tWGN1anNSZG5WU2tqVWhmTzJZbk9lSmFSeHBNOFhMbnlFeUw5NWdTNm5KTWJMeGNhTm9NenJQV3NNYVB3U1pEY2hTYzh4TkFIN0pDRE9kUXRz?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "first_seen": "2026-09-06T00:56:21.796167Z",
+    "body_status": "google-redirect",
+    "reuse_group": "reus-0e5fc96a055d",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 0.692,
+    "shared_shingle_count": 9,
+    "shared_shingle_size": 5,
+    "shared_passage": "2 metro atlanta agencies promise new flock rules amid misuse findings ajc com",
+    "shared_passage_words": 13
+  },
+  {
     "id": "auto-342bd496404dda",
-    "published_at": "2026-09-05T22:25:34Z",
+    "published_at": "2026-09-05T23:12:22Z",
     "title": "Michigan City officer resigns after misuse of Flock camera data - Chicago Tribune",
     "summary": "Michigan City officer resigns after misuse of Flock camera data Chicago Tribune",
     "publisher": "Chicago Tribune",
@@ -17,8 +45,8 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "state": "MI",
-    "first_seen": "2026-09-05T22:55:19.184867Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-05T22:55:19.184867Z"
   },
   {
     "id": "auto-2c4550c9f3f4a4",
@@ -37,8 +65,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "baseline",
-    "first_seen": "2026-09-05T22:55:19.184867Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-05T22:55:19.184867Z"
   },
   {
     "id": "auto-7f1e3ee6e19f25",
@@ -57,12 +85,12 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-05T22:55:19.184867Z",
     "body_status": "google-redirect",
-    "reuse_group": "reus-f706e7f8e0b0",
+    "first_seen": "2026-09-05T22:55:19.184867Z",
+    "reuse_group": "reus-a0678ca891f1",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 0.278,
+    "reuse_containment": 0.294,
     "shared_shingle_count": 5,
     "shared_shingle_size": 5,
     "shared_passage": "former pentagon ai chief warns flock cameras could create",
@@ -85,9 +113,9 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "baseline",
-    "first_seen": "2026-09-05T22:55:19.184867Z",
     "body_status": "google-redirect",
-    "reuse_group": "reus-f706e7f8e0b0",
+    "first_seen": "2026-09-05T22:55:19.184867Z",
+    "reuse_group": "reus-a0678ca891f1",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
     "reuse_containment": 1.0,
@@ -113,9 +141,9 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "baseline",
-    "first_seen": "2026-09-05T22:55:19.184867Z",
     "body_status": "google-redirect",
-    "reuse_group": "reus-f706e7f8e0b0",
+    "first_seen": "2026-09-05T22:55:19.184867Z",
+    "reuse_group": "reus-a0678ca891f1",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
@@ -123,6 +151,34 @@
     "shared_shingle_size": 5,
     "shared_passage": "former pentagon ai chief warns flock cameras could create 'china like surveillance state' in the us fox news former pentagon ai chief warns flock cameras could create 'china like surveillance state' in the us fox news",
     "shared_passage_words": 36
+  },
+  {
+    "id": "auto-7f9f66b6a34c2a",
+    "published_at": "2026-09-05T21:30:31Z",
+    "title": "Former Pentagon AI chief warns Flock cameras could create 'China-like surveillance state' in the US - Yahoo",
+    "summary": "Former Pentagon AI chief warns Flock cameras could create 'China-like surveillance state' in the US Yahoo",
+    "publisher": "Yahoo",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVHBFazNuZTh6cUQ0ZGo1YUFoMlVCQU4waEJDNEJqQ3ZjSmVXZ0FuT3BXdUV3RnFmT3BSTjZnMWJCOW9DdHI5bDliWGZKLUM2OFU4dU93UENSSnNwSS13eW91cS1PY25STV9hSk1UVU9OSkxfZ3hrZllHVlF4WlRfdG0xNnJtbElmMUZYN1pCS3FSM3Jf?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "baseline",
+    "first_seen": "2026-09-06T00:56:21.796167Z",
+    "body_status": "google-redirect",
+    "reuse_group": "reus-a0678ca891f1",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 0.706,
+    "shared_shingle_count": 12,
+    "shared_shingle_size": 5,
+    "shared_passage": "former pentagon ai chief warns flock cameras could create 'china like surveillance state' in the us",
+    "shared_passage_words": 16
   },
   {
     "id": "auto-cd7e3dadc95682",
@@ -164,15 +220,15 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T22:55:19.184867Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-05T22:55:19.184867Z"
   },
   {
     "id": "auto-3846dabc038c8a",
-    "published_at": "2026-09-05T16:17:00Z",
+    "published_at": "2026-09-05T18:18:00Z",
     "title": "Latest News and Analysis – Straight Arrow",
     "summary": "Smart glasses helped a man see the world. The privacy panic took it away . Smart glasses are getting banned across the country. For some visually impaired users, that’s not a privacy win — it’s a loss of sight. Getty Images . Social Issues . 6m read . Why Gen Z finally wants Boomer hand-me-downs .",
-    "publisher": "San Leandro Police Department",
+    "publisher": "San Mateo County Sheriff's Office",
     "url": "https://san.com/latest-news/",
     "domain": "san.com",
     "channel": "news",
@@ -185,9 +241,9 @@
     "origin_indicators": [],
     "query_set": "agency",
     "opposition_event": true,
-    "jurisdiction": "San Leandro Police Department, California",
+    "jurisdiction": "San Mateo County Sheriff's Office, California",
     "state": "CA",
-    "agency_id": "san-leandro-police-department-ca",
+    "agency_id": "san-mateo-county-sheriff-s-office-ca",
     "body_text": "Unbiased. Straight Facts. JOSH EDELSON/AFP via Getty Images Social Issues 8m read Smart glasses helped a man see the world. The privacy panic took it away Smart glasses are getting banned across the country. For some visually impaired users, that’s not a privacy win — it’s a loss of sight. While many turn to vintage to curb waste, research suggests that active vintage shoppers may actually increase their overall consumption. Welcome back to trustworthy journalism. Center-rated reporting According to media bias experts at AllSides . Perfect reliability rating, according to experts at NewsGuard Finally, unbiased news that lets you see both sides. It’s refreshing to have facts without the spin.” This app gives me the news without pushing a political agenda, which is rare to find.” Straight Arrow is fearlessly exposing the hard truths on the stories that matter most to you. No manipulation. No bias. No agenda. It’s harder than ever to discern fact from fiction, and mistrust of the media is at an all-time high. We exist to empower and equip you with the facts, so you can be free of the noise and anxiety of biased media. War in the Mideast Political violence Taxing trade The border and beyond Classroom culture First Amendment freedoms Job market pulse American health care Emerging energy Pressure on prices Get the Straight Arrow app Start your day with fact-based news. By entering your email, you agree to the Terms & Conditions and acknowledge the Privacy Policy . Sign me up Learn more about our emails. Unsubscribe anytime. Terms and Conditions | Privacy Notice (Updated) | Copyright Policy | Your Privacy Choices | Sitemap",
     "body_status": "captured",
     "first_seen": "2026-09-05T00:04:54.735061Z",
@@ -292,7 +348,7 @@
     "reuse_group": "reus-f302f099f5fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 0.529,
+    "reuse_containment": 0.562,
     "shared_shingle_count": 9,
     "shared_shingle_size": 5,
     "shared_passage": "of course flock cameras are being attacked congress has failed to regulate them",
@@ -438,11 +494,11 @@
     "shared_passage_words": 28
   },
   {
-    "id": "auto-a79c037483c0e5",
+    "id": "auto-e40c42cdecbd9b",
     "published_at": "2026-09-05T02:18:41Z",
-    "title": "2 Joliet PD members on leave for alleged misuse of Flock Safety Technology - WGN-TV",
-    "summary": "2 Joliet PD members on leave for alleged misuse of Flock Safety Technology WGN-TV",
-    "publisher": "WGN-TV",
+    "title": "2 Joliet PD members on leave for alleged misuse of Flock Safety Technology - wgntv.com",
+    "summary": "2 Joliet PD members on leave for alleged misuse of Flock Safety Technology wgntv.com",
+    "publisher": "wgntv.com",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pQWQxTWZuaEpfQVpqTW1ieFZDUWRBRmJLYld6amtGX0d5WGRhQTViYnVWVmZwVm9uZGVwWXZGTkNNLVVjQklqUkdaNDA5VnZKM1hMZ3FVTDZCYThQMzJuSThnazRUM0pfZnZj0gFwQVVfeXFMT2dGaE9ycXU1dzJJNkU2VXBUV294dEpuaDFhUm5fUDY0UWtlbE1TUUJhNkNMY0IzM2Q0MktIMkc1OVBjNmxzRmJyQmYwSWlZVUhoYnlja1VHZ3lCZG9NR2RpLTI4MFZYQkdOR2M2bERmaw?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -459,11 +515,11 @@
     "reuse_group": "reus-d304da16d070",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 1.0,
-    "shared_shingle_count": 15,
+    "reuse_containment": 0.643,
+    "shared_shingle_count": 9,
     "shared_shingle_size": 5,
-    "shared_passage": "2 joliet pd members on leave for alleged misuse of flock safety technology wgn tv 2 joliet pd members on leave for alleged misuse of flock safety technology wgn tv",
-    "shared_passage_words": 30
+    "shared_passage": "2 joliet pd members on leave for alleged misuse of flock safety technology",
+    "shared_passage_words": 13
   },
   {
     "id": "auto-9ce86de38e5fdd",
@@ -539,12 +595,12 @@
     "first_seen": "2026-09-05T04:26:45.557484Z"
   },
   {
-    "id": "auto-a2bb1b23d4dcc7",
-    "published_at": "2026-09-05T00:36:09Z",
-    "title": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash - abcnews.com",
-    "summary": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash abcnews.com",
-    "publisher": "abcnews.com",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUnN0UGQ1dXZYdng3WWlya25qdWVCRGk0ZWNBcEFkbVp6ZEY3Z214U0pyZVRsRU9KM0FHU2NYV2ZCNnhXNXpMSnZkTndKbjZqUy1aZ2dJMkZza240SjlIRHE4d0dHZW9zV3daNWJveDRoZlpwU0IzT3NrNWp6d21BTU9PSzhCNnJuM2Fnd2RSZUdWempCTlcwWHlUQWFNai1H0gGmAUFVX3lxTE9SR1FwSjJzTEFHdVdMdzQyRlV1SkZDWVBSMHAxLUVEcTJuRWRQY250LV9HR3RtOHAwMElQbHBVTXhCcVh1d1l1SkxNcEZTcnQ0cGw1aVJqT3NQSW8tU0RVS3JPbmNzYktDMDcyaWJXWmpwOF9GQmRuTXdndnRRWTNuTHEzNC1LRkJNWEE5WElzVlBWN25fSDZmOVJVcmFhbzZsb1ROeWc?oc=5",
+    "id": "auto-d8b80fe298173e",
+    "published_at": "2026-09-05T00:43:32Z",
+    "title": "Lorain County Sheriff’s Office to stop using Flock cameras - FOX 8 News",
+    "summary": "Lorain County Sheriff’s Office to stop using Flock cameras FOX 8 News Several SE Wisconsin law enforcement agencies dropping Flock Safety FOX6 News Milwaukee 2 metro Atlanta agencies promise new Flock rules amid misuse findings ajc.com",
+    "publisher": "FOX 8 News",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTUxVQ2xJY29KdkdOMTQwc2I2Uzdhc000dG5laWpZbVlvR0V0RDR1QmV1SmRmRmdIZUtkTlpsSThrOGFBWGYybjBmVDI1aVdvd3Fqd19BX050VUY4NU9hd3lITEZxNXRWQ1BVVGtFOWd4cVVMTDdjajZXRHFxV05CMllEUmRXbnPSAYwBQVVfeXFMTjNVN1pOc2VBNzJDcmZYUUdJX1E2d1ZuV1lNMXUxeTBES19KcEtrUUoxdHpweGcyUkVpS2hGLV9WLUpxTHV3LU0zekRFZUE2S0JGd1A4UWtYMl9YZnIxWmsxdW5SdWdiSWVKMWlZLTJUZzNPbV95SmR6aXpXdDdVdGIxSEVWRjM2WHZpOWc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
     "disclosure": "editorial",
@@ -554,9 +610,18 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "baseline",
+    "state": "WI",
+    "first_seen": "2026-09-06T00:56:21.796167Z",
     "body_status": "google-redirect",
-    "first_seen": "2026-09-03T18:38:14.853976Z"
+    "reuse_group": "reus-0e5fc96a055d",
+    "reuse_kind": "reuse",
+    "reuse_role": "earliest captured",
+    "reuse_containment": 0.692,
+    "shared_shingle_count": 9,
+    "shared_shingle_size": 5,
+    "shared_passage": "2 metro atlanta agencies promise new flock rules amid misuse findings ajc com",
+    "shared_passage_words": 13
   },
   {
     "id": "auto-809eb05281bc6a",
@@ -865,14 +930,14 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-05T04:26:45.557484Z",
-    "shared_shingle_count": 15,
+    "shared_shingle_count": 9,
     "shared_shingle_size": 5,
     "reuse_group": "reus-d304da16d070",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
-    "reuse_containment": 1.0,
-    "shared_passage": "2 joliet pd members on leave for alleged misuse of flock safety technology wgn tv 2 joliet pd members on leave for alleged misuse of flock safety technology wgn tv",
-    "shared_passage_words": 30
+    "reuse_containment": 0.643,
+    "shared_passage": "2 joliet pd members on leave for alleged misuse of flock safety technology",
+    "shared_passage_words": 13
   },
   {
     "id": "auto-feeb3a8707c680",
@@ -952,11 +1017,11 @@
     "shared_passage_words": 30
   },
   {
-    "id": "auto-cea0362802547f",
+    "id": "auto-49504acc79860e",
     "published_at": "2026-09-04T20:15:33Z",
-    "title": "Update: Seven Hall sheriff’s employees have been accused of Flock misuse. Here’s what local lawmakers want to do about it - gainesvilletimes.com",
-    "summary": "Update: Seven Hall sheriff’s employees have been accused of Flock misuse. Here’s what local lawmakers want to do about it gainesvilletimes.com",
-    "publisher": "gainesvilletimes.com",
+    "title": "Update: Seven Hall sheriff’s employees have been accused of Flock misuse. Here’s what local lawmakers want to do about it - Gainesville Times",
+    "summary": "Update: Seven Hall sheriff’s employees have been accused of Flock misuse. Here’s what local lawmakers want to do about it Gainesville Times",
+    "publisher": "Gainesville Times",
     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQk05RlZjaEd5b3c0YU41ZmkzOEtjVlZuRmJ3a2hIUDlmXzEwSzh1VFdhUDBERUFxSThwSTB4am5SLUJjcmFPV3c3U2t6NnMzTDdFTzJfQnp2WHZCV2swOUtVOGdNT05PbFdaQkRhaktHdFMtOXc0U202Rl9CdU03endiTzhWZzMwSlpjSUV0b0ZmRDBDSU5wYTU0WmRmWXB6ZG9TT2RQX0JiWnNQZHJFOE9UYkoybmdNakJseVJiSXZZWG9Pbi0yMHQxcHJ5OC1zTnVYTnZSMXNDQkZhaGNxaTZKMkZnN3Q3SkhjNThfeXZtZm8?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1099,11 +1164,11 @@
     "shared_passage_words": 30
   },
   {
-    "id": "auto-d33b60cf635292",
+    "id": "auto-5db771dbca8077",
     "published_at": "2026-09-04T19:46:50Z",
-    "title": "'Not what we agreed to.' Racine County sheriff orders removal of all Flock cameras - TMJ4 News",
-    "summary": "'Not what we agreed to.' Racine County sheriff orders removal of all Flock cameras TMJ4 News",
-    "publisher": "TMJ4 News",
+    "title": "'Not what we agreed to.' Racine County sheriff orders removal of all Flock cameras - tmj4.com",
+    "summary": "'Not what we agreed to.' Racine County sheriff orders removal of all Flock cameras tmj4.com",
+    "publisher": "tmj4.com",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPejU2cndKRV95SGZkamhBVFl6VmFfbHhQQmpHR3owU2NMOWVfN2JoWEhBeWN3N1ZoRm1NMHpDNTVkaFRJeEx3N2NaOERqSGRvYmhvbWpQU3NlLVAtS2xMd0tmaWUyN3RobzBXZ3dTZDZ3Z1MxSUNFRktsMVo3V1JkV1NaeHNUVmZBZUxYaG9nNi1felBoR1pqNENidkJuOEpFcWROWHFIeGgtbU5BM0JubTVKRmxZQ3VkUXp6WlJSbk4tMUxjamRuNkJvR0hlNTNtZUFmYllrRkh0eVJMY3ZrUjl3?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1168,11 +1233,11 @@
     "shared_passage_words": 28
   },
   {
-    "id": "auto-377a81da702294",
+    "id": "auto-3c6f3a88d2bb57",
     "published_at": "2026-09-04T18:13:00Z",
-    "title": "GBI asked to investigate Chatham County officer over Flock license plate reader misuse - wtoc.com",
-    "summary": "GBI asked to investigate Chatham County officer over Flock license plate reader misuse wtoc.com",
-    "publisher": "wtoc.com",
+    "title": "GBI asked to investigate Chatham County officer over Flock license plate reader misuse - WTOC",
+    "summary": "GBI asked to investigate Chatham County officer over Flock license plate reader misuse WTOC",
+    "publisher": "WTOC",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbnlFTUx3eDlCM3k3V1ZvUFBOQktybU9ZbVdNenlUdmFPRTZDOEVPdDVzNlFmdm5PNm5lOWdMVEk3UG04Z3RJN3lOZkoySmxkNW5hOHRCSElBcmx2ckp4YjhnbmxLQk9Vb0pualM0dnAtclY5MmV3M3otQnh2ejNVN0xGRy0tb2g0UW9FNkdfQlRDUWZaSnZ6bWFSODRLUjJqekdhc1YyMkxGUnBuT3EzU0trcmtjTU3SAcsBQVVfeXFMTVpvQWkwU1BZdkN3Yk83Tm9BM0dMZzBzakx4dXAwZWlLbnh2TUxEVWo2UmcxYXViejRxdGN4cV80dHB3MDBLd0RUM3UwbnkxdkRpUjV1ejRIX1h1SFNrM1YzQl9RQVZGcHRwVHc2b1JNT1NOY0JkeWpQVUg4NWJrNUdKRXNhNVNyWHFWODdvVTluN3ZwS2lyYUZVX3BxQl93UVFNbUdxM2tfWFZFa2tlYlRvNXRuLThXalVtM3FWTjkwY3FwVnVjVUQydVE?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1189,11 +1254,11 @@
     "reuse_group": "reus-fb86d15bf90f",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 0.714,
-    "shared_shingle_count": 10,
+    "reuse_containment": 1.0,
+    "shared_shingle_count": 14,
     "shared_shingle_size": 5,
-    "shared_passage": "gbi asked to investigate chatham county officer over flock license plate reader misuse wtoc",
-    "shared_passage_words": 14
+    "shared_passage": "gbi asked to investigate chatham county officer over flock license plate reader misuse wtoc gbi asked to investigate chatham county officer over flock license plate reader misuse wtoc",
+    "shared_passage_words": 28
   },
   {
     "id": "auto-9ff580196c333a",
@@ -1260,12 +1325,12 @@
     "opposition_event": true,
     "body_status": "google-redirect",
     "first_seen": "2026-09-04T18:24:04.528680Z",
-    "shared_shingle_count": 17,
-    "shared_shingle_size": 5,
     "reuse_group": "reus-3b7d570c4547",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
     "reuse_containment": 1.0,
+    "shared_shingle_count": 17,
+    "shared_shingle_size": 5,
     "shared_passage": "alexandria city council returns from recess with flock cameras tax relief policing board members on agenda patch alexandria city council returns from recess with flock cameras tax relief policing board members on agenda patch",
     "shared_passage_words": 34
   },
@@ -1289,12 +1354,12 @@
     "opposition_event": true,
     "body_status": "google-redirect",
     "first_seen": "2026-09-05T00:04:54.735061Z",
+    "shared_shingle_count": 17,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-3b7d570c4547",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
-    "shared_shingle_count": 17,
-    "shared_shingle_size": 5,
     "shared_passage": "alexandria city council returns from recess with flock cameras tax relief policing board members on agenda patch alexandria city council returns from recess with flock cameras tax relief policing board members on agenda patch",
     "shared_passage_words": 34
   },
@@ -1477,11 +1542,11 @@
     "first_seen": "2026-09-04T14:21:19.692985Z"
   },
   {
-    "id": "auto-7a793bdd4327fe",
+    "id": "auto-f73c3b2611b484",
     "published_at": "2026-09-04T09:08:00Z",
-    "title": "Knox County banned Flock cameras. What happens next? - knoxnews.com",
-    "summary": "Knox County banned Flock cameras. What happens next? knoxnews.com",
-    "publisher": "knoxnews.com",
+    "title": "Knox County banned Flock cameras. What happens next? - Knoxville News Sentinel",
+    "summary": "Knox County banned Flock cameras. What happens next? Knoxville News Sentinel",
+    "publisher": "Knoxville News Sentinel",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLUdwd21WbjZxRkU3NzJreEM5MmxkOEFnZ0VjTlZZczQ0WjNYY2tsVnl4Q2prd0tIdHpxNmx6NVZWZGNFS2c3ZWhuVlU0bncwZFdiZnN6WVZxM2x1M0lvTE1qd0dtZEhaa0d6Ulo3QlZ2RGxWOVB1YlBqT3c3OHgwaGN1RnlEWU5kODl4Q0phSF93TUVXUmpMVnNOZFhaa3lRUmpuX3VFTzE1X2RXM3hFOUpHR0hDZXc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1716,11 +1781,11 @@
     "shared_passage_words": 26
   },
   {
-    "id": "auto-196e88134e5c7e",
+    "id": "auto-2a9c5f4e57cf64",
     "published_at": "2026-09-03T23:28:00Z",
-    "title": "Flock camera scrutiny grows as local officers allegedly misuse system - wlky.com",
-    "summary": "Flock camera scrutiny grows as local officers allegedly misuse system wlky.com",
-    "publisher": "wlky.com",
+    "title": "Flock camera scrutiny grows as local officers allegedly misuse system - WLKY",
+    "summary": "Flock camera scrutiny grows as local officers allegedly misuse system WLKY",
+    "publisher": "WLKY",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX0VNek9ZNXphRVZoQTNpNGlqSUg1YV9WT0lKSkQwTWZCaDJtOGJ0eWdSdDZ0UDlXUkRpbVkyM19ZN0dkd3RGRWFPb01QZUNrLUN6Xy1VQ2N3RVF5T3pqQlBjNDQyZTNLWFBYRE80R2FRb1JJcjU0RlpYSEFLS3B6aVZ3Um94UnNzdmhKcFlhU3RsZw?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1800,11 +1865,11 @@
     "first_seen": "2026-09-04T00:05:44.026844Z"
   },
   {
-    "id": "auto-fe8702e7134f2b",
+    "id": "auto-4f8fbc20b486f9",
     "published_at": "2026-09-03T21:34:00Z",
-    "title": "Kenosha says farewell to Flock, drops license plate readers citing security, misuse and data sharing concerns - TMJ4 News",
-    "summary": "Kenosha says farewell to Flock, drops license plate readers citing security, misuse and data sharing concerns TMJ4 News",
-    "publisher": "TMJ4 News",
+    "title": "Kenosha says farewell to Flock, drops license plate readers citing security, misuse and data sharing concerns - tmj4.com",
+    "summary": "Kenosha says farewell to Flock, drops license plate readers citing security, misuse and data sharing concerns tmj4.com",
+    "publisher": "tmj4.com",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMVR2andYSXlKRWYyclFmUmZ6cWFhbkhTY2hYWEZxV2VZT1lqcEJzR3IwMF9UdXpvOUdSbHgwYzRmUkNTc3R1RkZOcEFacU5GRTkwRUhsRWJDWDZFSmR4Z1ZuTVdjZEViSENjWExadUlqMkxOU0FoSWdnbl9aY3V3eGJxR202cFpWLTRGWHZIVmlzdmQzaUlRNkRSV2tMemtxdENvWjh1LThIY0FDMTFnYktHZXlJT01JMVpfeHRIYnhlUE9OaXBzdUR6QzgzWTlvV0hXcy1NVVdvU2czaUNBeGp3?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1921,11 +1986,11 @@
     "first_seen": "2026-09-03T21:42:46.207920Z"
   },
   {
-    "id": "auto-917c8b3732f94d",
+    "id": "auto-642176b517262f",
     "published_at": "2026-09-03T18:40:58Z",
-    "title": "Sterling Heights City Council plans Flock vote in October - C&G Newspapers",
-    "summary": "Sterling Heights City Council plans Flock vote in October C&G Newspapers",
-    "publisher": "C&G Newspapers",
+    "title": "Sterling Heights City Council plans Flock vote in October - candgnews.com",
+    "summary": "Sterling Heights City Council plans Flock vote in October candgnews.com",
+    "publisher": "candgnews.com",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkl6eXRlTGxWaWlUQ2xYUFJCRkJzeksxV1dWcW5UeW1HazAyeUJjYmhFbjJBbFljTi1KUUM5c3J3aFRoYlVyYTdESkZmOE1yQkRxQWpXTmZpc05fZ1R1N1RUMHF3VW4xdW5RaG1ubkQyTmNZUGVUSlJVM0RBVmRjc2RUUjZSTTl5RGc4Y25CTzBBSXdQcG01Z09LdVJqVXg4NXZtZi1KZ0M4Z0ZGZXc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -1960,6 +2025,26 @@
     "query_set": "baseline",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T21:42:46.207920Z"
+  },
+  {
+    "id": "auto-211efddef75812",
+    "published_at": "2026-09-03T18:25:00Z",
+    "title": "New details on Georgian’s class-action lawsuit against Flock - WRDW",
+    "summary": "New details on Georgian’s class-action lawsuit against Flock WRDW",
+    "publisher": "WRDW",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWkFZZ3dyNk5ZcnZTRGhqZFNsazB5czRUOWlQOEZ4QklWOUJnN295UE5nWFZlTm1ZaF9NNWdqb0RGbVNWcVduV05pc18zVGVnaGQ3ZFVESHEwTEdUOHBIeExENVd5Z1puZEtXX0pFOExJRWFXbGF5MEtYSzZYcElUdzdkbHBzY2lKOUVUZmVMMUVlUTjSAacBQVVfeXFMT1hhNWNMakVIeFFlVTZWbEljbE1mMy1PeWdpZC1udDlScm11UFJ5Mm5QalZfZzgxTUMyM3dqU1I1TExKMEhpYzBhMEZ3RkZyUE53Uko5UmR0Wmk2SlR6ekhlejA5cGtYM21SaGYxY3VxaDVWRVJSblFVVS0zRWxlanlsOHNNZjBOb3VfVEZHVGRFbVdESE5xWU93VFVKakRsOHpTdXhCU2s?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "first_seen": "2026-09-06T00:56:21.796167Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-29053312a7efb9",
@@ -2167,11 +2252,11 @@
     "shared_passage_words": 14
   },
   {
-    "id": "auto-7829dc3a94efa2",
+    "id": "auto-ffc356c26d5c43",
     "published_at": "2026-09-03T14:48:43Z",
-    "title": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse - abcnews.com",
-    "summary": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse abcnews.com",
-    "publisher": "abcnews.com",
+    "title": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse - ABC News - Breaking News, Latest News and Videos",
+    "summary": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse ABC News - Breaking News, Latest News and Videos",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFVMWW54ZUxmelNmNEx3QXlZZms0bFhzeFlwU1VHR204clFvdEhUUDdsV2J4cENJMVA4OFdZMElkUTdpdV9IQmE4S0tUOTR1VHI1czh1YXlmVWtDdV91ZUF4U3owMlREaDZSY0E3a0FaUnZ2YW9lUU83bjAwSlVNUDYzb0Zzd1RYZkR3V0NlclhGWkh3cnVCTUdxdXV2Vk9JREZLdDhXS1JveGvSAbABQVVfeXFMTVhrLWZGZlllMFZmdWdYOFk3RXB4Z2ExcVNaSDBKekwzMTc3czNKYU9OSWJOV3l5d0lWMUY3T1k4OE9WLWtLZmg1b3lwdkoxblFaSVVmN0RoMmxwN05RWUNpYUQ3TWZoS1Y0TVhwSlFTeU9OWUp0Vmg2MHJ5Ukp4SHNzMDNpZ0ZHbk1KTDZYR1V5c295ZWVUM1J5Q2pPbDNyaTZRRVVQaFkwcERFV3lsU3A?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -2184,7 +2269,15 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "body_status": "google-redirect",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "reuse_group": "reus-d2e5618cd4fc",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 0.462,
+    "shared_shingle_count": 6,
+    "shared_shingle_size": 5,
+    "shared_passage": "flock cameras trigger nationwide backlash over privacy concerns police abuse",
+    "shared_passage_words": 10
   },
   {
     "id": "auto-568854f893a80e",
@@ -2470,11 +2563,11 @@
     "shared_passage_words": 60
   },
   {
-    "id": "auto-a159258f27ffc1",
+    "id": "auto-1d6ced27f5d86a",
     "published_at": "2026-09-03T07:00:00Z",
-    "title": "Surveillance vs. Safety: Police chief addresses Flock camera concerns at Camarillo City Council meeting - VC Reporter",
-    "summary": "Surveillance vs. Safety: Police chief addresses Flock camera concerns at Camarillo City Council meeting VC Reporter",
-    "publisher": "VC Reporter",
+    "title": "Surveillance vs. Safety: Police chief addresses Flock camera concerns at Camarillo City Council meeting - vcreporter.com",
+    "summary": "Surveillance vs. Safety: Police chief addresses Flock camera concerns at Camarillo City Council meeting vcreporter.com",
+    "publisher": "vcreporter.com",
     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPVFJwUjJ5SDBIdElUQ1Z1UXpVSktRSUZZYXoyV21sNFRlenl1Nzhlci14RU92N0w1c29vZ2tsNi0zalhWWERrNlVhT1dyMGZkaXZBZzZpTVpzTzd1WXNOcGlBSFg4VmNlSlBWVGttTUNfNnRHU1FNVnR3NjZCVjNGYzB0QV9OU3ppMHFKbEhtbldPZE1oNXNJQVhCczhwQWlScFFaWUxKb0thWmt3S3A2TzNZSUdTX1M2YW8xdlNyTWpVazFQeXdXaXRPSWVGMlkybUtDRVJNTElodHI5ZTlFVl80b1BDSXIxMjNzcEg4NmZWZmhWb3l2b1FGTW9lOHA2dE1oaHpKeFZPcDgtd3lYTg?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -3570,11 +3663,11 @@
     "body_status": "too short"
   },
   {
-    "id": "auto-2e7673a3142850",
+    "id": "auto-be72daf45a7201",
     "published_at": "2026-09-02T13:09:00Z",
-    "title": "Flock cameras get bagged in Chetek; By City Council 3-1 vote - news-shield.com",
-    "summary": "Flock cameras get bagged in Chetek; By City Council 3-1 vote news-shield.com",
-    "publisher": "news-shield.com",
+    "title": "Flock cameras get bagged in Chetek; By City Council 3-1 vote - Barron News-Shield",
+    "summary": "Flock cameras get bagged in Chetek; By City Council 3-1 vote Barron News-Shield",
+    "publisher": "Barron News-Shield",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUERvOXZBUHVSSXZjd3ZkeEg5UHJ5WWlPVUdLZUw5eEVEVVBNV1ZITUFCVndLSXIxVmMyZXBnazFGTmg1QkVQdk1VRDQ4Wml6SnpDLXA2VDBlaFR5TXUwRGs5RHU1N0p2NmNLU1kzSmVKT3I0eHE4LWpFSTJTYUVxeHA4aURMaGI5Sk9Kc2pEZ0NldUw4T2hJTVBB?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -3622,11 +3715,11 @@
     "syndication_group": "mixe-593beaaa0f50"
   },
   {
-    "id": "auto-642432c8a40926",
+    "id": "auto-4e1208489ec6b8",
     "published_at": "2026-09-02T12:07:00Z",
-    "title": "Flock cuts plate reader data retention, but ACLU wants deeper changes - northjersey.com",
-    "summary": "Flock cuts plate reader data retention, but ACLU wants deeper changes northjersey.com",
-    "publisher": "northjersey.com",
+    "title": "Flock cuts plate reader data retention, but ACLU wants deeper changes - Bergen Record",
+    "summary": "Flock cuts plate reader data retention, but ACLU wants deeper changes Bergen Record",
+    "publisher": "Bergen Record",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGJSc2ZGT2tfdlJmSVhXTW9WdkZvUUdlckVDOF8zb1BKelVIcXY0X0M2QXNkbkdtZUhVblB1dllxQjdxbFJ2WThjRkQ3dXdobUNad2tuOU1WdVZ3b1BZT3JlRE9Oa2ViMWVZT1JRREt5TjJ2Z0x5eExMbXNxVDlXUUc2VGtkbXJ1RFl2SWNtNE1YOHVkUnpER0liNWpiTF81LXZIOVFoTmlkeGht?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -4126,11 +4219,11 @@
     "first_seen": "2026-09-02T21:49:03.664388Z"
   },
   {
-    "id": "auto-0f6bdb6aa5188f",
+    "id": "auto-bc37a12a74cadf",
     "published_at": "2026-09-01T23:56:19Z",
-    "title": "Brunswick County sheriff’s employee resigns amid alleged misuse of Flock cameras - wwaytv3.com",
-    "summary": "Brunswick County sheriff’s employee resigns amid alleged misuse of Flock cameras wwaytv3.com",
-    "publisher": "wwaytv3.com",
+    "title": "Brunswick County sheriff’s employee resigns amid alleged misuse of Flock cameras - WWAYTV3",
+    "summary": "Brunswick County sheriff’s employee resigns amid alleged misuse of Flock cameras WWAYTV3",
+    "publisher": "WWAYTV3",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1ZOeUhSOE1NbHY5dWdXVENiekxldDhrd3hNMWdPR1FJV1dYZGVUTXlBWElXSkdqWFNSUjVwOFpzRF96alB1dHBDZGgtLUtxZW5YTTYwYVVsQ2FKUmcxejJTemh3S0ZFMkR0LXNpeW9QNlNLbGZtczg0V0M2b2JoNWduWGlFVzFzRm1IUDJtVFZzOXNnWEtFTXR2LVo1Q3ZXNmlxUkE4aw?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -4208,7 +4301,7 @@
     "first_seen": "2026-09-03T14:34:06.443690Z",
     "shared_shingle_count": 13,
     "shared_shingle_size": 5,
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
@@ -4257,7 +4350,7 @@
     "first_seen": "2026-09-03T09:48:28.559553Z",
     "shared_shingle_count": 13,
     "shared_shingle_size": 5,
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
@@ -4285,11 +4378,11 @@
     "first_seen": "2026-09-03T04:35:33.173739Z"
   },
   {
-    "id": "auto-171af675c0b35a",
+    "id": "auto-5b242df8b7d4a0",
     "published_at": "2026-09-01T22:05:00Z",
-    "title": "Florida Orders Removal of Flock Cameras From State Highways - Business Insider",
-    "summary": "Florida Orders Removal of Flock Cameras From State Highways Business Insider",
-    "publisher": "Business Insider",
+    "title": "Florida Orders Removal of Flock Cameras From State Highways - businessinsider.com",
+    "summary": "Florida Orders Removal of Flock Cameras From State Highways businessinsider.com",
+    "publisher": "businessinsider.com",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDZMQzdyMUI4WkRhMmtzbEJTVVBHMFZuTkowTmZXMkpRdTJscGZTREVNMzJqek9DaDVDbVplVi1oRDZNRlgxYjFLSFhpemVJbDAzUXlMVGNMLWZxWkxPektSMVZMYno5VUNkTVRwN24wYUhnRDFhM2dTczVYWkRQY3lraVp1c244U3A2V0x1OWJMUU1GMTVVOF9MN1IzcGZDTnltQWNZdWVxeFk2YUZ2Mg?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -4348,11 +4441,11 @@
     "first_seen": "2026-09-02T15:08:25.534599Z"
   },
   {
-    "id": "auto-e05e7776ca5f4c",
+    "id": "auto-7b2f5bf2091973",
     "published_at": "2026-09-01T21:57:00Z",
-    "title": "FL orders removal of license plate readers, including Flock cameras - cnn.com",
-    "summary": "FL orders removal of license plate readers, including Flock cameras cnn.com",
-    "publisher": "cnn.com",
+    "title": "FL orders removal of license plate readers, including Flock cameras - CNN",
+    "summary": "FL orders removal of license plate readers, including Flock cameras CNN",
+    "publisher": "CNN",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeXREbXAxTWpkVFRxMmtya0N1VXJOS3JGc0JRdXQ0b2prT01KdW94NUpLdzNiRlRFVlp2TWYxX3B5cEVCaUJBREt5YUVMWGl2Q1ljTVZqMVdzOXZFVFV6THN3bHdyX2owY2tnYUx1aS1ldkh1QjZmRmVlQVRiQkRzbXhPMjFZUk1CbXczTXpXMk13QWpiNFE?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -4369,11 +4462,11 @@
     "first_seen": "2026-09-03T21:42:46.207920Z"
   },
   {
-    "id": "auto-e3eec7a12b18c2",
+    "id": "auto-338cc1a5e1b151",
     "published_at": "2026-09-01T21:30:07Z",
-    "title": "Georgia corrections special agent arrested in Flock system misuse case - 41nbc.com",
-    "summary": "Georgia corrections special agent arrested in Flock system misuse case 41nbc.com",
-    "publisher": "41nbc.com",
+    "title": "Georgia corrections special agent arrested in Flock system misuse case - 41NBC News",
+    "summary": "Georgia corrections special agent arrested in Flock system misuse case 41NBC News",
+    "publisher": "41NBC News",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OTkNIRjBGcGRSYVU2OVVyTEgzZFBwTTIxMDYtd2k5a3doeEF6TThMeTM4YUJUWjJRZFhHMFJzcDhDTmY1OFdyaGZxLV9SWjU0OThQSHV6UVVHWklXRFF4X1JhMVo5MUNDMDJ6ZWpUR3VlcE5IVGc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -4431,7 +4524,7 @@
     "first_seen": "2026-09-03T04:35:33.173739Z",
     "shared_shingle_count": 9,
     "shared_shingle_size": 5,
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.692,
@@ -4850,7 +4943,7 @@
     "first_seen": "2026-09-02T21:49:03.664388Z",
     "shared_shingle_count": 13,
     "shared_shingle_size": 5,
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
@@ -4897,7 +4990,7 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T09:48:28.559553Z",
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.462,
@@ -5049,9 +5142,9 @@
     "first_seen": "2026-09-02T11:27:02.398145Z",
     "shared_shingle_count": 6,
     "shared_shingle_size": 5,
-    "reuse_group": "reus-168ad86d1269",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
-    "reuse_role": "earliest captured",
+    "reuse_role": "later capture",
     "reuse_containment": 0.462,
     "shared_passage": "flock cameras trigger nationwide backlash over privacy concerns police abuse",
     "shared_passage_words": 10
@@ -5242,11 +5335,11 @@
     "first_seen": "2026-09-02T18:41:40.498821Z"
   },
   {
-    "id": "auto-b45ba9cbf41d44",
+    "id": "auto-849783fcefb83c",
     "published_at": "2026-09-01T15:49:00Z",
-    "title": "Brunswick Co. Sheriff’s Office employee resigns amid investigation into Flock system misuse - WECT",
-    "summary": "Brunswick Co. Sheriff’s Office employee resigns amid investigation into Flock system misuse WECT",
-    "publisher": "WECT",
+    "title": "Brunswick Co. Sheriff’s Office employee resigns amid investigation into Flock system misuse - wect.com",
+    "summary": "Brunswick Co. Sheriff’s Office employee resigns amid investigation into Flock system misuse wect.com",
+    "publisher": "wect.com",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRDI0RjcxaXYwVDhESWhKYUpBVzNScVpsNGxmeHpkN1ltdEhQNTlLTkdkSWFRUE9VRFNCVXBnS19vYmQ5RWZTNklGZW1UM2o5TFM0RVdGeVpBXy1SS1dBQl9LUWhIbHVUU1FDQzdXM0FLWmZOaVlHZWl1OWpqbU5zc1V2d09WRGJBSUhaOFBqek9pMVZFZG1iTDlEZVhERk9WdXVLTWVqZ2FjZ083RW5acUU3RWgxYWhrdzMxVWpBRdIB0wFBVV95cUxPTk1vOTZrbTloMG03aU1pRHJDREltc0U2ejNlNVQ3Z1JQclMzOW1ZdkF0YXhqNDhmdGRpSnhJSmxTWHlaeWRPYVZJXzlGNFNVT3VyWTdlSHB1SW9rT0FpY2VULTJtcmYzLWRYZzlVSlVZeHZrWGw1Ni16TFBLMUZkOXRBQTlkWjJUbG1Bb0FfdEZpTUFVU0JTbDFqVXFmakJHUDFNNzNHdGpkZE41NDYwYWlEeWk2VTBNOExaZHNrMUtQRE9zcVBCcFgxT09GUnNRV2Jr?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -5372,11 +5465,11 @@
     "shared_passage_words": 8
   },
   {
-    "id": "auto-6225f1c4ba47b5",
+    "id": "auto-1b53fbb84720fe",
     "published_at": "2026-09-01T10:07:00Z",
-    "title": "Contributor: Of course Flock cameras are being attacked. Congress has failed to regulate them - Los Angeles Times",
-    "summary": "Contributor: Of course Flock cameras are being attacked. Congress has failed to regulate them Los Angeles Times",
-    "publisher": "Los Angeles Times",
+    "title": "Contributor: Of course Flock cameras are being attacked. Congress has failed to regulate them - latimes.com",
+    "summary": "Contributor: Of course Flock cameras are being attacked. Congress has failed to regulate them latimes.com",
+    "publisher": "latimes.com",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZlVnemh6TFdEMEZtMGlwUllhVGJ5Y1JQWXNGZE9yS0NjamlMakVoWF9BcTBySDAwVlBRbFFIelYyRkpkN2lyQzFBV2dXU09qTFppVTJvcEQtMVh1RE5pMHl6bzFqMnNHVEtwQkhwVmVRX2llaV9zb3drUUtPZ1FWSmhOU1A2RE5IQ1E?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -5393,7 +5486,7 @@
     "reuse_group": "reus-f302f099f5fc",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
-    "reuse_containment": 0.529,
+    "reuse_containment": 0.562,
     "shared_shingle_count": 9,
     "shared_shingle_size": 5,
     "shared_passage": "of course flock cameras are being attacked congress has failed to regulate them",
@@ -5464,11 +5557,11 @@
     "body_status": "too short"
   },
   {
-    "id": "auto-a44072cd72c62d",
+    "id": "auto-c59c0bf21daa09",
     "published_at": "2026-09-01T03:44:34Z",
-    "title": "Knox County Commission unanimously votes to remove all Flock cameras - wate.com",
-    "summary": "Knox County Commission unanimously votes to remove all Flock cameras wate.com",
-    "publisher": "wate.com",
+    "title": "Knox County Commission unanimously votes to remove all Flock cameras - WATE 6 On Your Side",
+    "summary": "Knox County Commission unanimously votes to remove all Flock cameras WATE 6 On Your Side",
+    "publisher": "WATE 6 On Your Side",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3MzcW9pUjk5Q01ELVpVYmhYYU5oa2V2UnZjZTNVWjFDa3ZyMDlkN3l1aUV3b01LZFZYSkNCT2NpeGUwXzJNbDRjUEtwZkgtekliUGRpWXc5MVdrZnFKcDQ4cnV3T0ZVUEZPYlB1NHN0N1NNYWh3RmxEOUI4aVo5aGtXdEI3clQ50gGOAUFVX3lxTE5mQkFab3hjR3pWWlY0TFF4b1prVnljWXlpY1BaSEZERFh4SE45RTJ1aW1ZcEx0SExZaVk4SFBGbUtSRmJxQWx5Zk9yQ3pfME5GbzBVM2xNRlotRTV6cXNrRFg4N1J2WThRRXRhT1cweDZLSEd5YnU0UXU0NVNRWnlDRnFOWkJfSVhVYnZCSnc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -5482,7 +5575,15 @@
     "query_set": "opposition",
     "opposition_event": true,
     "body_status": "google-redirect",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "reuse_group": "reus-da26b821033d",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 1.0,
+    "shared_shingle_count": 15,
+    "shared_shingle_size": 5,
+    "shared_passage": "knox county commission unanimously votes to remove all flock cameras wate 6 on your side knox county commission unanimously votes to remove all flock cameras wate 6 on your side",
+    "shared_passage_words": 30
   },
   {
     "id": "auto-3216bf0ad05ca8",
@@ -5975,7 +6076,13 @@
     "first_seen": "2026-09-03T00:14:56.237605Z",
     "body_status": "google-redirect",
     "shared_shingle_count": 15,
-    "shared_shingle_size": 5
+    "shared_shingle_size": 5,
+    "reuse_group": "reus-da26b821033d",
+    "reuse_kind": "reuse",
+    "reuse_role": "earliest captured",
+    "reuse_containment": 1.0,
+    "shared_passage": "knox county commission unanimously votes to remove all flock cameras wate 6 on your side knox county commission unanimously votes to remove all flock cameras wate 6 on your side",
+    "shared_passage_words": 30
   },
   {
     "id": "auto-b8ab824e77f5a3",
@@ -6072,11 +6179,11 @@
     "shared_passage_words": 28
   },
   {
-    "id": "auto-ee905eb1bf5cb2",
+    "id": "auto-c6650546947528",
     "published_at": "2026-08-31T21:17:35Z",
-    "title": "Two RCSO deputies arrested for Flock Camera misuse - wjbf.com",
-    "summary": "Two RCSO deputies arrested for Flock Camera misuse wjbf.com",
-    "publisher": "wjbf.com",
+    "title": "Two RCSO deputies arrested for Flock Camera misuse - WJBF",
+    "summary": "Two RCSO deputies arrested for Flock Camera misuse WJBF",
+    "publisher": "WJBF",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQzRnUTRhN1ZiU3NPQjBQU3BVWUdGOHFhcThnYjBBSlRkcWEzOTNKUktrYUl2cG04Y0ptQ0dqQTJENWFHakVDUUJQdDFFUDkxNzQ2R3JkcjZCZHNaMzhHaUlaZGhDbFE5azkzSC1Dd2ZTdDl2Zmlkekc5VHZXTGRLcFc3Z9IBiAFBVV95cUxQckpqdFBtNUw0MURaUDA1SkduLXpMdXhOek96S3B6cEpDcG9KbWp6bVR4bWJoblRCejJmLUtqNWRrMjRXNEp2WmNYOHg4N1ZWN2Rkd1k2NE1JU1dRdXZQMEowZkFWVGQ4TXRsNlowQjBUY3JGVFY0cDZ2XzU1T19vSWxVU2JYZVpQ?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -6092,11 +6199,11 @@
     "first_seen": "2026-09-02T21:49:03.664388Z"
   },
   {
-    "id": "auto-46f87ab943ddb1",
+    "id": "auto-b2ca17e7d2f813",
     "published_at": "2026-08-31T20:52:00Z",
-    "title": "FDOT orders removal of Flock cameras along Florida state highways - baynews9.com",
-    "summary": "FDOT orders removal of Flock cameras along Florida state highways baynews9.com",
-    "publisher": "baynews9.com",
+    "title": "FDOT orders removal of Flock cameras along Florida state highways - Spectrum Bay News 9",
+    "summary": "FDOT orders removal of Flock cameras along Florida state highways Spectrum Bay News 9",
+    "publisher": "Spectrum Bay News 9",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb1lSNVNDRnlxTks3RGpkMzRJOW5BVEIzRGY2WDVWZWxZZmJuT2plV3IxN196UGcyWkVBRFVNblpYRlpKN1p3V0JqcVVmc2liak1wQ0NkWDNERk5MNFRsSjZxeHpveHpVbjB1dkZhNFQ5dEU3NmZURmw4aXhqQzk4NzRlRzRYLUZ1RkU3OW14WkZHNzJLZ1ZxYUw2Y2FhSXh2NnV5b1VpallJRVR6MEVRTA?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -8382,12 +8489,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z",
-    "shared_shingle_count": 14,
-    "shared_shingle_size": 5,
     "reuse_group": "reus-a5256fe1beb2",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
     "reuse_containment": 1.0,
+    "shared_shingle_count": 14,
+    "shared_shingle_size": 5,
     "shared_passage": "lufkin police officer indicted on 100 counts related to flock camera misuse kltv com lufkin police officer indicted on 100 counts related to flock camera misuse kltv com",
     "shared_passage_words": 28
   },
@@ -8486,7 +8593,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "promotional",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T21:42:46.207920Z",
     "reuse_group": "reus-a5256fe1beb2",
@@ -8724,11 +8831,11 @@
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
-    "id": "auto-79e11641ee53fb",
+    "id": "auto-a13b4012d56309",
     "published_at": "2026-08-22T07:00:00Z",
-    "title": "Grand jury indicts Lufkin police officer on 100 felony counts for alleged misuse of Flock cameras - The Lufkin Daily News",
-    "summary": "Grand jury indicts Lufkin police officer on 100 felony counts for alleged misuse of Flock cameras The Lufkin Daily News",
-    "publisher": "The Lufkin Daily News",
+    "title": "Grand jury indicts Lufkin police officer on 100 felony counts for alleged misuse of Flock cameras - lufkindailynews.com",
+    "summary": "Grand jury indicts Lufkin police officer on 100 felony counts for alleged misuse of Flock cameras lufkindailynews.com",
+    "publisher": "lufkindailynews.com",
     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZE53b2Q0bkJMc2xDMmM2elBGNGJkQ191eXNfWU0tUHl3SjZjbk5zTWM3Rk9rMTQ2SW1YRjA0YWFvXzhXY1VneDV1d2NickFpSkZkdm0wU0ZkVFJUdzkzVEk0eXVVV1pyMXl4ZEdrb2J5bk12czhLeE1IM0pRWk1hUUZWV3JrMnZNV0ZZLW9GeEktWkMtOGxadV8ydDJ5RlUzQ0VpbkRtZWwtZURTZ09mTFVuUExTMXJsYW1yWHlaMmhYbFc2ZmdsLUxodHZHRFhSQUxCNTlqeXhHMnVFQlVycU9BQlN2QTlvUXkzU0s5bHZpVDJrTWZ2ek8xTENTczJaSTlFaUxZSjRHUQ?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -9242,11 +9349,11 @@
     "shared_passage_words": 30
   },
   {
-    "id": "auto-7094fa12ce583a",
+    "id": "auto-df940359949cd0",
     "published_at": "2026-08-20T16:16:45Z",
-    "title": "Mayor Collins Vetoes Ban on Flock Safety Cameras - marioncountynow.com",
-    "summary": "Mayor Collins Vetoes Ban on Flock Safety Cameras marioncountynow.com",
-    "publisher": "marioncountynow.com",
+    "title": "Mayor Collins Vetoes Ban on Flock Safety Cameras - Marion County Now",
+    "summary": "Mayor Collins Vetoes Ban on Flock Safety Cameras Marion County Now",
+    "publisher": "Marion County Now",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSTJRX0R3YllYS2pvZGNKMGlLT1A4TGozNU9yQk9kVUhyQTJnVFNIbzN3OUthdl93VHVsdm8wRXB5Mmt2djg2dld6NGI3cEFGbExsanM2RjJ4dHhscnF2cnNXXzZEdF9RLUJrejZRaktPQlduYS1MV2Z4UnNCWTYzc05JdzB4ZXNNcjF3NUxDeEl4blU?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -9444,11 +9551,11 @@
     "shared_passage_words": 26
   },
   {
-    "id": "auto-a0376c371207e5",
+    "id": "auto-9a8bd72a3304e6",
     "published_at": "2026-08-20T07:00:00Z",
-    "title": "Oxford city council becomes first southwest Ohio jurisdiction to vote to end Flock camera program - wlwt.com",
-    "summary": "Oxford city council becomes first southwest Ohio jurisdiction to vote to end Flock camera program wlwt.com",
-    "publisher": "wlwt.com",
+    "title": "Oxford city council becomes first southwest Ohio jurisdiction to vote to end Flock camera program - WLWT",
+    "summary": "Oxford city council becomes first southwest Ohio jurisdiction to vote to end Flock camera program WLWT",
+    "publisher": "WLWT",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYW5qS3lWeEpaX0gzb2lVM0FQRWp0bjM2Y1J5WUJMZXllRWxQTGl2VHBPWHF5bW1USkdGNWRfYjlFYUtzNXhoYXh4dnlqazNsMENucnc1SUxkTFJRQjZPQ2N0eWNkT3RnNkNmMlBoOVdzalNCZS1GV2hmaVl1Y3JBZFRQbm8weTY0Y25LQ2F5WlB1VGd2WjRLWQ?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -10018,11 +10125,11 @@
     "first_seen": "2026-09-04T00:05:44.026844Z"
   },
   {
-    "id": "auto-31b9f5a7ef0e8f",
+    "id": "auto-e801c07587c736",
     "published_at": "2026-08-19T07:00:00Z",
-    "title": "New Bedford police provide update on Flock cameras audit after alleged misuse - WCVB",
-    "summary": "New Bedford police provide update on Flock cameras audit after alleged misuse WCVB",
-    "publisher": "WCVB",
+    "title": "New Bedford police provide update on Flock cameras audit after alleged misuse - wcvb.com",
+    "summary": "New Bedford police provide update on Flock cameras audit after alleged misuse wcvb.com",
+    "publisher": "wcvb.com",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSUdIbm9YNUcxZktrQ3FBN0RjWk5uczdsY29fT3dDa1I4dDRpSDdoNzh0M2xNNXR4dGFiQW1CcC1VcVhMalpjTk11Y0ZGdHRqUWtOV1ItWS0wdmd1WjludGlhQV9OWGViMmNkOWU4REZGY21MN3hCVDg3Q3lJTWpmV252dXphdw?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -10667,6 +10774,34 @@
     "shared_passage_words": 26
   },
   {
+    "id": "auto-c7b64fdf697ef8",
+    "published_at": "2026-08-14T07:00:00Z",
+    "title": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash - ABC News - Breaking News, Latest News and Videos",
+    "summary": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash ABC News - Breaking News, Latest News and Videos",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUnN0UGQ1dXZYdng3WWlya25qdWVCRGk0ZWNBcEFkbVp6ZEY3Z214U0pyZVRsRU9KM0FHU2NYV2ZCNnhXNXpMSnZkTndKbjZqUy1aZ2dJMkZza240SjlIRHE4d0dHZW9zV3daNWJveDRoZlpwU0IzT3NrNWp6d21BTU9PSzhCNnJuM2Fnd2RSZUdWempCTlcwWHlUQWFNai1H0gGmAUFVX3lxTE9SR1FwSjJzTEFHdVdMdzQyRlV1SkZDWVBSMHAxLUVEcTJuRWRQY250LV9HR3RtOHAwMElQbHBVTXhCcVh1d1l1SkxNcEZTcnQ0cGw1aVJqT3NQSW8tU0RVS3JPbmNzYktDMDcyaWJXWmpwOF9GQmRuTXdndnRRWTNuTHEzNC1LRkJNWEE5WElzVlBWN25fSDZmOVJVcmFhbzZsb1ROeWc?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-03T18:38:14.853976Z",
+    "reuse_group": "reus-d2e5618cd4fc",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 0.278,
+    "shared_shingle_count": 5,
+    "shared_shingle_size": 5,
+    "shared_passage": "abc news breaking news latest news and videos flock",
+    "shared_passage_words": 9
+  },
+  {
     "id": "auto-a3ca005285325e",
     "published_at": "2026-08-14T07:00:00Z",
     "title": "Flock CEO apologizes for cases where surveillance technology was abused as company rolls out changes - CBS News",
@@ -10798,12 +10933,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z",
-    "shared_shingle_count": 8,
-    "shared_shingle_size": 5,
     "reuse_group": "reus-509ec756d955",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.615,
+    "shared_shingle_count": 8,
+    "shared_shingle_size": 5,
     "shared_passage": "flock safety ceo apologizes for license plate reader misuse announces policy changes",
     "shared_passage_words": 12
   },
@@ -10828,11 +10963,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-636a72c88eee71",
+    "id": "auto-fdef8db38eab22",
     "published_at": "2026-08-14T07:00:00Z",
-    "title": "Flock Safety Implements New Safeguards To Stop Police Camera Misuse - Ubergizmo",
-    "summary": "Flock Safety Implements New Safeguards To Stop Police Camera Misuse Ubergizmo",
-    "publisher": "Ubergizmo",
+    "title": "Flock Safety Implements New Safeguards To Stop Police Camera Misuse - ubergizmo.com",
+    "summary": "Flock Safety Implements New Safeguards To Stop Police Camera Misuse ubergizmo.com",
+    "publisher": "ubergizmo.com",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2dzTVRBV3pPSnFPTmxtQUFzNVMzenkzbEtPZTdiRmRJVXo0OUJZdF9hcW9mdFUxaC04WFhiMk54TEJXUnZzMU56NjY5NHZQeDROWWpYMjl5NTRISXUwSTJxUXFrX21sNDhDbDFRbVVMby1fTmdiZUN6bWVxNVlncjNHVXZra3ZTbmFfS2ZnY0g3RGdtaW1xVnhvcnV2Umc2cVNqZA?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -11198,12 +11333,12 @@
     "query_set": "accountability",
     "first_seen": "2026-09-05T22:55:19.184867Z",
     "body_status": "google-redirect",
+    "shared_shingle_count": 8,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-509ec756d955",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.615,
-    "shared_shingle_count": 8,
-    "shared_shingle_size": 5,
     "shared_passage": "flock safety ceo apologizes for license plate reader misuse announces policy changes",
     "shared_passage_words": 12
   },
@@ -11347,7 +11482,7 @@
     "critical_hits": 2,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "opposition",
+    "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
@@ -11886,11 +12021,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-d7c6063c2faf8a",
+    "id": "auto-cf9da23f58e014",
     "published_at": "2026-08-12T07:00:00Z",
-    "title": "Pflugerville City Council delays vote on Flock Safety cameras after privacy concerns - KVUE",
-    "summary": "Pflugerville City Council delays vote on Flock Safety cameras after privacy concerns KVUE",
-    "publisher": "KVUE",
+    "title": "Pflugerville City Council delays vote on Flock Safety cameras after privacy concerns - kvue.com",
+    "summary": "Pflugerville City Council delays vote on Flock Safety cameras after privacy concerns kvue.com",
+    "publisher": "kvue.com",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNllId19Lbm1tNU11dHBoYlBiRUVMclpJT1JHQThTY3Z6Sk1ISFBaLUstazFaeHM5QzBKTVJHY1pyaHdsdW1fLUZ4NWQyb1FGTG9IQmF0QWJRb2xMRG1LYmJlSm9YalFmRXNFcUoweG12ekQ4NzRyNjJ2QW9mbl85Smh0MHV2Q2FUSWt1WkZXd3ZDRGRscGlXRXIzbF9LYnZfdF9MdEw1eVg0MnBXV2paNFJhSUhWcXlNWFhOR3ZDSlRKNlVYLUhLMEt6UHA?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -12332,12 +12467,12 @@
     "opposition_event": true,
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z",
+    "shared_shingle_count": 8,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-bc2ffd0c48c5",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
     "reuse_containment": 0.615,
-    "shared_shingle_count": 8,
-    "shared_shingle_size": 5,
     "shared_passage": "city council hears mixed views on flock cameras data access in hearing",
     "shared_passage_words": 12
   },
@@ -12554,11 +12689,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-cc1592904ce2b2",
+    "id": "auto-47be75153687a3",
     "published_at": "2026-08-10T07:00:00Z",
-    "title": "Savannah City Council members and ACLU predict policy changes after Flock technology misuse - wtoc.com",
-    "summary": "Savannah City Council members and ACLU predict policy changes after Flock technology misuse wtoc.com",
-    "publisher": "wtoc.com",
+    "title": "Savannah City Council members and ACLU predict policy changes after Flock technology misuse - WTOC",
+    "summary": "Savannah City Council members and ACLU predict policy changes after Flock technology misuse WTOC",
+    "publisher": "WTOC",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVkFTelQ3X0ZlZjZ3STZLOVNydUhKNC1nQ0otWUxIUDBScnRMZUZOMURXVWd5ZkNITVlPc1NJVmJrcWNLY190X3dCd2loWVpfUGRsR0JPYWIyeVlvaUc4bVZ5Y3ZyMXJUcUxZU2xtRFFwWEdJTjg1UkV1dG5xWVpTU2w4SVdGSFFXSllIaDMyWFFmSTdYdUN0a2pCN0NSTTY4cTJLSDZVc3A3N3luNnVEYkdHaEc1Tmx4YllMZdIB0AFBVV95cUxPZTNOMnNPMHlqaHd4ZzR1NFRqOTdBTktVMEV0c2dIVERzRmROYjJhWmQzc0hMQldXbDRJR29QU1ROLXpPeVJpY0VtckEtNXhFcmdyOGN0Rm5sM2lhNFU5Vk9xeWQzMnFJMnNRUmhTbVE5NzJnV09jaHB3T1pDZXZIOTlnbFNBZUhFRFhQaHQzRHE1cVF2RjJRUkRYdXJFRU9HMC0xY3U5UmlLR21KVnBoOFdrZTFmdHpjTU8zZ1FJYnpfQmdQN3RCM3B1SVRVM3VY?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -12574,11 +12709,11 @@
     "first_seen": "2026-09-05T00:04:54.735061Z"
   },
   {
-    "id": "auto-99a9181759d938",
+    "id": "auto-79ac96aa3a9011",
     "published_at": "2026-08-09T07:00:00Z",
-    "title": "Flock camera abuse allegations mount after company rolls out audit tool - AJC.com",
-    "summary": "Flock camera abuse allegations mount after company rolls out audit tool AJC.com",
-    "publisher": "AJC.com",
+    "title": "Flock camera abuse allegations mount after company rolls out audit tool - ajc.com",
+    "summary": "Flock camera abuse allegations mount after company rolls out audit tool ajc.com",
+    "publisher": "ajc.com",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUHRuRUF3ZDNlVmlFc3ZONk9vVU4zX2ZsS3FueXhXWWotUVF1YWVzN2ZHVHJWdlB6QnI2OThZX2xqcS0taUhZc0pzS2hiVk1QaXJBRmRhejMtaVdOVWFqQmZJSFB0d092cGZ1dzhCOHB0UmZiX0VESU9QSWQtUnZFUDRRTk1IZV9FTWpCdFp2RnRsRzA4WEpzd0lSZXNrOEwxSkpLcXVxQk1EaWNmTk5V?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -12614,7 +12749,7 @@
     "shared_shingle_count": 7,
     "shared_shingle_size": 5,
     "body_status": "google-redirect",
-    "reuse_group": "reus-518272a75ef3",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
     "reuse_containment": 0.5,
@@ -12643,7 +12778,7 @@
     "shared_shingle_count": 7,
     "shared_shingle_size": 5,
     "body_status": "google-redirect",
-    "reuse_group": "reus-518272a75ef3",
+    "reuse_group": "reus-d2e5618cd4fc",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.5,
@@ -12713,11 +12848,11 @@
     "body_status": "unavailable"
   },
   {
-    "id": "auto-cfac1ac96a3370",
+    "id": "auto-e3b84ee08a724b",
     "published_at": "2026-08-07T07:00:00Z",
-    "title": "Savannah Police Department fires 6 employees over Flock Safety System misuse - wtoc.com",
-    "summary": "Savannah Police Department fires 6 employees over Flock Safety System misuse wtoc.com",
-    "publisher": "wtoc.com",
+    "title": "Savannah Police Department fires 6 employees over Flock Safety System misuse - WTOC",
+    "summary": "Savannah Police Department fires 6 employees over Flock Safety System misuse WTOC",
+    "publisher": "WTOC",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON3M5TWxTMjIwbDM3Tkt1a3cxeGNIMkJaeTYtN0ZTZmYydkZnekhKcDBHNUZKYmRKTmg4VnhIT1BTdFBHXzYwbkVvby03dnVrMnk5Z2EtVW9DR0N1RkRHdGU1T2htcTBybEh6U3pDazZBMEd3TzBnazI1b0NHQ0szc1U3cVdpRDdiSnVxcXltSVZrLTd2aVRKVWR5YkhvX0RuOFBVUDFEa1U3LVNGUVHSAcIBQVVfeXFMTlJtTGJXSjhweUU0MVBBX3NTZUJTM1FLNjF5RVFmN3NWLVlZLUh2eXROcmZDR0RVN09vN0ltQUpqNDNPdFVZbEZkT2hwQjFabloyWFBTSDRpcE5LRkVpUEF1bXYtTlhMNE1ObGRMWHV5T1pQaVUyZkhacFZkQnJSSmdUdmtkSmhzYTNrRUdrXzJWZHdQOUM4WFZhVzIwZkpFQnFtMGgwY1ZNN05ZclBMemRSYlNHT0c4Qk9kYTNMUXRlTGc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -13508,15 +13643,15 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "first_seen": "2026-09-03T04:35:33.173739Z",
-    "shared_shingle_count": 11,
+    "shared_shingle_count": 10,
     "shared_shingle_size": 5,
     "body_status": "google-redirect",
     "reuse_group": "reus-68d9b5bdd183",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
-    "reuse_containment": 0.688,
-    "shared_passage": "com flock safety camera system audit successfully completed in burke co no instances of misuse",
-    "shared_passage_words": 15
+    "reuse_containment": 0.667,
+    "shared_passage": "flock safety camera system audit successfully completed in burke co no instances of misuse",
+    "shared_passage_words": 14
   },
   {
     "id": "auto-53faebc3818c3e",
@@ -13560,11 +13695,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-ddd4497b17a39c",
+    "id": "auto-5a82c0591a6295",
     "published_at": "2026-07-30T07:00:00Z",
-    "title": "Flock safety camera system audit successfully completed in Burke Co., no instances of misuse - wjbf.com",
-    "summary": "Flock safety camera system audit successfully completed in Burke Co., no instances of misuse wjbf.com",
-    "publisher": "wjbf.com",
+    "title": "Flock safety camera system audit successfully completed in Burke Co., no instances of misuse - WJBF",
+    "summary": "Flock safety camera system audit successfully completed in Burke Co., no instances of misuse WJBF",
+    "publisher": "WJBF",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbmJSUWV4RGJVOENWUjJtNVZNa213alI2RGd3ZTdfcHhHUnpxdDVFYTVQUENySkM4OHZMemdmR2FSNG5yV3F6eXQzREhvLU9GY3Y1bmY2MlNEQVExM1dZa0JvbkZ2WW1wOWQzZDlRNWZURkQtTVRubFhfQkl1MWxzbVdjeW8xcXRlbFI4WGlJLWtUMFdtcXAzUndfb3ktcUR5RDY4Q1d6SlYzdFBaX2Nzb3Y3ZmNJVlN4a2tRX2ZPWdIBxAFBVV95cUxQWFFnRGhNV05pWFVQN1pRSEtnVUVVM0Y1Y3N4b3BSNnh5UDlZRTI5WTV1WXlYMWYyU01wUFRQb095cl9OajBsRjFWNFVjcmd0NFlUaFd5WllOSGZqNXZULTdaUUdzaE96ajJYdTY3dE1POFJwUEJ1TEQwUHA2VlFsQ0owT2RCLVlJODE5SzV0LUlyY0pUMG1jR1NDYjZrS3ZQaVRMbmZ1NENSdFAyUmUwU1pobUxuUlZkanZpMUFkZEdOSlJQ?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -13581,11 +13716,11 @@
     "reuse_group": "reus-68d9b5bdd183",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 0.688,
-    "shared_shingle_count": 11,
+    "reuse_containment": 0.667,
+    "shared_shingle_count": 10,
     "shared_shingle_size": 5,
-    "shared_passage": "com flock safety camera system audit successfully completed in burke co no instances of misuse",
-    "shared_passage_words": 15
+    "shared_passage": "flock safety camera system audit successfully completed in burke co no instances of misuse",
+    "shared_passage_words": 14
   },
   {
     "id": "auto-a79856fa455e02",
@@ -13763,15 +13898,15 @@
     "query_set": "accountability",
     "opposition_event": true,
     "first_seen": "2026-09-02T11:27:02.398145Z",
-    "shared_shingle_count": 14,
+    "shared_shingle_count": 7,
     "shared_shingle_size": 5,
     "body_status": "google-redirect",
     "reuse_group": "reus-e4627722c47d",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
-    "reuse_containment": 1.0,
-    "shared_passage": "aclu lauds removal of flock license plate readers in south kingstown providence business news aclu lauds removal of flock license plate readers in south kingstown providence business news",
-    "shared_passage_words": 28
+    "reuse_containment": 0.538,
+    "shared_passage": "aclu lauds removal of flock license plate readers in south kingstown",
+    "shared_passage_words": 11
   },
   {
     "id": "auto-fb5bf6cc9aa925",
@@ -13877,11 +14012,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-adfb1f7839e833",
+    "id": "auto-1555f7571ce685",
     "published_at": "2026-07-28T07:00:00Z",
-    "title": "ACLU lauds removal of Flock license plate readers in South Kingstown - Providence Business News",
-    "summary": "ACLU lauds removal of Flock license plate readers in South Kingstown Providence Business News",
-    "publisher": "Providence Business News",
+    "title": "ACLU lauds removal of Flock license plate readers in South Kingstown - pbn.com",
+    "summary": "ACLU lauds removal of Flock license plate readers in South Kingstown pbn.com",
+    "publisher": "pbn.com",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVVduTG5DcTAxNTNlaTFCQmRkNDJNaHh3SHUxS0ZqeFhJaDh3N0VRM2NxTGdDTnFmNjBLMll3NUQzUEEycUhCaUQ0QXlfS3pQb2xxbFV2X28yOURJOVNlR0FSbXNQSjM3d0Yyd0c2MDF1RU0wZG80TDFsZFBDcE9pVlp3WEExUDEyVFNmTXBn0gGWAUFVX3lxTE12OHlFdnJFT1VubUlBb0RBSWVQeFZ5UWxuZy1CTW93OFMydUFpR3g0WlNHdjZMR3lNaGEwMGpraGVqNGJNM0ltLXJYQnhVVVdwREI2OWRkU25hYmxWdGpDNnJlRWF5Uy1UdzV1Q2Q3RWJ0SUtiZ3plZmRwN1NkVFBsX0hyQ2xwZGJXY1hQUnRZdHRpTUR4dw?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -13899,11 +14034,11 @@
     "reuse_group": "reus-e4627722c47d",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
-    "reuse_containment": 1.0,
-    "shared_shingle_count": 14,
+    "reuse_containment": 0.538,
+    "shared_shingle_count": 7,
     "shared_shingle_size": 5,
-    "shared_passage": "aclu lauds removal of flock license plate readers in south kingstown providence business news aclu lauds removal of flock license plate readers in south kingstown providence business news",
-    "shared_passage_words": 28
+    "shared_passage": "aclu lauds removal of flock license plate readers in south kingstown",
+    "shared_passage_words": 11
   },
   {
     "id": "auto-0848fc03809fc9",
@@ -13947,11 +14082,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-9e348ba903b41c",
+    "id": "auto-5b2afe3713cbf4",
     "published_at": "2026-07-26T07:00:00Z",
-    "title": "Inside the growing police use and misuse of Flock’s license-plate reader cameras - cnn.com",
-    "summary": "Inside the growing police use and misuse of Flock’s license-plate reader cameras cnn.com",
-    "publisher": "cnn.com",
+    "title": "Inside the growing police use and misuse of Flock’s license-plate reader cameras - CNN",
+    "summary": "Inside the growing police use and misuse of Flock’s license-plate reader cameras CNN",
+    "publisher": "CNN",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yRzBrQnh4ZE1Bd2lrbWxEZEd1YXljVmtFMTJjR0NXQnlIczYyUHdoT20xbzB1dm1QWUtVZjNlVXg3RVNzYkZfUkhrSWEyNnAxejQ1RzdFSXlaT2duZ1E2ZTd0MG9kT0NVREdVUUZTRG1wMjY5?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -14466,11 +14601,11 @@
     "body_status": "google-redirect"
   },
   {
-    "id": "auto-e090486da9e933",
+    "id": "auto-f502237611cb5b",
     "published_at": "2026-07-18T07:00:00Z",
-    "title": "DeKalb deputy charged with Flock camera misuse; more Georgia officers fired - AJC.com",
-    "summary": "DeKalb deputy charged with Flock camera misuse; more Georgia officers fired AJC.com",
-    "publisher": "AJC.com",
+    "title": "DeKalb deputy charged with Flock camera misuse; more Georgia officers fired - ajc.com",
+    "summary": "DeKalb deputy charged with Flock camera misuse; more Georgia officers fired ajc.com",
+    "publisher": "ajc.com",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYzRUXzZ1THJ3eXlyZWtVR0NuQmZZYkI2bWhYdWxEOW9fY1Rxd2pWUnp1a2Jfc0tiLTlRZUk2OXhqRVlwUWlGYTBLUmVOdl9QemtwYzV2b3ROVEtoZ0R0RUJXeU1zUkVOZlhkMzItd3dEZGtxNlNRM2lVemVoMFV4VzF0UEt6RGt1dmtmTk5RNFQzWGlUUE1VQnNUVTdQUVMzbWFPY0Jn?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -14651,11 +14786,11 @@
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
-    "id": "auto-ee18cacc873d24",
+    "id": "auto-9af07e8fb6edd9",
     "published_at": "2026-07-16T07:00:00Z",
-    "title": "ACLU files lawsuit over Huntington Flock agreement - westvirginiawatch.com",
-    "summary": "ACLU files lawsuit over Huntington Flock agreement westvirginiawatch.com",
-    "publisher": "westvirginiawatch.com",
+    "title": "ACLU files lawsuit over Huntington Flock agreement - West Virginia Watch",
+    "summary": "ACLU files lawsuit over Huntington Flock agreement West Virginia Watch",
+    "publisher": "West Virginia Watch",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYUo5OTByXzNGd3FPaUFjNVhHU2ExWGFmQkEzcWpYVVU4QS14YkJ4aDBRd3FLMXJCRWNMV05tMlc5eWh3UHlWeHEzVTBYNEUwTlQyV3J5N29XVDBKOU5LSjk2S3BLVC1yM09GcC1HdUFna004NHVzREpiWU1XZzdVdlFLUW5LeDJ0NVdUanRCdHZQNXh4UE0w?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -14667,6 +14802,7 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
+    "state": "VA",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
@@ -15142,15 +15278,15 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-04T00:05:44.026844Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-04T00:05:44.026844Z"
   },
   {
-    "id": "auto-d5a03ae87c5e86",
+    "id": "auto-47c83ab1e2cb53",
     "published_at": "2026-07-09T07:00:00Z",
-    "title": "More Georgia officers arrested for Flock camera misuse, officials say - AJC.com",
-    "summary": "More Georgia officers arrested for Flock camera misuse, officials say AJC.com",
-    "publisher": "AJC.com",
+    "title": "More Georgia officers arrested for Flock camera misuse, officials say - ajc.com",
+    "summary": "More Georgia officers arrested for Flock camera misuse, officials say ajc.com",
+    "publisher": "ajc.com",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN0dpeWdQTnoyWE5jV21ES2ZraGF3WjNXTHVNWFBmWDhGZG1ZMW9Za1kxX2szZU5KcVRRTV9wVlNvLV9xTHZVT09teE00VV91bGdtWVFkRFl5d0VvdlVPbHdQU05Ga3dNSVN2SHJrSXp1clF6STVWQlNqMkZNa0JJeHFpcDdYcHR3MW81eV9PejBJZ2d3ekVMczBnRlY4SmU1N3huNg?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -15163,8 +15299,8 @@
     "origin_indicators": [],
     "query_set": "promotional",
     "state": "GA",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-4ac964984588e3",
@@ -15225,8 +15361,8 @@
     "origin_indicators": [],
     "query_set": "newsroom",
     "state": "GA",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-f4c92f95ce9d4f",
@@ -15267,8 +15403,8 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "state": "GA",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "vicksburg-stolen-truck",
@@ -15309,8 +15445,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-823e0efd93d666",
@@ -15371,8 +15507,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-b406cba24497c2",
@@ -15391,8 +15527,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-ed3135b51b0c69",
@@ -15411,8 +15547,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-56b5ce7fe4dc3e",
@@ -15431,8 +15567,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-03T09:48:28.559553Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-03T09:48:28.559553Z"
   },
   {
     "id": "auto-b500415bd2f0ba",
@@ -15473,8 +15609,8 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-4008e24dc8e97e",
@@ -15578,7 +15714,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-03T18:38:14.853976Z"
+    "first_seen": "2026-09-03T18:38:14.853976Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "roseville-thirty-minutes",
@@ -15619,7 +15756,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-23af353bebe4f0",
@@ -15639,7 +15777,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T12:42:15.261888Z"
+    "first_seen": "2026-09-05T12:42:15.261888Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-1d809f0425f29d",
@@ -15660,6 +15799,7 @@
     "query_set": "accountability",
     "opposition_event": true,
     "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect",
     "reuse_group": "reus-3ec1298349bf",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
@@ -15687,7 +15827,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-1a3cab0ddb5e17",
@@ -15710,6 +15851,7 @@
     "first_seen": "2026-09-02T11:27:02.398145Z",
     "shared_shingle_count": 7,
     "shared_shingle_size": 5,
+    "body_status": "google-redirect",
     "reuse_group": "reus-3ec1298349bf",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
@@ -15735,7 +15877,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-d3c3a4c2f588d5",
@@ -15755,7 +15898,8 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "state": "CO",
-    "first_seen": "2026-09-03T14:34:06.443690Z"
+    "first_seen": "2026-09-03T14:34:06.443690Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-54f3a504191f71",
@@ -15775,7 +15919,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T12:42:15.261888Z"
+    "first_seen": "2026-09-05T12:42:15.261888Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-0c12bf668b6095",
@@ -15795,7 +15940,8 @@
     "origin_indicators": [],
     "query_set": "accountability",
     "state": "WI",
-    "first_seen": "2026-09-04T04:31:22.799198Z"
+    "first_seen": "2026-09-04T04:31:22.799198Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-acdd1087490fe9",
@@ -15814,7 +15960,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-03aae3602d187c",
@@ -15834,7 +15981,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T12:42:15.261888Z"
+    "first_seen": "2026-09-05T12:42:15.261888Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-084efb6fd94e13",
@@ -15853,7 +16001,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-03T14:34:06.443690Z"
+    "first_seen": "2026-09-03T14:34:06.443690Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-dda407846d9169",
@@ -15872,7 +16021,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-9b32d65b9feffd",
@@ -15892,7 +16042,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T12:42:15.261888Z"
+    "first_seen": "2026-09-05T12:42:15.261888Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-aae902d3b2eddb",
@@ -15913,7 +16064,8 @@
     "query_set": "accountability",
     "opposition_event": true,
     "state": "VA",
-    "first_seen": "2026-09-02T18:41:40.498821Z"
+    "first_seen": "2026-09-02T18:41:40.498821Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-b49c2da7457311",
@@ -15932,7 +16084,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-03T09:48:28.559553Z"
+    "first_seen": "2026-09-03T09:48:28.559553Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-0c3f5b2783d36a",
@@ -15952,7 +16105,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-05T00:04:54.735061Z"
+    "first_seen": "2026-09-05T00:04:54.735061Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-7b77fc4cce5b0f",
@@ -15971,7 +16125,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-c927a06851fc47",
@@ -15990,7 +16145,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-03T09:48:28.559553Z"
+    "first_seen": "2026-09-03T09:48:28.559553Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-31c3fbc5160900",
@@ -16010,7 +16166,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-09-04T00:05:44.026844Z"
+    "first_seen": "2026-09-04T00:05:44.026844Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-2409cc2919238d",
@@ -16030,7 +16187,8 @@
     "origin_indicators": [],
     "query_set": "newsroom",
     "opposition_event": true,
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-2374924f045210",
@@ -16049,7 +16207,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-1e65b426f072bb",
@@ -16166,11 +16325,11 @@
     "first_seen": "2026-09-03T04:35:33.173739Z"
   },
   {
-    "id": "auto-819676bb53a887",
+    "id": "auto-b3f7762c0bd222",
     "published_at": "2026-04-01T07:00:00Z",
-    "title": "Chesterfield residents, civil liberties groups question Flock Safety contract - vpm.org",
-    "summary": "Chesterfield residents, civil liberties groups question Flock Safety contract vpm.org",
-    "publisher": "vpm.org",
+    "title": "Chesterfield residents, civil liberties groups question Flock Safety contract - VPM",
+    "summary": "Chesterfield residents, civil liberties groups question Flock Safety contract VPM",
+    "publisher": "VPM",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGZNMHltaVo1Nl9hTGVQaHp6VEdHcnJ5LVk4VWdGRGlCemxaRDJDdWpqeHNHazlHUHFDMGZsNmppR0dJMndnVGs0NnRyb1N3c2dwU29LYWJrOFNzRTlJS2h4RElQZmllbGpZOEFBYXhSRVZIakhJZXdtcUNyMnJuNExoVWJhNVhWTXRSMGU2YXllRW43cWxJNE5nc0hEelYzMkg3Y1RMMzRsODNXb08wQ09ObzJtVFgxVnc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -16303,11 +16462,11 @@
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
-    "id": "auto-6d59c79c6fb90a",
+    "id": "auto-a0101a9539decb",
     "published_at": "2026-02-27T08:00:00Z",
-    "title": "ACLU To Host Webinar On License Plate Readers, Flock Cameras - ctnewsjunkie.com",
-    "summary": "ACLU To Host Webinar On License Plate Readers, Flock Cameras ctnewsjunkie.com",
-    "publisher": "ctnewsjunkie.com",
+    "title": "ACLU To Host Webinar On License Plate Readers, Flock Cameras - CT News Junkie",
+    "summary": "ACLU To Host Webinar On License Plate Readers, Flock Cameras CT News Junkie",
+    "publisher": "CT News Junkie",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWJnSlJtbjk2c0h1bnFrZnBfSTJRSjZNWGVNRFUwSmhrYl9CNjVWY285NXNKYTEtNy1iemNuUjF0WlR4VWhaNlQ2Y0RLc29GY2Nva050SDk3VDFfbUQ3alk3MFAtUy1FazFraE9WXzFsd3ZSSzJzR1QzdEZ6aEo4cmRYZmhuM3g2b2c?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -16361,11 +16520,11 @@
     "first_seen": "2026-09-03T09:48:28.559553Z"
   },
   {
-    "id": "auto-7eafed37ac519c",
+    "id": "auto-877eef276969c2",
     "published_at": "2026-02-17T08:00:00Z",
-    "title": "ACLU of Colorado Demands End to Flock Safety Contract, Calls for Critical Data Privacy Protections - aclu-co.org",
-    "summary": "ACLU of Colorado Demands End to Flock Safety Contract, Calls for Critical Data Privacy Protections aclu-co.org",
-    "publisher": "aclu-co.org",
+    "title": "ACLU of Colorado Demands End to Flock Safety Contract, Calls for Critical Data Privacy Protections - ACLU of Colorado",
+    "summary": "ACLU of Colorado Demands End to Flock Safety Contract, Calls for Critical Data Privacy Protections ACLU of Colorado",
+    "publisher": "ACLU of Colorado",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2JlVERUOHppOGNXTTJ0R09keFVSUEJhR3lWcFh1SDl2Z282QVR0MG9scXFPeGR2T3BhQ3NPekk1d3FqZmdGd0k5M3ZNcGIxaGtGdFQyLWJBY01YOG9JcDBsckpiNzVwT203anQ0WGUzZkNJMmNkQzBicC1tT0hEMnlaYzRMR1BlZWk2NS0wLWxFOS1YeGRUWVhNdmZCOWdOQkRMaklrSUpSejRzUkQwWXhzRjd5dkVoc0NDMWJoTTM5TG5MSGc?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -16373,7 +16532,7 @@
     "promotion_score": 0,
     "stance": "critical",
     "promotional_hits": 0,
-    "critical_hits": 2,
+    "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
@@ -16634,11 +16793,11 @@
     "first_seen": "2026-09-03T04:35:33.173739Z"
   },
   {
-    "id": "auto-db2d6d2113ec06",
+    "id": "auto-43c9a7bdf74e1a",
     "published_at": "2025-11-26T22:45:58Z",
-    "title": "Flock Safety cameras help solve crimes in Lynchburg; ACLU warns of rights issues - WSET",
-    "summary": "Flock Safety cameras help solve crimes in Lynchburg; ACLU warns of rights issues WSET",
-    "publisher": "WSET",
+    "title": "Flock Safety cameras help solve crimes in Lynchburg; ACLU warns of rights issues - wset.com",
+    "summary": "Flock Safety cameras help solve crimes in Lynchburg; ACLU warns of rights issues wset.com",
+    "publisher": "wset.com",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORG9sTjQ5Ml9SUTQ4eVZQYVRpLXQzb2lZN0wtU21GVjlKdVBldnE4MzdQZFZYSVA2MnF2SzIzOHo5YlBjYXNEYXQ1c3ZoVUhfNTJIa3R4LTYydS1ubDVzNFJLdUlScG5rYm56aUxUVzdPR3B2b2xNQkQxeDhTaDd5LTNONmVNOWIyaVJKdWowMzB3NHUzalFwdHZ2Qzlzc3IyRmdHV2oxRXJBNWJsNEhUXzBYNmFjX24xcWdZSmIzQUJjTlZENWE5TXZka0tQcFZaZlk1eGZJQW9uX0pRZGxmYg?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -17027,11 +17186,11 @@
     "first_seen": "2026-09-03T09:48:28.559553Z"
   },
   {
-    "id": "auto-aa9a1a8677190d",
+    "id": "auto-c5fc18198b2160",
     "published_at": "2025-09-23T07:00:00Z",
-    "title": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert - denver7.com",
-    "summary": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert denver7.com",
-    "publisher": "denver7.com",
+    "title": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert - Denver7",
+    "summary": "Boulder police credit Flock license plate readers for helping officers find teen at center of Amber Alert Denver7",
+    "publisher": "Denver7",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVGw5U1llWnFtX20yaGs5TDNsWldNVWw3QzNfRjVtTTBRVEotV3VBcERZRnlLZ2FWbVJpVE5Vd05fb292X21NTmgxallaakM0YWR2SEFLVG50SWRodGxDeXo5eTQzTmNsMzRwSnIwbmJQdXBydXpxUEJNd2Rkc0lyVWpKU2toWFlKTkJva09wN3FaTDBteGUxeVpDRDdRNVIya0EyQWVaSTdvU2JLRk9fcFVBMFNUNVdINUhYaGFkcERQLXgwdHUtbEs1Z3lTRlYwc3pzQ1ZwSTRzTjUxazRRbmN0Z1ktSm5RTlE?oc=5",
     "domain": "news.google.com",
     "channel": "news",
