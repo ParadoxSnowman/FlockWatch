@@ -6,7 +6,7 @@
     "periods_comparable": 2,
     "periods_backfill": 53,
     "provenance": "ok",
-    "baseline_items": 126,
+    "baseline_items": 128,
     "series": [
       {
         "period": "2024-02-05",
@@ -982,20 +982,20 @@
       },
       {
         "period": "2026-09-07",
-        "total": 121,
+        "total": 124,
         "promotional": 7,
-        "critical": 75,
+        "critical": 78,
         "mixed": 0,
         "neutral": 39,
         "baseline_promotional": 4,
-        "baseline_critical": 35,
+        "baseline_critical": 37,
         "baseline_mixed": 0,
         "baseline_neutral": 13,
         "opposition_events": 48,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 39,
-        "promotional_share": 0.103,
+        "baseline_stance_items": 41,
+        "promotional_share": 0.098,
         "backfill": false
       }
     ],
@@ -1025,7 +1025,7 @@
     "periods_comparable": 1,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 126,
+    "baseline_items": 128,
     "series": [
       {
         "period": "2024-02-01",
@@ -1317,20 +1317,20 @@
       },
       {
         "period": "2026-09-01",
-        "total": 386,
+        "total": 389,
         "promotional": 14,
-        "critical": 240,
+        "critical": 243,
         "mixed": 0,
         "neutral": 132,
         "baseline_promotional": 8,
-        "baseline_critical": 93,
+        "baseline_critical": 95,
         "baseline_mixed": 0,
         "baseline_neutral": 21,
         "opposition_events": 165,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 101,
-        "promotional_share": 0.079,
+        "baseline_stance_items": 103,
+        "promotional_share": 0.078,
         "backfill": false
       }
     ],
