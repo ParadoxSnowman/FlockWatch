@@ -6,7 +6,7 @@
     "periods_comparable": 2,
     "periods_backfill": 53,
     "provenance": "ok",
-    "baseline_items": 143,
+    "baseline_items": 144,
     "series": [
       {
         "period": "2024-02-05",
@@ -910,9 +910,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 95,
+        "total": 96,
         "promotional": 0,
-        "critical": 71,
+        "critical": 72,
         "mixed": 0,
         "neutral": 24,
         "baseline_promotional": 0,
@@ -982,20 +982,20 @@
       },
       {
         "period": "2026-09-07",
-        "total": 156,
+        "total": 158,
         "promotional": 7,
-        "critical": 100,
+        "critical": 102,
         "mixed": 0,
         "neutral": 49,
         "baseline_promotional": 4,
-        "baseline_critical": 51,
+        "baseline_critical": 52,
         "baseline_mixed": 0,
         "baseline_neutral": 14,
-        "opposition_events": 59,
+        "opposition_events": 60,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 55,
-        "promotional_share": 0.073,
+        "baseline_stance_items": 56,
+        "promotional_share": 0.071,
         "backfill": false
       }
     ],
@@ -1025,7 +1025,7 @@
     "periods_comparable": 1,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 143,
+    "baseline_items": 144,
     "series": [
       {
         "period": "2024-02-01",
@@ -1299,9 +1299,9 @@
       },
       {
         "period": "2026-08-01",
-        "total": 341,
+        "total": 342,
         "promotional": 6,
-        "critical": 240,
+        "critical": 241,
         "mixed": 0,
         "neutral": 95,
         "baseline_promotional": 0,
@@ -1317,19 +1317,19 @@
       },
       {
         "period": "2026-09-01",
-        "total": 419,
+        "total": 421,
         "promotional": 14,
-        "critical": 264,
+        "critical": 266,
         "mixed": 0,
         "neutral": 141,
         "baseline_promotional": 8,
-        "baseline_critical": 109,
+        "baseline_critical": 110,
         "baseline_mixed": 0,
         "baseline_neutral": 22,
-        "opposition_events": 175,
+        "opposition_events": 176,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 117,
+        "baseline_stance_items": 118,
         "promotional_share": 0.068,
         "backfill": false
       }
