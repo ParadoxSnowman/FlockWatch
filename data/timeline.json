@@ -964,9 +964,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 285,
+        "total": 286,
         "promotional": 7,
-        "critical": 174,
+        "critical": 175,
         "mixed": 0,
         "neutral": 104,
         "baseline_promotional": 4,
@@ -1317,9 +1317,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 430,
+        "total": 431,
         "promotional": 14,
-        "critical": 271,
+        "critical": 272,
         "mixed": 0,
         "neutral": 145,
         "baseline_promotional": 8,
