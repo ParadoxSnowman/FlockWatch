@@ -359,14 +359,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/DowntownBellefontaine/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-17",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -457,14 +450,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/watch/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-17",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -530,7 +516,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -543,7 +529,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -556,7 +542,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -569,7 +555,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -582,7 +568,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -595,7 +581,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -608,7 +594,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -620,8 +606,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-13",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/cathedralnashville/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -634,7 +627,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -647,7 +640,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -660,7 +653,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -673,7 +666,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -686,7 +679,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -699,7 +692,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -732,7 +725,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -765,7 +758,7 @@
     "documented_at": "2025-06-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13"
+    "last_checked": "2026-09-18"
   },
   {
     "id": "city-of-riverside-police-department-ca",
@@ -777,7 +770,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -790,7 +783,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -803,7 +796,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -816,7 +809,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -828,8 +821,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-13",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/billclinton/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -842,7 +842,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -855,7 +855,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -868,7 +868,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-09-18",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
