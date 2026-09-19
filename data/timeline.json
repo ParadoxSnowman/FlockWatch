@@ -6,7 +6,7 @@
     "periods_comparable": 3,
     "periods_backfill": 52,
     "provenance": "ok",
-    "baseline_items": 224,
+    "baseline_items": 223,
     "series": [
       {
         "period": "2024-02-05",
@@ -988,14 +988,14 @@
         "mixed": 0,
         "neutral": 58,
         "baseline_promotional": 21,
-        "baseline_critical": 48,
+        "baseline_critical": 47,
         "baseline_mixed": 0,
         "baseline_neutral": 11,
         "opposition_events": 77,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 69,
-        "promotional_share": 0.304,
+        "baseline_stance_items": 68,
+        "promotional_share": 0.309,
         "backfill": false
       }
     ],
@@ -1025,7 +1025,7 @@
     "periods_comparable": 1,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 224,
+    "baseline_items": 223,
     "series": [
       {
         "period": "2024-02-01",
@@ -1323,14 +1323,14 @@
         "mixed": 0,
         "neutral": 207,
         "baseline_promotional": 29,
-        "baseline_critical": 160,
+        "baseline_critical": 159,
         "baseline_mixed": 0,
         "baseline_neutral": 31,
         "opposition_events": 263,
         "agency_posts": 2,
         "sponsored": 0,
-        "baseline_stance_items": 189,
-        "promotional_share": 0.153,
+        "baseline_stance_items": 188,
+        "promotional_share": 0.154,
         "backfill": false
       }
     ],
