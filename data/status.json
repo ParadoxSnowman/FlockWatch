@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:47:13.143696Z",
+  "updated_at": "2026-09-20T21:32:41.349454Z",
   "collector": "public-rss",
   "queries_ok": 56,
   "queries_total": 56,
@@ -15,7 +15,7 @@
     "critical": 770,
     "promotional": 50
   },
-  "reuse_groups": 96,
+  "reuse_groups": 98,
   "syndication_groups": 3,
   "reuse_window_words": 8,
   "agency_feeds_ok": 0,
@@ -28,18 +28,18 @@
   "monitoring_since": "2026-09-02T11:27:02.398145Z",
   "monitoring_started": "2026-09-02",
   "periods_comparable": 3,
-  "baseline_items": 230,
+  "baseline_items": 231,
   "query_sets": {
-    "accountability": 391,
+    "accountability": 388,
     "agency": 54,
-    "baseline": 230,
-    "newsroom": 30,
+    "baseline": 231,
+    "newsroom": 31,
     "opposition": 353,
     "other": 0,
     "owned": 7,
-    "promotional": 110
+    "promotional": 111
   },
-  "records_updated_at": "2026-09-20T18:47:31.877853Z",
+  "records_updated_at": "2026-09-20T21:33:02.550959Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
