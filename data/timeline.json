@@ -6,7 +6,7 @@
     "periods_comparable": 4,
     "periods_backfill": 52,
     "provenance": "ok",
-    "baseline_items": 278,
+    "baseline_items": 285,
     "series": [
       {
         "period": "2024-02-05",
@@ -1000,19 +1000,19 @@
       },
       {
         "period": "2026-09-21",
-        "total": 111,
+        "total": 121,
         "promotional": 1,
-        "critical": 73,
+        "critical": 83,
         "mixed": 0,
         "neutral": 37,
         "baseline_promotional": 0,
-        "baseline_critical": 43,
+        "baseline_critical": 50,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 48,
+        "opposition_events": 49,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 43,
+        "baseline_stance_items": 50,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1028,9 +1028,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 4,
-      "slope_per_period": -21.9,
+      "slope_per_period": -21.6,
       "first": 126,
-      "last": 48,
+      "last": 49,
       "direction": "falling"
     },
     "event_response": {
@@ -1049,7 +1049,7 @@
     "periods_comparable": 1,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 278,
+    "baseline_items": 285,
     "series": [
       {
         "period": "2024-02-01",
@@ -1341,20 +1341,20 @@
       },
       {
         "period": "2026-09-01",
-        "total": 741,
+        "total": 751,
         "promotional": 36,
-        "critical": 454,
+        "critical": 464,
         "mixed": 0,
         "neutral": 251,
         "baseline_promotional": 29,
-        "baseline_critical": 202,
+        "baseline_critical": 209,
         "baseline_mixed": 0,
         "baseline_neutral": 43,
-        "opposition_events": 317,
+        "opposition_events": 318,
         "agency_posts": 2,
         "sponsored": 1,
-        "baseline_stance_items": 231,
-        "promotional_share": 0.126,
+        "baseline_stance_items": 238,
+        "promotional_share": 0.122,
         "backfill": false
       }
     ],
