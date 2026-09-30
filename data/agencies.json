@@ -1431,7 +1431,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1444,7 +1444,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1457,7 +1457,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1470,7 +1470,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1482,8 +1482,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-20",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1496,7 +1503,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1509,7 +1516,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1521,8 +1528,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-21",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/CityofGalt/",
+        "verified": true,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1535,7 +1549,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1548,7 +1562,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1561,7 +1575,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1574,7 +1588,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1587,7 +1601,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1600,7 +1614,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1613,7 +1627,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1626,7 +1640,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1639,7 +1653,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1652,7 +1666,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1665,7 +1679,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1678,7 +1692,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1691,7 +1705,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1704,7 +1718,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1716,8 +1730,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-21",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/channel/UCKhSqWRvBtjlivrs_xeT5aQ/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1730,7 +1751,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-09-30",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4269,14 +4290,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/cityoftempletx/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-29",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4341,14 +4355,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/watch/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-29",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4374,14 +4381,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/CityofTrotwood/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-29",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4394,14 +4394,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/watch/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-09-29",
     "source_credit": "The News & Observer / Private Eyes"
   },
