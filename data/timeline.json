@@ -6,7 +6,7 @@
     "periods_comparable": 5,
     "periods_backfill": 52,
     "provenance": "ok",
-    "baseline_items": 353,
+    "baseline_items": 356,
     "series": [
       {
         "period": "2024-02-05",
@@ -946,9 +946,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 287,
+        "total": 286,
         "promotional": 8,
-        "critical": 176,
+        "critical": 175,
         "mixed": 0,
         "neutral": 103,
         "baseline_promotional": 4,
@@ -1018,19 +1018,19 @@
       },
       {
         "period": "2026-09-28",
-        "total": 125,
+        "total": 131,
         "promotional": 5,
-        "critical": 85,
+        "critical": 89,
         "mixed": 0,
-        "neutral": 35,
+        "neutral": 37,
         "baseline_promotional": 0,
-        "baseline_critical": 42,
+        "baseline_critical": 45,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 39,
+        "opposition_events": 41,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 42,
+        "baseline_stance_items": 45,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1046,17 +1046,25 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 5,
-      "slope_per_period": -18.7,
+      "slope_per_period": -18.3,
       "first": 126,
-      "last": 39,
+      "last": 41,
       "direction": "falling"
     },
     "event_response": {
       "status": "insufficient",
-      "events_usable": 0,
+      "events_usable": 1,
       "events_needed": 3,
       "window_days": 30,
-      "measured": [],
+      "measured": [
+        {
+          "jurisdiction": "Odessa Police Department, Texas",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        }
+      ],
       "note": "Not enough local opposition events with a full baseline window yet. This stays unreported rather than being estimated from one or two cases."
     }
   },
@@ -1067,7 +1075,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 353,
+    "baseline_items": 356,
     "series": [
       {
         "period": "2024-02-01",
@@ -1359,9 +1367,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 894,
+        "total": 893,
         "promotional": 42,
-        "critical": 564,
+        "critical": 563,
         "mixed": 0,
         "neutral": 288,
         "baseline_promotional": 29,
@@ -1377,19 +1385,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 34,
+        "total": 40,
         "promotional": 0,
-        "critical": 25,
+        "critical": 29,
         "mixed": 0,
-        "neutral": 9,
+        "neutral": 11,
         "baseline_promotional": 0,
-        "baseline_critical": 13,
+        "baseline_critical": 16,
         "baseline_mixed": 0,
         "baseline_neutral": 1,
-        "opposition_events": 9,
+        "opposition_events": 11,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 13,
+        "baseline_stance_items": 16,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1406,10 +1414,18 @@
     },
     "event_response": {
       "status": "insufficient",
-      "events_usable": 0,
+      "events_usable": 1,
       "events_needed": 3,
       "window_days": 30,
-      "measured": [],
+      "measured": [
+        {
+          "jurisdiction": "Odessa Police Department, Texas",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        }
+      ],
       "note": "Not enough local opposition events with a full baseline window yet. This stays unreported rather than being estimated from one or two cases."
     }
   }
