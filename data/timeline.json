@@ -892,9 +892,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 105,
+        "total": 104,
         "promotional": 0,
-        "critical": 80,
+        "critical": 79,
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
@@ -1018,16 +1018,16 @@
       },
       {
         "period": "2026-09-28",
-        "total": 146,
+        "total": 151,
         "promotional": 5,
-        "critical": 101,
+        "critical": 102,
         "mixed": 0,
-        "neutral": 40,
+        "neutral": 44,
         "baseline_promotional": 0,
         "baseline_critical": 53,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 44,
+        "opposition_events": 48,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 53,
@@ -1046,17 +1046,36 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 5,
-      "slope_per_period": -17.7,
+      "slope_per_period": -16.9,
       "first": 126,
-      "last": 44,
+      "last": 48,
       "direction": "falling"
     },
     "event_response": {
-      "status": "insufficient",
-      "events_usable": 2,
-      "events_needed": 3,
+      "status": "ok",
+      "events_usable": 5,
       "window_days": 30,
+      "promotional_before": 0,
+      "promotional_after": 0,
+      "ratio": null,
+      "events_rose": 0,
+      "events_fell": 0,
+      "events_flat": 5,
       "measured": [
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-04",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Odessa Police Department, Texas",
           "event_date": "2026-10-03",
@@ -1070,9 +1089,15 @@
           "before": 0,
           "after": 0,
           "change": 0
+        },
+        {
+          "jurisdiction": "Lafayette CO Police Department",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
         }
-      ],
-      "note": "Not enough local opposition events with a full baseline window yet. This stays unreported rather than being estimated from one or two cases."
+      ]
     }
   },
   "monthly": {
@@ -1356,9 +1381,9 @@
       },
       {
         "period": "2026-08-01",
-        "total": 381,
+        "total": 380,
         "promotional": 7,
-        "critical": 268,
+        "critical": 267,
         "mixed": 0,
         "neutral": 106,
         "baseline_promotional": 0,
@@ -1392,16 +1417,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 52,
+        "total": 57,
         "promotional": 0,
-        "critical": 40,
+        "critical": 41,
         "mixed": 0,
-        "neutral": 12,
+        "neutral": 16,
         "baseline_promotional": 0,
         "baseline_critical": 24,
         "baseline_mixed": 0,
         "baseline_neutral": 1,
-        "opposition_events": 12,
+        "opposition_events": 16,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 24,
@@ -1420,11 +1445,30 @@
       "note": "At least four comparable periods are needed before a direction means anything."
     },
     "event_response": {
-      "status": "insufficient",
-      "events_usable": 2,
-      "events_needed": 3,
+      "status": "ok",
+      "events_usable": 5,
       "window_days": 30,
+      "promotional_before": 0,
+      "promotional_after": 0,
+      "ratio": null,
+      "events_rose": 0,
+      "events_fell": 0,
+      "events_flat": 5,
       "measured": [
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-04",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Odessa Police Department, Texas",
           "event_date": "2026-10-03",
@@ -1438,9 +1482,15 @@
           "before": 0,
           "after": 0,
           "change": 0
+        },
+        {
+          "jurisdiction": "Lafayette CO Police Department",
+          "event_date": "2026-10-03",
+          "before": 0,
+          "after": 0,
+          "change": 0
         }
-      ],
-      "note": "Not enough local opposition events with a full baseline window yet. This stays unreported rather than being estimated from one or two cases."
+      ]
     }
   }
 }
