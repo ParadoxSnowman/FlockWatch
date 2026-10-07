@@ -3739,14 +3739,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/rossvillefamilyrestaurant/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-10-06",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4007,7 +4000,7 @@
     "documented_at": "2026-09-01",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28"
+    "last_checked": "2026-10-07"
   },
   {
     "id": "sharpsburg-police-department-nc",
@@ -4019,7 +4012,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4032,7 +4025,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4045,7 +4038,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4058,7 +4051,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4070,8 +4063,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-28",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ShrewsburyBoro/",
+        "verified": true,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4084,7 +4084,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4096,8 +4096,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-28",
+    "socials": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/company/smithfield-foods/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4110,7 +4117,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-28",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4123,7 +4130,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4156,7 +4163,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4169,7 +4176,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4182,7 +4189,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4194,8 +4201,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-29",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/StJosephBradenton/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4208,7 +4222,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4221,7 +4235,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4234,7 +4248,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4247,7 +4261,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4260,7 +4274,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4273,7 +4287,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4305,7 +4319,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4317,8 +4331,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-29",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ThomasvilleFeedSeedInc/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4331,7 +4352,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4344,7 +4365,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
