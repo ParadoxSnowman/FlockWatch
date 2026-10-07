@@ -1,5 +1,46 @@
 [
   {
+    "id": "auto-fde1a32262f084",
+    "published_at": "2026-10-07T14:27:16Z",
+    "title": "Dry Creek fire evacuation warning lifted; SCOTUS will decide whether Boulder can sue big oil; Denver woman sues police and Flock after wrongful theft accusation - KGNU Community Radio",
+    "summary": "Dry Creek fire evacuation warning lifted; SCOTUS will decide whether Boulder can sue big oil; Denver woman sues police and Flock after wrongful theft accusation KGNU Community Radio",
+    "publisher": "KGNU Community Radio",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQbVhMeEFlUmRrT3lRczhselN3OEVwTl9YdFVGUnh5NUluaWZvdnFEbExTa1JWRjZzcm05UG1BMDFPNHFveTBPWGQ5UW9wS29Mdlh0SjA2SHZpRHh3SUpxTGM3WnZ1dlJxY0VodVJ3S1hIWXFEZkRqakhOdUdJeC1DZjVVYzZvcjduSDVxX3J5ZkZNWmd2YkVCV0tZSXV2U2h4T2c5NUl4bk85cF9GZXlrbGZkUEt4MmZLdWtQaWsweTNSMllLUWNHZ3RTejZoVVlqWUlwSzBnakxHX2V2X0NuSm0yUzZaTGFDbWQ0R3dYbjhlb1NGc2Nmbm9adEdUZUlzaVlMZ3gtdw?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "baseline",
+    "first_seen": "2026-10-07T14:30:22.614661Z",
+    "body_status": "google-redirect"
+  },
+  {
+    "id": "auto-cd73bd2ca4ed53",
+    "published_at": "2026-10-07T08:33:23Z",
+    "title": "‘So where’s the problem?’ Deputy misuse shadows Bob Gualtieri ahead of Pinellas Flock camera debate - Florida Politics",
+    "summary": "‘So where’s the problem?’ Deputy misuse shadows Bob Gualtieri ahead of Pinellas Flock camera debate Florida Politics",
+    "publisher": "Florida Politics",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbzVOUUxMcGRRYVhaTk9uaDc4TV94OFM3SHZ1cHk5QXdRb28yamd1Q2EyUGNCNF9ZNklMOFo5M0dnNElmMWMyVWhEMTh3SjhFdjJwbG5QX3A5OVFuWkZaclVWNzgwQVB4Um1VczVhZlNBTW9ZdTlORXp5Z0JHenY2Q0MwNkYtd214S2FoYXZzTGUteWhGcDc1X0c3TTBaY3JmamZORmRrYW40bzlTcU9MTXRER0VldG9tRENqWHdzUGd1NlZreVZ4YVU0WWQ4cVNVWUVyUEFJYw?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "state": "FL",
+    "first_seen": "2026-10-07T14:30:22.614661Z",
+    "body_status": "google-redirect"
+  },
+  {
     "id": "auto-872ed956f7c55c",
     "published_at": "2026-10-07T04:31:00Z",
     "title": "Fayetteville City Council ban on Flock cameras - Northwest Arkansas Democrat-Gazette",
@@ -18,8 +59,8 @@
     "query_set": "opposition",
     "opposition_event": true,
     "state": "AR",
-    "first_seen": "2026-10-07T07:13:37.036500Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-10-07T07:13:37.036500Z"
   },
   {
     "id": "auto-f8e63b28a2b905",
@@ -40,8 +81,8 @@
     "query_set": "opposition",
     "opposition_event": true,
     "state": "AR",
-    "first_seen": "2026-10-07T07:13:37.036500Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-10-07T07:13:37.036500Z"
   },
   {
     "id": "auto-93308fdf36328a",
@@ -81,16 +122,16 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-10-07T07:13:37.036500Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-10-07T07:13:37.036500Z"
   },
   {
-    "id": "auto-981aec5f8f2d0f",
-    "published_at": "2026-10-06T23:30:54Z",
-    "title": "Denver woman files federal lawsuit claiming Flock cameras were misused to falsely charge her with theft - Denver7",
-    "summary": "Denver woman files federal lawsuit claiming Flock cameras were misused to falsely charge her with theft Denver7",
-    "publisher": "Denver7",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU2pMSnFORmRsaDh6THNER25kWnVXYlFXSFNxWk1lS01UNkZGZlE1aGZPUlNJSEV1VmIxd0RGbVhMcS1TTzlmVkxyZGNfSy15MUVneU0xYTVNRXVjRnFrYjQtY2RUcnU3bzFMMXZSeXV2SDBNLXpZYzhTazVYRVF4Z01fa1pHUFpuTWxDcXgwN1AwLVhabHJNOUNJMEplUWxaSmM5cWV4bjFhdERKYzBiSFg5OWt6MkV2aHc4OU5QNnJ0S0oxX0FON1dNMGk1RFFqcWxMMG83OWFVOWM?oc=5",
+    "id": "auto-4796491cd7993b",
+    "published_at": "2026-10-06T23:30:00Z",
+    "title": "Brenham police confirm internal investigation into officer following alleged Flock camera misuse - KBTX News 3",
+    "summary": "Brenham police confirm internal investigation into officer following alleged Flock camera misuse KBTX News 3",
+    "publisher": "KBTX News 3",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR19SVXlVQUhVbi1XbVZ0MGdmclFBR3B3QjZKSUQ2dUV3VzVraF9pRFZFYW81ZlUyMzlJVHNfWC14V1VyNVladFRXUHlWZDVvWkhlcENlZ2dxR1NaUnF5SG8zSWNVVDRBVVpuYjQxTmtocFFvQkJjZGZ4ZnJQVmlpRk04V0s5UHdUX2dUSVRzOVRYa1h1ckRZUnhBbUgwdG9tOFRjLWRJODJXSUlOM014R3hOVXY2TlUxSTdqa2Z3dE5sU3RNZkIwaEVoWWhXSlUtMjVtWkhNN3IxXzV3NmlUNzJ3?oc=5",
     "domain": "news.google.com",
     "channel": "news",
     "disclosure": "editorial",
@@ -105,12 +146,12 @@
     "first_seen": "2026-10-07T00:41:30.471291Z"
   },
   {
-    "id": "auto-4796491cd7993b",
-    "published_at": "2026-10-06T23:30:00Z",
-    "title": "Brenham police confirm internal investigation into officer following alleged Flock camera misuse - KBTX News 3",
-    "summary": "Brenham police confirm internal investigation into officer following alleged Flock camera misuse KBTX News 3",
-    "publisher": "KBTX News 3",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR19SVXlVQUhVbi1XbVZ0MGdmclFBR3B3QjZKSUQ2dUV3VzVraF9pRFZFYW81ZlUyMzlJVHNfWC14V1VyNVladFRXUHlWZDVvWkhlcENlZ2dxR1NaUnF5SG8zSWNVVDRBVVpuYjQxTmtocFFvQkJjZGZ4ZnJQVmlpRk04V0s5UHdUX2dUSVRzOVRYa1h1ckRZUnhBbUgwdG9tOFRjLWRJODJXSUlOM014R3hOVXY2TlUxSTdqa2Z3dE5sU3RNZkIwaEVoWWhXSlUtMjVtWkhNN3IxXzV3NmlUNzJ3?oc=5",
+    "id": "auto-981aec5f8f2d0f",
+    "published_at": "2026-10-06T23:23:37Z",
+    "title": "Denver woman files federal lawsuit claiming Flock cameras were misused to falsely charge her with theft - Denver7",
+    "summary": "Denver woman files federal lawsuit claiming Flock cameras were misused to falsely charge her with theft Denver7",
+    "publisher": "Denver7",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU2pMSnFORmRsaDh6THNER25kWnVXYlFXSFNxWk1lS01UNkZGZlE1aGZPUlNJSEV1VmIxd0RGbVhMcS1TTzlmVkxyZGNfSy15MUVneU0xYTVNRXVjRnFrYjQtY2RUcnU3bzFMMXZSeXV2SDBNLXpZYzhTazVYRVF4Z01fa1pHUFpuTWxDcXgwN1AwLVhabHJNOUNJMEplUWxaSmM5cWV4bjFhdERKYzBiSFg5OWt6MkV2aHc4OU5QNnJ0S0oxX0FON1dNMGk1RFFqcWxMMG83OWFVOWM?oc=5",
     "domain": "news.google.com",
     "channel": "news",
     "disclosure": "editorial",
@@ -161,8 +202,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "baseline",
-    "first_seen": "2026-10-07T07:13:37.036500Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-10-07T07:13:37.036500Z"
   },
   {
     "id": "auto-f851c3649fb5ce",
@@ -184,6 +225,26 @@
     "state": "OK",
     "body_status": "google-redirect",
     "first_seen": "2026-10-07T00:41:30.471291Z"
+  },
+  {
+    "id": "auto-897d366f9cc820",
+    "published_at": "2026-10-06T21:53:16Z",
+    "title": "LRPD audit flags officer for 28 searches of same plate in Flock camera system misuse - KATV",
+    "summary": "LRPD audit flags officer for 28 searches of same plate in Flock camera system misuse KATV",
+    "publisher": "KATV",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmNLUktqdjlqc2FjLTVPY09xc1FCNWotdDhmRzhhdmRuWnVOdHBCLXRaWHVUSUE3Rkl6d3N2Y2VOaWZRb1N2c25BUmRwd2lNaEZJWTdBTFpSeU9JX2J6ZnlENTZzRzNoNzlIZzcxV1ZQcXlxaGlFUDJseDdrWlByTEdUXzNSTVRleWo1T1RhX04zNW1heGRJUzJWZVBOZnpGWFlZUFB3dDJNYnpFaDVpZw?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "first_seen": "2026-10-07T14:30:22.614661Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-f9d7f8f0c836ab",
@@ -290,7 +351,7 @@
     "critical_hits": 0,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "baseline",
+    "query_set": "opposition",
     "opposition_event": true,
     "body_status": "google-redirect",
     "first_seen": "2026-10-06T15:10:52.411260Z"
@@ -762,7 +823,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "baseline",
+    "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-10-06T00:48:37.964012Z"
   },
@@ -2565,6 +2626,26 @@
     "first_seen": "2026-09-30T23:48:06.669121Z"
   },
   {
+    "id": "auto-56c0d051014642",
+    "published_at": "2026-09-30T19:28:01Z",
+    "title": "Cheektowaga police officer, dispatchers suspended for alleged misuse of Flock cameras to track fellow employee - WKBW",
+    "summary": "Cheektowaga police officer, dispatchers suspended for alleged misuse of Flock cameras to track fellow employee WKBW",
+    "publisher": "WKBW",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSHg2cnFVckdzQnktZk1wbHY4aFozSFNZUGl6UzMtTVFZOXZkb1BNeUpzSmFsM1Y1RmFxcHhhSWR6dk9kSTRNSGFDVHlSenBYbFV3Qlk0c3A5NnRWUFd2eFd6ZERHbWVwb2ZZRHJsQ1gzaW9rMHdhREZZWTNpakVDLTlxd2xDVW15bmw5aFhZNjhPZ1pGVmVock40RXdwdTRxNkJRWUZuMVMtZmdrUmt5eEdCdmx5ODA2QUctX2ZCel94U05jeFp5MEVB?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-30T23:48:06.669121Z"
+  },
+  {
     "id": "auto-5a215f90a7f043",
     "published_at": "2026-09-30T19:14:18Z",
     "title": "Former Hall investigator arrested on Flock misuse, oath charges - Now Georgia",
@@ -2811,26 +2892,6 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-10-06T00:48:37.964012Z"
-  },
-  {
-    "id": "auto-56c0d051014642",
-    "published_at": "2026-09-30T15:07:00Z",
-    "title": "Cheektowaga police officer, dispatchers suspended for alleged misuse of Flock cameras to track fellow employee - WKBW",
-    "summary": "Cheektowaga police officer, dispatchers suspended for alleged misuse of Flock cameras to track fellow employee WKBW",
-    "publisher": "WKBW",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSHg2cnFVckdzQnktZk1wbHY4aFozSFNZUGl6UzMtTVFZOXZkb1BNeUpzSmFsM1Y1RmFxcHhhSWR6dk9kSTRNSGFDVHlSenBYbFV3Qlk0c3A5NnRWUFd2eFd6ZERHbWVwb2ZZRHJsQ1gzaW9rMHdhREZZWTNpakVDLTlxd2xDVW15bmw5aFhZNjhPZ1pGVmVock40RXdwdTRxNkJRWUZuMVMtZmdrUmt5eEdCdmx5ODA2QUctX2ZCel94U05jeFp5MEVB?oc=5",
-    "domain": "news.google.com",
-    "channel": "news",
-    "disclosure": "editorial",
-    "promotion_score": 0,
-    "stance": "critical",
-    "promotional_hits": 0,
-    "critical_hits": 1,
-    "matched_terms": [],
-    "origin_indicators": [],
-    "query_set": "accountability",
-    "body_status": "google-redirect",
-    "first_seen": "2026-09-30T23:48:06.669121Z"
   },
   {
     "id": "auto-714df40107d095",
@@ -8011,12 +8072,12 @@
     "state": "UT",
     "body_status": "google-redirect",
     "first_seen": "2026-09-30T23:48:06.669121Z",
+    "shared_shingle_count": 8,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-a4ddfbc468ff",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.571,
-    "shared_shingle_count": 8,
-    "shared_shingle_size": 5,
     "shared_passage": "journal utah lawmakers are eyeing new flock camera regulations amid misuse controversies",
     "shared_passage_words": 12
   },
@@ -32143,11 +32204,11 @@
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
-    "id": "auto-8b3bb82d6ba594",
+    "id": "auto-469ccb5e13b873",
     "published_at": "2026-07-31T07:00:00Z",
-    "title": "Privacy concerns grow over flock cameras as critics say it could be used for immigration enforcement - WABC-TV New York",
-    "summary": "Privacy concerns grow over flock cameras as critics say it could be used for immigration enforcement WABC-TV New York",
-    "publisher": "WABC-TV New York",
+    "title": "Privacy concerns grow over flock cameras as critics say it could be used for immigration enforcement - ABC7 Eyewitness News",
+    "summary": "Privacy concerns grow over flock cameras as critics say it could be used for immigration enforcement ABC7 Eyewitness News",
+    "publisher": "ABC7 Eyewitness News",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmRJUE1lR2NIckk5ZGdERjhXekZIZl8zTGJNTmE1UTJ1d3BlLVVoLTBxVDU5TlJQWXp6RW16OV8tbTVqZHExTUx4TU4zeWFJTXVHT0ZVazlmUVN2UVRoQjJmbzZjNXI4VTdpb3ZHNW4wZ1lZcTk3QWYzTXFtOXlNTDNQUk9SdkQtN1d1Rm9FRnpMUU51anNvTW9RRkV6WUM0aEhaQzVBeGgyaXFSYzJ2bG5qcTFCeWvSAbwBQVVfeXFMUFRrcGFTM2V5YWlXZ0IzZkNTTU11U2VrWGFCbE5TQ0hVbnBKX3FlS1U2VGFETmlLXzNKd3Qtd05JblNFU2lRVFhJS1FtN0VHYXZLWXZpRlE4TG9Nb3VvSW5pYl80QWNWYmhyd21QR3ZlUzg4ZDBjNWhEU2x2Y1N5YWM1Y2ZFRDlKbTMwdnRja1BTenBMNk1MQmR2UjExRDBZdFY3SjZlUWhQazRvVWlzRzk3U3h6Vkg5My1sOWg?oc=5",
     "domain": "news.google.com",
     "channel": "news",
@@ -32159,7 +32220,6 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "state": "NY",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z"
   },
@@ -33728,6 +33788,26 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z"
+  },
+  {
+    "id": "auto-dba0446ce74b86",
+    "published_at": "2026-07-16T07:00:00Z",
+    "title": "Huntington sued over Flock cameras contract - WOWK 13 News",
+    "summary": "Huntington sued over Flock cameras contract WOWK 13 News",
+    "publisher": "WOWK 13 News",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HNTQ2WWR6bWNLcnkwZXF3LW84YXhNOFh1aFVIU1ZwdkQtdUFoRlhuT01wX0ppSTVva0JvaXZCcjdCcWQxR01KbUU2cVo0MHlyRlYwQktrdkg0ZW9PdUdkOXBERnd2amJrQXlTUVBlbjBZTVMyWnRybGh1dTc?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "first_seen": "2026-10-07T14:30:22.614661Z",
+    "body_status": "google-redirect"
   },
   {
     "id": "auto-70abf5df70cf07",
@@ -35387,7 +35467,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "newsroom",
+    "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-04T04:31:22.799198Z"
   },
