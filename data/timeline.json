@@ -6,7 +6,7 @@
     "periods_comparable": 6,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 388,
+    "baseline_items": 393,
     "series": [
       {
         "period": "2024-02-05",
@@ -964,16 +964,16 @@
       },
       {
         "period": "2026-09-14",
-        "total": 189,
+        "total": 190,
         "promotional": 22,
         "critical": 103,
         "mixed": 0,
-        "neutral": 64,
+        "neutral": 65,
         "baseline_promotional": 21,
         "baseline_critical": 46,
         "baseline_mixed": 0,
         "baseline_neutral": 13,
-        "opposition_events": 83,
+        "opposition_events": 84,
         "agency_posts": 1,
         "sponsored": 1,
         "baseline_stance_items": 67,
@@ -1000,16 +1000,16 @@
       },
       {
         "period": "2026-09-28",
-        "total": 158,
+        "total": 157,
         "promotional": 5,
         "critical": 106,
         "mixed": 0,
-        "neutral": 47,
+        "neutral": 46,
         "baseline_promotional": 0,
         "baseline_critical": 56,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 51,
+        "opposition_events": 50,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 56,
@@ -1018,37 +1018,37 @@
       },
       {
         "period": "2026-10-05",
-        "total": 46,
+        "total": 54,
         "promotional": 2,
-        "critical": 37,
+        "critical": 40,
         "mixed": 0,
-        "neutral": 7,
+        "neutral": 12,
         "baseline_promotional": 2,
-        "baseline_critical": 17,
+        "baseline_critical": 20,
         "baseline_mixed": 0,
-        "baseline_neutral": 1,
-        "opposition_events": 12,
+        "baseline_neutral": 3,
+        "opposition_events": 17,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 19,
-        "promotional_share": 0.105,
+        "baseline_stance_items": 22,
+        "promotional_share": 0.091,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -0.0088,
+      "slope_per_period": -0.0108,
       "first": 0.063,
-      "last": 0.105,
+      "last": 0.091,
       "direction": "falling"
     },
     "opposition_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -18.5714,
+      "slope_per_period": -17.9714,
       "first": 125,
-      "last": 12,
+      "last": 17,
       "direction": "falling"
     },
     "event_response": {
@@ -1062,6 +1062,13 @@
       "events_fell": 2,
       "events_flat": 11,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-10-07",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-06",
@@ -1133,13 +1140,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "Lafayette CO Police Department",
-          "event_date": "2026-10-03",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "AR",
           "event_date": "2026-10-07",
           "before": 1,
@@ -1163,7 +1163,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 388,
+    "baseline_items": 393,
     "series": [
       {
         "period": "2024-02-01",
@@ -1455,16 +1455,16 @@
       },
       {
         "period": "2026-09-01",
-        "total": 895,
+        "total": 896,
         "promotional": 42,
         "critical": 567,
         "mixed": 0,
-        "neutral": 286,
+        "neutral": 287,
         "baseline_promotional": 29,
         "baseline_critical": 254,
         "baseline_mixed": 0,
         "baseline_neutral": 50,
-        "opposition_events": 357,
+        "opposition_events": 358,
         "agency_posts": 2,
         "sponsored": 1,
         "baseline_stance_items": 283,
@@ -1473,20 +1473,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 108,
+        "total": 115,
         "promotional": 2,
-        "critical": 80,
+        "critical": 83,
         "mixed": 0,
-        "neutral": 26,
+        "neutral": 30,
         "baseline_promotional": 2,
-        "baseline_critical": 44,
+        "baseline_critical": 47,
         "baseline_mixed": 0,
-        "baseline_neutral": 2,
-        "opposition_events": 31,
+        "baseline_neutral": 4,
+        "opposition_events": 35,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 46,
-        "promotional_share": 0.043,
+        "baseline_stance_items": 49,
+        "promotional_share": 0.041,
         "backfill": false
       }
     ],
@@ -1511,6 +1511,13 @@
       "events_fell": 2,
       "events_flat": 11,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-10-07",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-06",
@@ -1576,13 +1583,6 @@
         },
         {
           "jurisdiction": "Upland Police Department, California",
-          "event_date": "2026-10-03",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Lafayette CO Police Department",
           "event_date": "2026-10-03",
           "before": 0,
           "after": 0,
