@@ -165,7 +165,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -178,7 +178,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -191,7 +191,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -204,7 +204,7 @@
     "documented_at": "2026-07-23",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17"
+    "last_checked": "2026-10-08"
   },
   {
     "id": "atherton-police-department-ca",
@@ -216,7 +216,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -269,7 +269,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -282,7 +282,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -295,7 +295,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -308,7 +308,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -321,7 +321,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -334,7 +334,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -347,7 +347,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-17",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -360,7 +360,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -373,7 +373,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -386,7 +386,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -399,7 +399,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -412,7 +412,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -425,7 +425,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -438,7 +438,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -470,8 +470,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-10-02",
+    "socials": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/company/bridgewater-associates/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -484,7 +491,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -497,7 +504,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -510,7 +517,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -523,7 +530,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-08",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -4096,14 +4103,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "LinkedIn",
-        "url": "https://www.linkedin.com/company/smithfield-foods/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4201,14 +4201,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/StJosephBradenton/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -4331,14 +4324,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/ThomasvilleFeedSeedInc/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-10-07",
     "source_credit": "The News & Observer / Private Eyes"
   },
