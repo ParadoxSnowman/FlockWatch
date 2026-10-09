@@ -6,7 +6,7 @@
     "periods_comparable": 6,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 402,
+    "baseline_items": 403,
     "series": [
       {
         "period": "2024-02-05",
@@ -874,9 +874,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 105,
+        "total": 104,
         "promotional": 0,
-        "critical": 80,
+        "critical": 79,
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
@@ -928,9 +928,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 286,
+        "total": 285,
         "promotional": 8,
-        "critical": 176,
+        "critical": 175,
         "mixed": 0,
         "neutral": 102,
         "baseline_promotional": 4,
@@ -1018,29 +1018,29 @@
       },
       {
         "period": "2026-10-05",
-        "total": 78,
+        "total": 80,
         "promotional": 2,
-        "critical": 60,
+        "critical": 62,
         "mixed": 0,
         "neutral": 16,
         "baseline_promotional": 2,
-        "baseline_critical": 28,
+        "baseline_critical": 29,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
         "opposition_events": 22,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 30,
-        "promotional_share": 0.067,
+        "baseline_stance_items": 31,
+        "promotional_share": 0.065,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -0.0142,
+      "slope_per_period": -0.0145,
       "first": 0.063,
-      "last": 0.067,
+      "last": 0.065,
       "direction": "falling"
     },
     "opposition_trend": {
@@ -1170,7 +1170,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 402,
+    "baseline_items": 403,
     "series": [
       {
         "period": "2024-02-01",
@@ -1444,9 +1444,9 @@
       },
       {
         "period": "2026-08-01",
-        "total": 384,
+        "total": 383,
         "promotional": 7,
-        "critical": 270,
+        "critical": 269,
         "mixed": 0,
         "neutral": 107,
         "baseline_promotional": 0,
@@ -1462,9 +1462,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 897,
+        "total": 896,
         "promotional": 42,
-        "critical": 568,
+        "critical": 567,
         "mixed": 0,
         "neutral": 287,
         "baseline_promotional": 29,
@@ -1480,20 +1480,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 139,
+        "total": 141,
         "promotional": 2,
-        "critical": 103,
+        "critical": 105,
         "mixed": 0,
         "neutral": 34,
         "baseline_promotional": 2,
-        "baseline_critical": 55,
+        "baseline_critical": 56,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
         "opposition_events": 40,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 57,
-        "promotional_share": 0.035,
+        "baseline_stance_items": 58,
+        "promotional_share": 0.034,
         "backfill": false
       }
     ],
