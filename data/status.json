@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T16:11:23.943709Z",
+  "updated_at": "2026-10-09T20:53:25.776674Z",
   "collector": "public-rss",
   "queries_ok": 56,
   "queries_total": 56,
@@ -39,7 +39,7 @@
     "owned": 7,
     "promotional": 129
   },
-  "records_updated_at": "2026-10-09T16:11:57.631181Z",
+  "records_updated_at": "2026-10-09T20:54:16.877956Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
