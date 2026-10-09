@@ -6,7 +6,7 @@
     "periods_comparable": 6,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 403,
+    "baseline_items": 406,
     "series": [
       {
         "period": "2024-02-05",
@@ -1018,53 +1018,67 @@
       },
       {
         "period": "2026-10-05",
-        "total": 80,
+        "total": 86,
         "promotional": 2,
-        "critical": 62,
+        "critical": 64,
         "mixed": 0,
-        "neutral": 16,
+        "neutral": 20,
         "baseline_promotional": 2,
-        "baseline_critical": 29,
+        "baseline_critical": 31,
         "baseline_mixed": 0,
-        "baseline_neutral": 3,
-        "opposition_events": 22,
+        "baseline_neutral": 4,
+        "opposition_events": 27,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 31,
-        "promotional_share": 0.065,
+        "baseline_stance_items": 33,
+        "promotional_share": 0.061,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -0.0145,
+      "slope_per_period": -0.0151,
       "first": 0.063,
-      "last": 0.065,
+      "last": 0.061,
       "direction": "falling"
     },
     "opposition_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -17.2571,
+      "slope_per_period": -16.5429,
       "first": 125,
-      "last": 22,
+      "last": 27,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 14,
+      "events_usable": 16,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 12,
+      "events_flat": 14,
       "measured": [
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-10-07",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Placer County Sheriff's Office, California",
+          "event_date": "2026-10-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
+          "event_date": "2026-10-06",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1170,7 +1184,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 403,
+    "baseline_items": 406,
     "series": [
       {
         "period": "2024-02-01",
@@ -1480,20 +1494,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 141,
+        "total": 147,
         "promotional": 2,
-        "critical": 105,
+        "critical": 107,
         "mixed": 0,
-        "neutral": 34,
+        "neutral": 38,
         "baseline_promotional": 2,
-        "baseline_critical": 56,
+        "baseline_critical": 58,
         "baseline_mixed": 0,
-        "baseline_neutral": 4,
-        "opposition_events": 40,
+        "baseline_neutral": 5,
+        "opposition_events": 45,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 58,
-        "promotional_share": 0.034,
+        "baseline_stance_items": 60,
+        "promotional_share": 0.033,
         "backfill": false
       }
     ],
@@ -1509,18 +1523,32 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 14,
+      "events_usable": 16,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 12,
+      "events_flat": 14,
       "measured": [
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-10-07",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Placer County Sheriff's Office, California",
+          "event_date": "2026-10-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
+          "event_date": "2026-10-06",
           "before": 0,
           "after": 0,
           "change": 0
