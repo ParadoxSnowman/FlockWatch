@@ -820,9 +820,9 @@
       },
       {
         "period": "2026-07-20",
-        "total": 22,
+        "total": 23,
         "promotional": 1,
-        "critical": 17,
+        "critical": 18,
         "mixed": 0,
         "neutral": 4,
         "baseline_promotional": 0,
@@ -1000,16 +1000,16 @@
       },
       {
         "period": "2026-09-28",
-        "total": 157,
+        "total": 156,
         "promotional": 5,
         "critical": 106,
         "mixed": 0,
-        "neutral": 46,
+        "neutral": 45,
         "baseline_promotional": 0,
         "baseline_critical": 56,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 50,
+        "opposition_events": 49,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 56,
@@ -1018,16 +1018,16 @@
       },
       {
         "period": "2026-10-05",
-        "total": 87,
+        "total": 88,
         "promotional": 2,
         "critical": 64,
         "mixed": 0,
-        "neutral": 21,
+        "neutral": 22,
         "baseline_promotional": 2,
         "baseline_critical": 32,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 28,
+        "opposition_events": 29,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 34,
@@ -1046,9 +1046,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -16.4,
+      "slope_per_period": -16.3429,
       "first": 125,
-      "last": 28,
+      "last": 29,
       "direction": "falling"
     },
     "event_response": {
@@ -1062,6 +1062,13 @@
       "events_fell": 2,
       "events_flat": 14,
       "measured": [
+        {
+          "jurisdiction": "Middleburg Heights Police Department, Ohio",
+          "event_date": "2026-10-09",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-10-07",
@@ -1107,13 +1114,6 @@
         {
           "jurisdiction": "Richland Police Department, Washington",
           "event_date": "2026-10-05",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Middleburg Heights Police Department, Ohio",
-          "event_date": "2026-10-04",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1440,9 +1440,9 @@
       },
       {
         "period": "2026-07-01",
-        "total": 112,
+        "total": 113,
         "promotional": 8,
-        "critical": 79,
+        "critical": 80,
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
@@ -1533,6 +1533,13 @@
       "events_flat": 14,
       "measured": [
         {
+          "jurisdiction": "Middleburg Heights Police Department, Ohio",
+          "event_date": "2026-10-09",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-10-07",
           "before": 0,
@@ -1577,13 +1584,6 @@
         {
           "jurisdiction": "Richland Police Department, Washington",
           "event_date": "2026-10-05",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Middleburg Heights Police Department, Ohio",
-          "event_date": "2026-10-04",
           "before": 0,
           "after": 0,
           "change": 0
