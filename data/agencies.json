@@ -834,14 +834,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/CliveShoes/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-10-09",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -894,7 +887,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -907,7 +900,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -920,7 +913,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -933,7 +926,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -946,7 +939,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -959,7 +952,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -972,7 +965,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -985,7 +978,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -998,7 +991,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1011,7 +1004,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1023,8 +1016,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-19",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@D4V1E/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1037,7 +1037,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1050,7 +1050,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1063,7 +1063,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1076,7 +1076,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1089,7 +1089,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1102,7 +1102,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1115,7 +1115,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1128,7 +1128,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1141,7 +1141,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1153,8 +1153,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-19",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/edinatv/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1167,7 +1174,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1179,8 +1186,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-09-19",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@edmondx/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1193,7 +1207,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-10",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
