@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T15:39:31.648635Z",
+  "updated_at": "2026-10-11T20:20:00.133208Z",
   "collector": "public-rss",
-  "queries_ok": 56,
+  "queries_ok": 20,
   "queries_total": 56,
   "agencies_checked": 15,
   "agency_total": 375,
@@ -9,7 +9,7 @@
   "agency_rotation_hours": 24,
   "signals_retained": 1651,
   "bodies_captured": 62,
-  "bodies_enriched_this_run": 1,
+  "bodies_enriched_this_run": 0,
   "stance_counts": {
     "critical": 1098,
     "neutral": 492,
@@ -39,7 +39,7 @@
     "owned": 7,
     "promotional": 131
   },
-  "records_updated_at": "2026-10-11T15:40:30.207881Z",
+  "records_updated_at": "2026-10-11T20:20:40.170138Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3

@@ -1063,6 +1063,13 @@
       "events_flat": 18,
       "measured": [
         {
+          "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-10-11",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Morgan Hill Police Department, California",
           "event_date": "2026-10-10",
           "before": 0,
@@ -1113,13 +1120,6 @@
         },
         {
           "jurisdiction": "FL",
-          "event_date": "2026-10-06",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-06",
           "before": 0,
           "after": 0,
@@ -1561,6 +1561,13 @@
       "events_flat": 18,
       "measured": [
         {
+          "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-10-11",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Morgan Hill Police Department, California",
           "event_date": "2026-10-10",
           "before": 0,
@@ -1611,13 +1618,6 @@
         },
         {
           "jurisdiction": "FL",
-          "event_date": "2026-10-06",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-06",
           "before": 0,
           "after": 0,
