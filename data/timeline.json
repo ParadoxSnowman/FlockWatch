@@ -6,7 +6,7 @@
     "periods_comparable": 6,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 407,
+    "baseline_items": 406,
     "series": [
       {
         "period": "2024-02-05",
@@ -1018,49 +1018,49 @@
       },
       {
         "period": "2026-10-05",
-        "total": 102,
+        "total": 103,
         "promotional": 2,
         "critical": 71,
         "mixed": 0,
-        "neutral": 29,
+        "neutral": 30,
         "baseline_promotional": 2,
-        "baseline_critical": 36,
+        "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 36,
+        "opposition_events": 37,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 38,
-        "promotional_share": 0.053,
+        "baseline_stance_items": 37,
+        "promotional_share": 0.054,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -0.0162,
+      "slope_per_period": -0.0161,
       "first": 0.063,
-      "last": 0.053,
+      "last": 0.054,
       "direction": "falling"
     },
     "opposition_trend": {
       "status": "ok",
       "buckets": 6,
-      "slope_per_period": -15.5429,
+      "slope_per_period": -15.4,
       "first": 125,
-      "last": 36,
+      "last": 37,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 22,
+      "events_usable": 23,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 20,
+      "events_flat": 21,
       "measured": [
         {
           "jurisdiction": "Culpeper Police Department, Virginia",
@@ -1092,6 +1092,13 @@
         },
         {
           "jurisdiction": "Woonsocket Police Department, Rhode Island",
+          "event_date": "2026-10-10",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Mahoning Twp Police Department, Pennsylvania",
           "event_date": "2026-10-10",
           "before": 0,
           "after": 0,
@@ -1226,7 +1233,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 407,
+    "baseline_items": 406,
     "series": [
       {
         "period": "2024-02-01",
@@ -1536,20 +1543,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 162,
+        "total": 163,
         "promotional": 2,
         "critical": 114,
         "mixed": 0,
-        "neutral": 46,
+        "neutral": 47,
         "baseline_promotional": 2,
-        "baseline_critical": 62,
+        "baseline_critical": 61,
         "baseline_mixed": 0,
         "baseline_neutral": 5,
-        "opposition_events": 53,
+        "opposition_events": 54,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 64,
-        "promotional_share": 0.031,
+        "baseline_stance_items": 63,
+        "promotional_share": 0.032,
         "backfill": false
       }
     ],
@@ -1565,14 +1572,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 22,
+      "events_usable": 23,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 20,
+      "events_flat": 21,
       "measured": [
         {
           "jurisdiction": "Culpeper Police Department, Virginia",
@@ -1604,6 +1611,13 @@
         },
         {
           "jurisdiction": "Woonsocket Police Department, Rhode Island",
+          "event_date": "2026-10-10",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Mahoning Twp Police Department, Pennsylvania",
           "event_date": "2026-10-10",
           "before": 0,
           "after": 0,
