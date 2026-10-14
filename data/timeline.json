@@ -6,7 +6,7 @@
     "periods_comparable": 7,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 416,
+    "baseline_items": 421,
     "series": [
       {
         "period": "2024-02-05",
@@ -874,9 +874,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 106,
+        "total": 107,
         "promotional": 0,
-        "critical": 81,
+        "critical": 82,
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
@@ -928,16 +928,16 @@
       },
       {
         "period": "2026-08-31",
-        "total": 286,
+        "total": 285,
         "promotional": 8,
         "critical": 176,
         "mixed": 0,
-        "neutral": 102,
+        "neutral": 101,
         "baseline_promotional": 4,
         "baseline_critical": 59,
         "baseline_mixed": 0,
         "baseline_neutral": 8,
-        "opposition_events": 125,
+        "opposition_events": 124,
         "agency_posts": 1,
         "sponsored": 0,
         "baseline_stance_items": 63,
@@ -1000,9 +1000,9 @@
       },
       {
         "period": "2026-09-28",
-        "total": 154,
+        "total": 153,
         "promotional": 5,
-        "critical": 106,
+        "critical": 105,
         "mixed": 0,
         "neutral": 43,
         "baseline_promotional": 0,
@@ -1036,19 +1036,19 @@
       },
       {
         "period": "2026-10-12",
-        "total": 19,
+        "total": 30,
         "promotional": 0,
-        "critical": 12,
+        "critical": 19,
         "mixed": 0,
-        "neutral": 7,
+        "neutral": 11,
         "baseline_promotional": 0,
-        "baseline_critical": 7,
+        "baseline_critical": 12,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
-        "opposition_events": 9,
+        "opposition_events": 14,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 7,
+        "baseline_stance_items": 12,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1064,21 +1064,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -15.9286,
-      "first": 125,
-      "last": 9,
+      "slope_per_period": -15.2857,
+      "first": 124,
+      "last": 14,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 28,
+      "events_usable": 29,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 26,
+      "events_flat": 27,
       "measured": [
         {
           "jurisdiction": "Bainbridge Township Police Department, Ohio",
@@ -1097,6 +1097,13 @@
         {
           "jurisdiction": "FL",
           "event_date": "2026-10-13",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Redwood City Police Department, California",
+          "event_date": "2026-10-12",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1286,7 +1293,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 416,
+    "baseline_items": 421,
     "series": [
       {
         "period": "2024-02-01",
@@ -1560,9 +1567,9 @@
       },
       {
         "period": "2026-08-01",
-        "total": 385,
+        "total": 386,
         "promotional": 7,
-        "critical": 271,
+        "critical": 272,
         "mixed": 0,
         "neutral": 107,
         "baseline_promotional": 0,
@@ -1578,16 +1585,16 @@
       },
       {
         "period": "2026-09-01",
-        "total": 896,
+        "total": 895,
         "promotional": 42,
         "critical": 571,
         "mixed": 0,
-        "neutral": 283,
+        "neutral": 282,
         "baseline_promotional": 29,
         "baseline_critical": 252,
         "baseline_mixed": 0,
         "baseline_neutral": 50,
-        "opposition_events": 355,
+        "opposition_events": 354,
         "agency_posts": 2,
         "sponsored": 1,
         "baseline_stance_items": 281,
@@ -1596,20 +1603,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 186,
+        "total": 196,
         "promotional": 2,
-        "critical": 128,
+        "critical": 134,
         "mixed": 0,
-        "neutral": 56,
+        "neutral": 60,
         "baseline_promotional": 2,
-        "baseline_critical": 68,
+        "baseline_critical": 73,
         "baseline_mixed": 0,
         "baseline_neutral": 8,
-        "opposition_events": 65,
+        "opposition_events": 70,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 70,
-        "promotional_share": 0.029,
+        "baseline_stance_items": 75,
+        "promotional_share": 0.027,
         "backfill": false
       }
     ],
@@ -1625,14 +1632,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 28,
+      "events_usable": 29,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 26,
+      "events_flat": 27,
       "measured": [
         {
           "jurisdiction": "Bainbridge Township Police Department, Ohio",
@@ -1651,6 +1658,13 @@
         {
           "jurisdiction": "FL",
           "event_date": "2026-10-13",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Redwood City Police Department, California",
+          "event_date": "2026-10-12",
           "before": 0,
           "after": 0,
           "change": 0
