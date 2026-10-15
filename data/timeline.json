@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 54,
+        "total": 59,
         "promotional": 0,
-        "critical": 29,
+        "critical": 32,
         "mixed": 0,
-        "neutral": 25,
+        "neutral": 27,
         "baseline_promotional": 0,
         "baseline_critical": 17,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
-        "opposition_events": 29,
+        "opposition_events": 31,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 17,
@@ -1064,21 +1064,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -13.7143,
+      "slope_per_period": -13.5,
       "first": 124,
-      "last": 29,
+      "last": 31,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 34,
+      "events_usable": 35,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 32,
+      "events_flat": 33,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -1097,6 +1097,13 @@
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "DNU, California",
+          "event_date": "2026-10-13",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1638,16 +1645,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 220,
+        "total": 225,
         "promotional": 2,
-        "critical": 144,
+        "critical": 147,
         "mixed": 0,
-        "neutral": 74,
+        "neutral": 76,
         "baseline_promotional": 2,
         "baseline_critical": 78,
         "baseline_mixed": 0,
         "baseline_neutral": 8,
-        "opposition_events": 85,
+        "opposition_events": 87,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 80,
@@ -1667,14 +1674,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 34,
+      "events_usable": 35,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 32,
+      "events_flat": 33,
       "measured": [
         {
           "jurisdiction": "FL",
@@ -1693,6 +1700,13 @@
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "DNU, California",
+          "event_date": "2026-10-13",
           "before": 0,
           "after": 0,
           "change": 0
