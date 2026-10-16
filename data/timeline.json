@@ -6,7 +6,7 @@
     "periods_comparable": 7,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 435,
+    "baseline_items": 437,
     "series": [
       {
         "period": "2024-02-05",
@@ -1036,19 +1036,19 @@
       },
       {
         "period": "2026-10-12",
-        "total": 77,
+        "total": 83,
         "promotional": 0,
-        "critical": 43,
+        "critical": 48,
         "mixed": 0,
-        "neutral": 34,
+        "neutral": 35,
         "baseline_promotional": 0,
-        "baseline_critical": 26,
+        "baseline_critical": 28,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 42,
+        "opposition_events": 43,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 26,
+        "baseline_stance_items": 28,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1064,22 +1064,29 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -12.3571,
+      "slope_per_period": -12.25,
       "first": 124,
-      "last": 42,
+      "last": 43,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 35,
+      "events_usable": 36,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 33,
+      "events_flat": 34,
       "measured": [
+        {
+          "jurisdiction": "Rossville Police Department, Georgia",
+          "event_date": "2026-10-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "FL",
           "event_date": "2026-10-14",
@@ -1335,7 +1342,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 435,
+    "baseline_items": 437,
     "series": [
       {
         "period": "2024-02-01",
@@ -1645,20 +1652,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 243,
+        "total": 249,
         "promotional": 2,
-        "critical": 159,
+        "critical": 164,
         "mixed": 0,
-        "neutral": 82,
+        "neutral": 83,
         "baseline_promotional": 2,
-        "baseline_critical": 86,
+        "baseline_critical": 88,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 97,
+        "opposition_events": 98,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 88,
-        "promotional_share": 0.023,
+        "baseline_stance_items": 90,
+        "promotional_share": 0.022,
         "backfill": false
       }
     ],
@@ -1674,15 +1681,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 35,
+      "events_usable": 36,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 33,
+      "events_flat": 34,
       "measured": [
+        {
+          "jurisdiction": "Rossville Police Department, Georgia",
+          "event_date": "2026-10-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "FL",
           "event_date": "2026-10-14",
