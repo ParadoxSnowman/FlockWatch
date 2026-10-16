@@ -6,7 +6,7 @@
     "periods_comparable": 7,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 437,
+    "baseline_items": 438,
     "series": [
       {
         "period": "2024-02-05",
@@ -1000,16 +1000,16 @@
       },
       {
         "period": "2026-09-28",
-        "total": 153,
+        "total": 154,
         "promotional": 5,
         "critical": 106,
         "mixed": 0,
-        "neutral": 42,
+        "neutral": 43,
         "baseline_promotional": 0,
         "baseline_critical": 53,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 46,
+        "opposition_events": 47,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 53,
@@ -1018,16 +1018,16 @@
       },
       {
         "period": "2026-10-05",
-        "total": 107,
+        "total": 108,
         "promotional": 2,
         "critical": 73,
         "mixed": 0,
-        "neutral": 32,
+        "neutral": 33,
         "baseline_promotional": 2,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 39,
+        "opposition_events": 40,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 37,
@@ -1036,19 +1036,19 @@
       },
       {
         "period": "2026-10-12",
-        "total": 83,
+        "total": 85,
         "promotional": 0,
-        "critical": 48,
+        "critical": 49,
         "mixed": 0,
-        "neutral": 35,
+        "neutral": 36,
         "baseline_promotional": 0,
-        "baseline_critical": 28,
+        "baseline_critical": 29,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 43,
+        "opposition_events": 44,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 28,
+        "baseline_stance_items": 29,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1064,21 +1064,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -12.25,
+      "slope_per_period": -12.0357,
       "first": 124,
-      "last": 43,
+      "last": 44,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 36,
+      "events_usable": 38,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 34,
+      "events_flat": 36,
       "measured": [
         {
           "jurisdiction": "Rossville Police Department, Georgia",
@@ -1103,6 +1103,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
@@ -1263,6 +1270,13 @@
           "change": 0
         },
         {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Grandview Heights Police Department, Ohio",
           "event_date": "2026-10-05",
           "before": 0,
@@ -1342,7 +1356,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 437,
+    "baseline_items": 438,
     "series": [
       {
         "period": "2024-02-01",
@@ -1652,19 +1666,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 249,
+        "total": 253,
         "promotional": 2,
-        "critical": 164,
+        "critical": 165,
         "mixed": 0,
-        "neutral": 83,
+        "neutral": 86,
         "baseline_promotional": 2,
-        "baseline_critical": 88,
+        "baseline_critical": 89,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 98,
+        "opposition_events": 101,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 90,
+        "baseline_stance_items": 91,
         "promotional_share": 0.022,
         "backfill": false
       }
@@ -1681,14 +1695,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 36,
+      "events_usable": 38,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 34,
+      "events_flat": 36,
       "measured": [
         {
           "jurisdiction": "Rossville Police Department, Georgia",
@@ -1713,6 +1727,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "FL",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
@@ -1867,6 +1888,13 @@
         },
         {
           "jurisdiction": "FL",
+          "event_date": "2026-10-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-06",
           "before": 0,
           "after": 0,
