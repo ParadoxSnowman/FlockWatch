@@ -6,7 +6,7 @@
     "periods_comparable": 7,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 438,
+    "baseline_items": 440,
     "series": [
       {
         "period": "2024-02-05",
@@ -982,16 +982,16 @@
       },
       {
         "period": "2026-09-21",
-        "total": 174,
+        "total": 173,
         "promotional": 2,
         "critical": 126,
         "mixed": 0,
-        "neutral": 46,
+        "neutral": 45,
         "baseline_promotional": 0,
         "baseline_critical": 66,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
-        "opposition_events": 58,
+        "opposition_events": 57,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 66,
@@ -1036,19 +1036,19 @@
       },
       {
         "period": "2026-10-12",
-        "total": 85,
+        "total": 89,
         "promotional": 0,
-        "critical": 49,
+        "critical": 52,
         "mixed": 0,
-        "neutral": 36,
+        "neutral": 37,
         "baseline_promotional": 0,
-        "baseline_critical": 29,
+        "baseline_critical": 31,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 44,
+        "opposition_events": 45,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 29,
+        "baseline_stance_items": 31,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1064,21 +1064,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -12.0357,
+      "slope_per_period": -11.9286,
       "first": 124,
-      "last": 44,
+      "last": 45,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 38,
+      "events_usable": 39,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 36,
+      "events_flat": 37,
       "measured": [
         {
           "jurisdiction": "Rossville Police Department, Georgia",
@@ -1166,6 +1166,13 @@
         },
         {
           "jurisdiction": "Redwood City Police Department, California",
+          "event_date": "2026-10-12",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Hubbard Police Department, Ohio",
           "event_date": "2026-10-12",
           "before": 0,
           "after": 0,
@@ -1356,7 +1363,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 438,
+    "baseline_items": 440,
     "series": [
       {
         "period": "2024-02-01",
@@ -1648,16 +1655,16 @@
       },
       {
         "period": "2026-09-01",
-        "total": 898,
+        "total": 897,
         "promotional": 42,
         "critical": 574,
         "mixed": 0,
-        "neutral": 282,
+        "neutral": 281,
         "baseline_promotional": 29,
         "baseline_critical": 252,
         "baseline_mixed": 0,
         "baseline_neutral": 50,
-        "opposition_events": 355,
+        "opposition_events": 354,
         "agency_posts": 2,
         "sponsored": 1,
         "baseline_stance_items": 281,
@@ -1666,19 +1673,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 253,
+        "total": 257,
         "promotional": 2,
-        "critical": 165,
+        "critical": 168,
         "mixed": 0,
-        "neutral": 86,
+        "neutral": 87,
         "baseline_promotional": 2,
-        "baseline_critical": 89,
+        "baseline_critical": 91,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 101,
+        "opposition_events": 102,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 91,
+        "baseline_stance_items": 93,
         "promotional_share": 0.022,
         "backfill": false
       }
@@ -1695,14 +1702,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 38,
+      "events_usable": 39,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 36,
+      "events_flat": 37,
       "measured": [
         {
           "jurisdiction": "Rossville Police Department, Georgia",
@@ -1790,6 +1797,13 @@
         },
         {
           "jurisdiction": "Redwood City Police Department, California",
+          "event_date": "2026-10-12",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Hubbard Police Department, Ohio",
           "event_date": "2026-10-12",
           "before": 0,
           "after": 0,
