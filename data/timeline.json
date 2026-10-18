@@ -6,7 +6,7 @@
     "periods_comparable": 7,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 447,
+    "baseline_items": 446,
     "series": [
       {
         "period": "2024-02-05",
@@ -1006,13 +1006,13 @@
         "mixed": 0,
         "neutral": 42,
         "baseline_promotional": 0,
-        "baseline_critical": 53,
+        "baseline_critical": 52,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
         "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 53,
+        "baseline_stance_items": 52,
         "promotional_share": 0.0,
         "backfill": false
       },
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 106,
+        "total": 107,
         "promotional": 1,
         "critical": 59,
         "mixed": 0,
-        "neutral": 46,
+        "neutral": 47,
         "baseline_promotional": 1,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 5,
-        "opposition_events": 56,
+        "opposition_events": 57,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 36,
@@ -1064,21 +1064,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 7,
-      "slope_per_period": -10.7857,
+      "slope_per_period": -10.6786,
       "first": 124,
-      "last": 56,
+      "last": 57,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 41,
+      "events_usable": 42,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 39,
+      "events_flat": 40,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -1117,6 +1117,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Altoona Police Department, Iowa",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
@@ -1377,7 +1384,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 447,
+    "baseline_items": 446,
     "series": [
       {
         "period": "2024-02-01",
@@ -1687,20 +1694,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 274,
+        "total": 275,
         "promotional": 3,
         "critical": 176,
         "mixed": 0,
-        "neutral": 95,
+        "neutral": 96,
         "baseline_promotional": 3,
-        "baseline_critical": 96,
+        "baseline_critical": 95,
         "baseline_mixed": 0,
         "baseline_neutral": 10,
-        "opposition_events": 112,
+        "opposition_events": 113,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 99,
-        "promotional_share": 0.03,
+        "baseline_stance_items": 98,
+        "promotional_share": 0.031,
         "backfill": false
       }
     ],
@@ -1716,14 +1723,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 41,
+      "events_usable": 42,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 39,
+      "events_flat": 40,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -1762,6 +1769,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-14",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Altoona Police Department, Iowa",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
