@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 452,
+    "baseline_items": 454,
     "series": [
       {
         "period": "2024-02-05",
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 114,
+        "total": 113,
         "promotional": 1,
         "critical": 61,
         "mixed": 0,
-        "neutral": 52,
+        "neutral": 51,
         "baseline_promotional": 1,
         "baseline_critical": 37,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 61,
+        "opposition_events": 60,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 38,
@@ -1054,19 +1054,19 @@
       },
       {
         "period": "2026-10-19",
-        "total": 7,
+        "total": 13,
         "promotional": 0,
-        "critical": 6,
+        "critical": 9,
         "mixed": 0,
-        "neutral": 1,
+        "neutral": 4,
         "baseline_promotional": 0,
-        "baseline_critical": 3,
+        "baseline_critical": 5,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 2,
+        "opposition_events": 6,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 3,
+        "baseline_stance_items": 5,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1082,22 +1082,29 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -12.4881,
+      "slope_per_period": -12.2143,
       "first": 124,
-      "last": 2,
+      "last": 6,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 44,
+      "events_usable": 46,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 42,
+      "events_flat": 44,
       "measured": [
+        {
+          "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-19",
@@ -1113,14 +1120,21 @@
           "change": 0
         },
         {
-          "jurisdiction": "Buena Park Police Department, California",
-          "event_date": "2026-10-18",
+          "jurisdiction": "Culpeper Police Department, Virginia",
+          "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
           "change": 0
         },
         {
-          "jurisdiction": "Culpeper Police Department, Virginia",
+          "jurisdiction": "Beecher Police Department, Illinois",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Buena Park Police Department, California",
           "event_date": "2026-10-18",
           "before": 0,
           "after": 0,
@@ -1416,7 +1430,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 452,
+    "baseline_items": 454,
     "series": [
       {
         "period": "2024-02-01",
@@ -1726,19 +1740,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 287,
+        "total": 292,
         "promotional": 3,
-        "critical": 184,
+        "critical": 187,
         "mixed": 0,
-        "neutral": 100,
+        "neutral": 102,
         "baseline_promotional": 3,
-        "baseline_critical": 100,
+        "baseline_critical": 102,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 117,
+        "opposition_events": 120,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 103,
+        "baseline_stance_items": 105,
         "promotional_share": 0.029,
         "backfill": false
       }
@@ -1755,15 +1769,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 44,
+      "events_usable": 46,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 42,
+      "events_flat": 44,
       "measured": [
+        {
+          "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-19",
@@ -1779,14 +1800,21 @@
           "change": 0
         },
         {
-          "jurisdiction": "Buena Park Police Department, California",
-          "event_date": "2026-10-18",
+          "jurisdiction": "Culpeper Police Department, Virginia",
+          "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
           "change": 0
         },
         {
-          "jurisdiction": "Culpeper Police Department, Virginia",
+          "jurisdiction": "Beecher Police Department, Illinois",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Buena Park Police Department, California",
           "event_date": "2026-10-18",
           "before": 0,
           "after": 0,
