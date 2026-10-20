@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 454,
+    "baseline_items": 463,
     "series": [
       {
         "period": "2024-02-05",
@@ -1054,19 +1054,19 @@
       },
       {
         "period": "2026-10-19",
-        "total": 13,
+        "total": 28,
         "promotional": 0,
-        "critical": 9,
+        "critical": 16,
         "mixed": 0,
-        "neutral": 4,
+        "neutral": 12,
         "baseline_promotional": 0,
-        "baseline_critical": 5,
+        "baseline_critical": 10,
         "baseline_mixed": 0,
-        "baseline_neutral": 0,
-        "opposition_events": 6,
+        "baseline_neutral": 4,
+        "opposition_events": 15,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 5,
+        "baseline_stance_items": 10,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1082,22 +1082,36 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -12.2143,
+      "slope_per_period": -11.4643,
       "first": 124,
-      "last": 6,
+      "last": 15,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 46,
+      "events_usable": 49,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 44,
+      "events_flat": 47,
       "measured": [
+        {
+          "jurisdiction": "KS",
+          "event_date": "2026-10-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "RI",
           "event_date": "2026-10-19",
@@ -1114,6 +1128,13 @@
         },
         {
           "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Huntsville Airport Police Department, Alabama",
           "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
@@ -1430,7 +1451,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 454,
+    "baseline_items": 463,
     "series": [
       {
         "period": "2024-02-01",
@@ -1740,20 +1761,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 292,
+        "total": 307,
         "promotional": 3,
-        "critical": 187,
+        "critical": 194,
         "mixed": 0,
-        "neutral": 102,
+        "neutral": 110,
         "baseline_promotional": 3,
-        "baseline_critical": 102,
+        "baseline_critical": 107,
         "baseline_mixed": 0,
-        "baseline_neutral": 9,
-        "opposition_events": 120,
+        "baseline_neutral": 13,
+        "opposition_events": 129,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 105,
-        "promotional_share": 0.029,
+        "baseline_stance_items": 110,
+        "promotional_share": 0.027,
         "backfill": false
       }
     ],
@@ -1769,15 +1790,29 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 46,
+      "events_usable": 49,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 44,
+      "events_flat": 47,
       "measured": [
+        {
+          "jurisdiction": "KS",
+          "event_date": "2026-10-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "RI",
           "event_date": "2026-10-19",
@@ -1794,6 +1829,13 @@
         },
         {
           "jurisdiction": "RI",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Huntsville Airport Police Department, Alabama",
           "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
