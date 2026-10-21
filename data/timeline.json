@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 475,
+    "baseline_items": 477,
     "series": [
       {
         "period": "2024-02-05",
@@ -946,16 +946,16 @@
       },
       {
         "period": "2026-09-07",
-        "total": 176,
+        "total": 175,
         "promotional": 6,
         "critical": 113,
         "mixed": 0,
-        "neutral": 57,
+        "neutral": 56,
         "baseline_promotional": 4,
         "baseline_critical": 55,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
-        "opposition_events": 69,
+        "opposition_events": 68,
         "agency_posts": 1,
         "sponsored": 0,
         "baseline_stance_items": 59,
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 114,
+        "total": 115,
         "promotional": 1,
         "critical": 62,
         "mixed": 0,
-        "neutral": 51,
+        "neutral": 52,
         "baseline_promotional": 1,
         "baseline_critical": 37,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 60,
+        "opposition_events": 61,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 38,
@@ -1054,19 +1054,19 @@
       },
       {
         "period": "2026-10-19",
-        "total": 55,
+        "total": 61,
         "promotional": 0,
-        "critical": 32,
+        "critical": 35,
         "mixed": 0,
-        "neutral": 23,
+        "neutral": 26,
         "baseline_promotional": 0,
-        "baseline_critical": 20,
+        "baseline_critical": 22,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 25,
+        "opposition_events": 28,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 20,
+        "baseline_stance_items": 22,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1082,24 +1082,31 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -10.631,
+      "slope_per_period": -10.2619,
       "first": 124,
-      "last": 25,
+      "last": 28,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 51,
+      "events_usable": 53,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 49,
+      "events_flat": 51,
       "measured": [
         {
           "jurisdiction": "TX",
+          "event_date": "2026-10-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Puyallup Police Department, Washington",
           "event_date": "2026-10-20",
           "before": 0,
           "after": 0,
@@ -1171,6 +1178,13 @@
         {
           "jurisdiction": "Buena Park Police Department, California",
           "event_date": "2026-10-18",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Medina Police Department, Washington",
+          "event_date": "2026-10-17",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1465,7 +1479,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 475,
+    "baseline_items": 477,
     "series": [
       {
         "period": "2024-02-01",
@@ -1757,16 +1771,16 @@
       },
       {
         "period": "2026-09-01",
-        "total": 896,
+        "total": 895,
         "promotional": 42,
         "critical": 573,
         "mixed": 0,
-        "neutral": 281,
+        "neutral": 280,
         "baseline_promotional": 29,
         "baseline_critical": 251,
         "baseline_mixed": 0,
         "baseline_neutral": 51,
-        "opposition_events": 354,
+        "opposition_events": 353,
         "agency_posts": 2,
         "sponsored": 1,
         "baseline_stance_items": 280,
@@ -1775,19 +1789,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 335,
+        "total": 342,
         "promotional": 3,
-        "critical": 211,
+        "critical": 214,
         "mixed": 0,
-        "neutral": 121,
+        "neutral": 125,
         "baseline_promotional": 3,
-        "baseline_critical": 117,
+        "baseline_critical": 119,
         "baseline_mixed": 0,
         "baseline_neutral": 15,
-        "opposition_events": 139,
+        "opposition_events": 143,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 120,
+        "baseline_stance_items": 122,
         "promotional_share": 0.025,
         "backfill": false
       }
@@ -1804,17 +1818,24 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 51,
+      "events_usable": 53,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 49,
+      "events_flat": 51,
       "measured": [
         {
           "jurisdiction": "TX",
+          "event_date": "2026-10-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Puyallup Police Department, Washington",
           "event_date": "2026-10-20",
           "before": 0,
           "after": 0,
@@ -1886,6 +1907,13 @@
         {
           "jurisdiction": "Buena Park Police Department, California",
           "event_date": "2026-10-18",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Medina Police Department, Washington",
+          "event_date": "2026-10-17",
           "before": 0,
           "after": 0,
           "change": 0
