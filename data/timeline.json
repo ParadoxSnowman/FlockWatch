@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 474,
+    "baseline_items": 477,
     "series": [
       {
         "period": "2024-02-05",
@@ -1006,13 +1006,13 @@
         "mixed": 0,
         "neutral": 42,
         "baseline_promotional": 0,
-        "baseline_critical": 52,
+        "baseline_critical": 51,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
         "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 52,
+        "baseline_stance_items": 51,
         "promotional_share": 0.0,
         "backfill": false
       },
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 115,
+        "total": 114,
         "promotional": 1,
         "critical": 62,
         "mixed": 0,
-        "neutral": 52,
+        "neutral": 51,
         "baseline_promotional": 1,
         "baseline_critical": 37,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 61,
+        "opposition_events": 60,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 38,
@@ -1054,19 +1054,19 @@
       },
       {
         "period": "2026-10-19",
-        "total": 87,
+        "total": 94,
         "promotional": 0,
-        "critical": 44,
+        "critical": 48,
         "mixed": 0,
-        "neutral": 43,
+        "neutral": 46,
         "baseline_promotional": 0,
-        "baseline_critical": 26,
+        "baseline_critical": 29,
         "baseline_mixed": 0,
-        "baseline_neutral": 8,
-        "opposition_events": 48,
+        "baseline_neutral": 9,
+        "opposition_events": 51,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 26,
+        "baseline_stance_items": 29,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1082,9 +1082,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -8.619,
+      "slope_per_period": -8.4286,
       "first": 124,
-      "last": 48,
+      "last": 51,
       "direction": "falling"
     },
     "event_response": {
@@ -1114,6 +1114,13 @@
         },
         {
           "jurisdiction": "MI",
+          "event_date": "2026-10-21",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-21",
           "before": 0,
           "after": 0,
@@ -1247,13 +1254,6 @@
         },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
-          "event_date": "2026-10-14",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
@@ -1500,7 +1500,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 474,
+    "baseline_items": 477,
     "series": [
       {
         "period": "2024-02-01",
@@ -1810,20 +1810,20 @@
       },
       {
         "period": "2026-10-01",
-        "total": 367,
+        "total": 373,
         "promotional": 3,
-        "critical": 223,
+        "critical": 227,
         "mixed": 0,
-        "neutral": 141,
+        "neutral": 143,
         "baseline_promotional": 3,
-        "baseline_critical": 124,
+        "baseline_critical": 126,
         "baseline_mixed": 0,
-        "baseline_neutral": 17,
-        "opposition_events": 162,
+        "baseline_neutral": 18,
+        "opposition_events": 164,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 127,
-        "promotional_share": 0.024,
+        "baseline_stance_items": 129,
+        "promotional_share": 0.023,
         "backfill": false
       }
     ],
@@ -1864,6 +1864,13 @@
         },
         {
           "jurisdiction": "MI",
+          "event_date": "2026-10-21",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-21",
           "before": 0,
           "after": 0,
@@ -1997,13 +2004,6 @@
         },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
-          "event_date": "2026-10-14",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-14",
           "before": 0,
           "after": 0,
