@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 118,
+        "total": 122,
         "promotional": 1,
-        "critical": 66,
+        "critical": 69,
         "mixed": 0,
-        "neutral": 51,
+        "neutral": 52,
         "baseline_promotional": 0,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 58,
+        "opposition_events": 59,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 35,
@@ -1082,21 +1082,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -7.8333,
+      "slope_per_period": -7.75,
       "first": 124,
-      "last": 58,
+      "last": 59,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 56,
+      "events_usable": 57,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 54,
+      "events_flat": 55,
       "measured": [
         {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
@@ -1205,6 +1205,13 @@
         },
         {
           "jurisdiction": "Beecher Police Department, Illinois",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Arlington Police Department, Texas",
           "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
@@ -1810,16 +1817,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 397,
+        "total": 401,
         "promotional": 4,
-        "critical": 245,
+        "critical": 248,
         "mixed": 0,
-        "neutral": 148,
+        "neutral": 149,
         "baseline_promotional": 3,
         "baseline_critical": 131,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 171,
+        "opposition_events": 172,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 134,
@@ -1839,14 +1846,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 56,
+      "events_usable": 57,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 54,
+      "events_flat": 55,
       "measured": [
         {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
@@ -1955,6 +1962,13 @@
         },
         {
           "jurisdiction": "Beecher Police Department, Illinois",
+          "event_date": "2026-10-19",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Arlington Police Department, Texas",
           "event_date": "2026-10-19",
           "before": 0,
           "after": 0,
