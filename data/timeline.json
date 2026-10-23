@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 484,
+    "baseline_items": 485,
     "series": [
       {
         "period": "2024-02-05",
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 113,
+        "total": 114,
         "promotional": 1,
         "critical": 62,
         "mixed": 0,
-        "neutral": 50,
+        "neutral": 51,
         "baseline_promotional": 1,
         "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 59,
+        "opposition_events": 60,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 37,
@@ -1054,19 +1054,19 @@
       },
       {
         "period": "2026-10-19",
-        "total": 124,
+        "total": 126,
         "promotional": 1,
-        "critical": 70,
+        "critical": 72,
         "mixed": 0,
         "neutral": 53,
         "baseline_promotional": 0,
-        "baseline_critical": 35,
+        "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 60,
+        "opposition_events": 61,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 35,
+        "baseline_stance_items": 36,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1082,21 +1082,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -7.7262,
+      "slope_per_period": -7.5833,
       "first": 124,
-      "last": 60,
+      "last": 61,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 57,
+      "events_usable": 58,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 55,
+      "events_flat": 56,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -1337,6 +1337,13 @@
           "change": 0
         },
         {
+          "jurisdiction": "Marion Police Department, Ohio",
+          "event_date": "2026-10-12",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Hubbard Police Department, Ohio",
           "event_date": "2026-10-12",
           "before": 0,
@@ -1507,7 +1514,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 484,
+    "baseline_items": 485,
     "series": [
       {
         "period": "2024-02-01",
@@ -1805,28 +1812,28 @@
         "mixed": 0,
         "neutral": 279,
         "baseline_promotional": 29,
-        "baseline_critical": 244,
+        "baseline_critical": 245,
         "baseline_mixed": 0,
         "baseline_neutral": 49,
         "opposition_events": 351,
         "agency_posts": 2,
         "sponsored": 1,
-        "baseline_stance_items": 273,
+        "baseline_stance_items": 274,
         "promotional_share": 0.106,
         "backfill": false
       },
       {
         "period": "2026-10-01",
-        "total": 402,
+        "total": 405,
         "promotional": 4,
-        "critical": 249,
+        "critical": 251,
         "mixed": 0,
-        "neutral": 149,
+        "neutral": 150,
         "baseline_promotional": 3,
         "baseline_critical": 132,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 172,
+        "opposition_events": 174,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 135,
@@ -1846,14 +1853,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 57,
+      "events_usable": 58,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 55,
+      "events_flat": 56,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -2088,6 +2095,13 @@
         },
         {
           "jurisdiction": "Redwood City Police Department, California",
+          "event_date": "2026-10-12",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Marion Police Department, Ohio",
           "event_date": "2026-10-12",
           "before": 0,
           "after": 0,
