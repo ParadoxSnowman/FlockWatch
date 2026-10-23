@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 481,
+    "baseline_items": 484,
     "series": [
       {
         "period": "2024-02-05",
@@ -334,16 +334,16 @@
       },
       {
         "period": "2026-01-05",
-        "total": 1,
+        "total": 2,
         "promotional": 0,
         "critical": 1,
         "mixed": 0,
-        "neutral": 0,
+        "neutral": 1,
         "baseline_promotional": 0,
         "baseline_critical": 0,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 0,
+        "opposition_events": 1,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 0,
@@ -880,14 +880,14 @@
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
-        "baseline_critical": 2,
+        "baseline_critical": 3,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
         "opposition_events": 25,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 2,
-        "promotional_share": null,
+        "baseline_stance_items": 3,
+        "promotional_share": 0.0,
         "backfill": true
       },
       {
@@ -898,13 +898,13 @@
         "mixed": 0,
         "neutral": 20,
         "baseline_promotional": 0,
-        "baseline_critical": 1,
+        "baseline_critical": 2,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
         "opposition_events": 28,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 1,
+        "baseline_stance_items": 2,
         "promotional_share": null,
         "backfill": true
       },
@@ -1006,13 +1006,13 @@
         "mixed": 0,
         "neutral": 42,
         "baseline_promotional": 0,
-        "baseline_critical": 51,
+        "baseline_critical": 52,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
         "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 51,
+        "baseline_stance_items": 52,
         "promotional_share": 0.0,
         "backfill": false
       },
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-10-12",
-        "total": 114,
+        "total": 113,
         "promotional": 1,
         "critical": 62,
         "mixed": 0,
-        "neutral": 51,
+        "neutral": 50,
         "baseline_promotional": 1,
         "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 60,
+        "opposition_events": 59,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 37,
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 122,
+        "total": 124,
         "promotional": 1,
-        "critical": 69,
+        "critical": 70,
         "mixed": 0,
-        "neutral": 52,
+        "neutral": 53,
         "baseline_promotional": 0,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 59,
+        "opposition_events": 60,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 35,
@@ -1082,9 +1082,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -7.75,
+      "slope_per_period": -7.7262,
       "first": 124,
-      "last": 59,
+      "last": 60,
       "direction": "falling"
     },
     "event_response": {
@@ -1099,7 +1099,21 @@
       "events_flat": 55,
       "measured": [
         {
+          "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1121,13 +1135,6 @@
         },
         {
           "jurisdiction": "MI",
-          "event_date": "2026-10-21",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-21",
           "before": 0,
           "after": 0,
@@ -1226,13 +1233,6 @@
         },
         {
           "jurisdiction": "Medina Police Department, Washington",
-          "event_date": "2026-10-17",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-17",
           "before": 0,
           "after": 0,
@@ -1507,7 +1507,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 481,
+    "baseline_items": 484,
     "series": [
       {
         "period": "2024-02-01",
@@ -1655,16 +1655,16 @@
       },
       {
         "period": "2026-01-01",
-        "total": 6,
+        "total": 7,
         "promotional": 0,
         "critical": 5,
         "mixed": 0,
-        "neutral": 1,
+        "neutral": 2,
         "baseline_promotional": 0,
         "baseline_critical": 0,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 1,
+        "opposition_events": 2,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 0,
@@ -1787,13 +1787,13 @@
         "mixed": 0,
         "neutral": 108,
         "baseline_promotional": 0,
-        "baseline_critical": 7,
+        "baseline_critical": 9,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
         "opposition_events": 129,
         "agency_posts": 3,
         "sponsored": 0,
-        "baseline_stance_items": 7,
+        "baseline_stance_items": 9,
         "promotional_share": 0.0,
         "backfill": true
       },
@@ -1817,19 +1817,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 401,
+        "total": 402,
         "promotional": 4,
-        "critical": 248,
+        "critical": 249,
         "mixed": 0,
         "neutral": 149,
         "baseline_promotional": 3,
-        "baseline_critical": 131,
+        "baseline_critical": 132,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
         "opposition_events": 172,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 134,
+        "baseline_stance_items": 135,
         "promotional_share": 0.022,
         "backfill": false
       }
@@ -1856,7 +1856,21 @@
       "events_flat": 55,
       "measured": [
         {
+          "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1878,13 +1892,6 @@
         },
         {
           "jurisdiction": "MI",
-          "event_date": "2026-10-21",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-21",
           "before": 0,
           "after": 0,
@@ -1983,13 +1990,6 @@
         },
         {
           "jurisdiction": "Medina Police Department, Washington",
-          "event_date": "2026-10-17",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-17",
           "before": 0,
           "after": 0,
