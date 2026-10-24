@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 481,
+    "baseline_items": 482,
     "series": [
       {
         "period": "2024-02-05",
@@ -1060,13 +1060,13 @@
         "mixed": 0,
         "neutral": 60,
         "baseline_promotional": 0,
-        "baseline_critical": 34,
+        "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
         "opposition_events": 68,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 34,
+        "baseline_stance_items": 35,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1107,6 +1107,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-23",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1114,13 +1121,6 @@
         },
         {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
-          "event_date": "2026-10-22",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1535,7 +1535,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 481,
+    "baseline_items": 482,
     "series": [
       {
         "period": "2024-02-01",
@@ -1851,13 +1851,13 @@
         "mixed": 0,
         "neutral": 157,
         "baseline_promotional": 3,
-        "baseline_critical": 129,
+        "baseline_critical": 130,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
         "opposition_events": 181,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 132,
+        "baseline_stance_items": 133,
         "promotional_share": 0.023,
         "backfill": false
       }
@@ -1892,6 +1892,13 @@
         },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-10-23",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1899,13 +1906,6 @@
         },
         {
           "jurisdiction": "Middleburg Heights Police Department, Ohio",
-          "event_date": "2026-10-22",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
