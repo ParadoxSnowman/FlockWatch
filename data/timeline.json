@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 482,
+    "baseline_items": 481,
     "series": [
       {
         "period": "2024-02-05",
@@ -928,9 +928,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 286,
+        "total": 285,
         "promotional": 8,
-        "critical": 178,
+        "critical": 177,
         "mixed": 0,
         "neutral": 100,
         "baseline_promotional": 4,
@@ -952,14 +952,14 @@
         "mixed": 0,
         "neutral": 56,
         "baseline_promotional": 4,
-        "baseline_critical": 55,
+        "baseline_critical": 54,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
         "opposition_events": 68,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 59,
-        "promotional_share": 0.068,
+        "baseline_stance_items": 58,
+        "promotional_share": 0.069,
         "backfill": false
       },
       {
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 139,
+        "total": 142,
         "promotional": 1,
-        "critical": 78,
+        "critical": 80,
         "mixed": 0,
-        "neutral": 60,
+        "neutral": 61,
         "baseline_promotional": 0,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 68,
+        "opposition_events": 69,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 35,
@@ -1074,7 +1074,7 @@
     "share_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -0.0178,
+      "slope_per_period": -0.0179,
       "first": 0.069,
       "last": 0.0,
       "direction": "falling"
@@ -1082,21 +1082,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -6.9167,
+      "slope_per_period": -6.8333,
       "first": 123,
-      "last": 68,
+      "last": 69,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 61,
+      "events_usable": 62,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 59,
+      "events_flat": 60,
       "measured": [
         {
           "jurisdiction": "VT",
@@ -1128,6 +1128,13 @@
         },
         {
           "jurisdiction": "Springdale Police Department, Ohio",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Tukwila Police Department, Washington",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
@@ -1535,7 +1542,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 482,
+    "baseline_items": 481,
     "series": [
       {
         "period": "2024-02-01",
@@ -1827,34 +1834,34 @@
       },
       {
         "period": "2026-09-01",
-        "total": 893,
+        "total": 892,
         "promotional": 42,
-        "critical": 573,
+        "critical": 572,
         "mixed": 0,
         "neutral": 278,
         "baseline_promotional": 29,
-        "baseline_critical": 244,
+        "baseline_critical": 243,
         "baseline_mixed": 0,
         "baseline_neutral": 49,
         "opposition_events": 350,
         "agency_posts": 2,
         "sponsored": 1,
-        "baseline_stance_items": 273,
-        "promotional_share": 0.106,
+        "baseline_stance_items": 272,
+        "promotional_share": 0.107,
         "backfill": false
       },
       {
         "period": "2026-10-01",
-        "total": 419,
+        "total": 422,
         "promotional": 4,
-        "critical": 258,
+        "critical": 260,
         "mixed": 0,
-        "neutral": 157,
+        "neutral": 158,
         "baseline_promotional": 3,
         "baseline_critical": 130,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 181,
+        "opposition_events": 182,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 133,
@@ -1874,14 +1881,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 61,
+      "events_usable": 62,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 59,
+      "events_flat": 60,
       "measured": [
         {
           "jurisdiction": "VT",
@@ -1913,6 +1920,13 @@
         },
         {
           "jurisdiction": "Springdale Police Department, Ohio",
+          "event_date": "2026-10-22",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Tukwila Police Department, Washington",
           "event_date": "2026-10-22",
           "before": 0,
           "after": 0,
