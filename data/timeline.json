@@ -928,9 +928,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 286,
+        "total": 287,
         "promotional": 8,
-        "critical": 178,
+        "critical": 179,
         "mixed": 0,
         "neutral": 100,
         "baseline_promotional": 4,
@@ -1063,7 +1063,7 @@
         "baseline_critical": 38,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 72,
+        "opposition_events": 73,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 38,
@@ -1082,9 +1082,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -6.5833,
+      "slope_per_period": -6.5,
       "first": 123,
-      "last": 72,
+      "last": 73,
       "direction": "falling"
     },
     "event_response": {
@@ -1848,9 +1848,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 892,
+        "total": 893,
         "promotional": 42,
-        "critical": 572,
+        "critical": 573,
         "mixed": 0,
         "neutral": 278,
         "baseline_promotional": 29,
@@ -1875,7 +1875,7 @@
         "baseline_critical": 133,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 185,
+        "opposition_events": 186,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 136,
