@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 482,
+    "baseline_items": 481,
     "series": [
       {
         "period": "2024-02-05",
@@ -1000,9 +1000,9 @@
       },
       {
         "period": "2026-09-28",
-        "total": 153,
+        "total": 154,
         "promotional": 5,
-        "critical": 106,
+        "critical": 107,
         "mixed": 0,
         "neutral": 42,
         "baseline_promotional": 0,
@@ -1024,14 +1024,14 @@
         "mixed": 0,
         "neutral": 30,
         "baseline_promotional": 2,
-        "baseline_critical": 36,
+        "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
         "opposition_events": 37,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 38,
-        "promotional_share": 0.053,
+        "baseline_stance_items": 37,
+        "promotional_share": 0.054,
         "backfill": false
       },
       {
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 150,
+        "total": 151,
         "promotional": 1,
         "critical": 85,
         "mixed": 0,
-        "neutral": 64,
+        "neutral": 65,
         "baseline_promotional": 0,
         "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 74,
+        "opposition_events": 75,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 36,
@@ -1082,22 +1082,29 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -6.4167,
+      "slope_per_period": -6.3333,
       "first": 123,
-      "last": 74,
+      "last": 75,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 65,
+      "events_usable": 66,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 63,
+      "events_flat": 64,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Louisiana",
+          "event_date": "2026-10-25",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-25",
@@ -1563,7 +1570,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 482,
+    "baseline_items": 481,
     "series": [
       {
         "period": "2024-02-01",
@@ -1873,19 +1880,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 430,
+        "total": 432,
         "promotional": 4,
-        "critical": 265,
+        "critical": 266,
         "mixed": 0,
-        "neutral": 161,
+        "neutral": 162,
         "baseline_promotional": 3,
-        "baseline_critical": 132,
+        "baseline_critical": 131,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 187,
+        "opposition_events": 188,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 135,
+        "baseline_stance_items": 134,
         "promotional_share": 0.022,
         "backfill": false
       }
@@ -1902,15 +1909,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 65,
+      "events_usable": 66,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 63,
+      "events_flat": 64,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Louisiana",
+          "event_date": "2026-10-25",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
           "event_date": "2026-10-25",
