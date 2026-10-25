@@ -6,7 +6,7 @@
     "periods_comparable": 8,
     "periods_backfill": 51,
     "provenance": "ok",
-    "baseline_items": 483,
+    "baseline_items": 482,
     "series": [
       {
         "period": "2024-02-05",
@@ -874,9 +874,9 @@
       },
       {
         "period": "2026-08-10",
-        "total": 111,
+        "total": 112,
         "promotional": 0,
-        "critical": 86,
+        "critical": 87,
         "mixed": 0,
         "neutral": 25,
         "baseline_promotional": 0,
@@ -1006,13 +1006,13 @@
         "mixed": 0,
         "neutral": 42,
         "baseline_promotional": 0,
-        "baseline_critical": 52,
+        "baseline_critical": 51,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
         "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 52,
+        "baseline_stance_items": 51,
         "promotional_share": 0.0,
         "backfill": false
       },
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 149,
+        "total": 150,
         "promotional": 1,
         "critical": 85,
         "mixed": 0,
-        "neutral": 63,
+        "neutral": 64,
         "baseline_promotional": 0,
         "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
-        "opposition_events": 73,
+        "opposition_events": 74,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 36,
@@ -1082,22 +1082,29 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 8,
-      "slope_per_period": -6.5,
+      "slope_per_period": -6.4167,
       "first": 123,
-      "last": 73,
+      "last": 74,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 64,
+      "events_usable": 65,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 62,
+      "events_flat": 63,
       "measured": [
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-25",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Indian Hill Police Department, Ohio",
           "event_date": "2026-10-24",
@@ -1556,7 +1563,7 @@
     "periods_comparable": 2,
     "periods_backfill": 16,
     "provenance": "ok",
-    "baseline_items": 483,
+    "baseline_items": 482,
     "series": [
       {
         "period": "2024-02-01",
@@ -1830,9 +1837,9 @@
       },
       {
         "period": "2026-08-01",
-        "total": 395,
+        "total": 396,
         "promotional": 7,
-        "critical": 279,
+        "critical": 280,
         "mixed": 0,
         "neutral": 109,
         "baseline_promotional": 0,
@@ -1866,19 +1873,19 @@
       },
       {
         "period": "2026-10-01",
-        "total": 429,
+        "total": 430,
         "promotional": 4,
         "critical": 265,
         "mixed": 0,
-        "neutral": 160,
+        "neutral": 161,
         "baseline_promotional": 3,
-        "baseline_critical": 133,
+        "baseline_critical": 132,
         "baseline_mixed": 0,
         "baseline_neutral": 18,
-        "opposition_events": 186,
+        "opposition_events": 187,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 136,
+        "baseline_stance_items": 135,
         "promotional_share": 0.022,
         "backfill": false
       }
@@ -1895,15 +1902,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 64,
+      "events_usable": 65,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 62,
+      "events_flat": 63,
       "measured": [
+        {
+          "jurisdiction": "Council Bluffs Police Department, Iowa",
+          "event_date": "2026-10-25",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Indian Hill Police Department, Ohio",
           "event_date": "2026-10-24",
