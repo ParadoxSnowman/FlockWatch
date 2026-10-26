@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-25T21:46:32.993721Z",
+  "updated_at": "2026-10-26T00:22:24.300439Z",
   "collector": "public-rss",
-  "queries_ok": 56,
-  "queries_total": 56,
-  "agencies_checked": 15,
+  "queries_ok": 57,
+  "queries_total": 57,
+  "agencies_checked": 16,
   "agency_total": 375,
   "article_cadence_minutes": 60,
   "agency_rotation_hours": 24,
@@ -30,16 +30,16 @@
   "periods_comparable": 8,
   "baseline_items": 481,
   "query_sets": {
-    "accountability": 550,
+    "accountability": 548,
     "agency": 137,
     "baseline": 481,
-    "newsroom": 41,
+    "newsroom": 42,
     "opposition": 552,
     "other": 0,
     "owned": 7,
-    "promotional": 160
+    "promotional": 161
   },
-  "records_updated_at": "2026-10-25T21:47:49.251490Z",
+  "records_updated_at": "2026-10-26T00:23:19.346058Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
