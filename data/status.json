@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T00:22:24.300439Z",
+  "updated_at": "2026-10-26T06:11:36.650325Z",
   "collector": "public-rss",
   "queries_ok": 57,
   "queries_total": 57,
@@ -33,13 +33,13 @@
     "accountability": 548,
     "agency": 137,
     "baseline": 481,
-    "newsroom": 42,
-    "opposition": 552,
+    "newsroom": 40,
+    "opposition": 553,
     "other": 0,
     "owned": 7,
-    "promotional": 161
+    "promotional": 162
   },
-  "records_updated_at": "2026-10-26T00:23:19.346058Z",
+  "records_updated_at": "2026-10-26T06:12:52.308892Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
