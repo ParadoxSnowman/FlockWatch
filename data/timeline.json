@@ -6,7 +6,7 @@
     "periods_comparable": 9,
     "periods_backfill": 50,
     "provenance": "ok",
-    "baseline_items": 494,
+    "baseline_items": 499,
     "series": [
       {
         "period": "2024-02-05",
@@ -970,28 +970,28 @@
         "mixed": 0,
         "neutral": 44,
         "baseline_promotional": 0,
-        "baseline_critical": 63,
+        "baseline_critical": 64,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
         "opposition_events": 55,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 63,
+        "baseline_stance_items": 64,
         "promotional_share": 0.0,
         "backfill": false
       },
       {
         "period": "2026-09-28",
-        "total": 155,
+        "total": 154,
         "promotional": 5,
         "critical": 107,
         "mixed": 0,
-        "neutral": 43,
+        "neutral": 42,
         "baseline_promotional": 0,
         "baseline_critical": 51,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 47,
+        "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 51,
@@ -1054,50 +1054,64 @@
       },
       {
         "period": "2026-10-26",
-        "total": 63,
+        "total": 68,
         "promotional": 4,
-        "critical": 32,
+        "critical": 34,
         "mixed": 0,
-        "neutral": 27,
+        "neutral": 30,
         "baseline_promotional": 3,
-        "baseline_critical": 13,
+        "baseline_critical": 17,
         "baseline_mixed": 0,
         "baseline_neutral": 5,
-        "opposition_events": 33,
+        "opposition_events": 36,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 16,
-        "promotional_share": 0.188,
+        "baseline_stance_items": 20,
+        "promotional_share": 0.15,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 9,
-      "slope_per_period": -0.0044,
+      "slope_per_period": -0.007,
       "first": 0.069,
-      "last": 0.188,
-      "direction": "flat"
+      "last": 0.15,
+      "direction": "falling"
     },
     "opposition_trend": {
       "status": "ok",
       "buckets": 9,
-      "slope_per_period": -6.9833,
+      "slope_per_period": -6.7833,
       "first": 124,
-      "last": 33,
+      "last": 36,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 69,
+      "events_usable": 71,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 67,
+      "events_flat": 69,
       "measured": [
+        {
+          "jurisdiction": "Hudson Police Department, North Carolina",
+          "event_date": "2026-10-30",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Upland Police Department, California",
+          "event_date": "2026-10-30",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-29",
@@ -1108,6 +1122,13 @@
         {
           "jurisdiction": "Bessemer City Police Department, North Carolina",
           "event_date": "2026-10-28",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Hudson Police Department, North Carolina",
+          "event_date": "2026-10-27",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1561,13 +1582,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "Upland Police Department, California",
-          "event_date": "2026-10-03",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "AR",
           "event_date": "2026-10-07",
           "before": 1,
@@ -1591,7 +1605,7 @@
     "periods_comparable": 2,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 494,
+    "baseline_items": 499,
     "series": [
       {
         "period": "2024-02-01",
@@ -1871,32 +1885,32 @@
         "mixed": 0,
         "neutral": 277,
         "baseline_promotional": 29,
-        "baseline_critical": 239,
+        "baseline_critical": 240,
         "baseline_mixed": 0,
         "baseline_neutral": 48,
         "opposition_events": 349,
         "agency_posts": 2,
         "sponsored": 1,
-        "baseline_stance_items": 268,
+        "baseline_stance_items": 269,
         "promotional_share": 0.108,
         "backfill": false
       },
       {
         "period": "2026-10-01",
-        "total": 492,
+        "total": 496,
         "promotional": 9,
-        "critical": 296,
+        "critical": 298,
         "mixed": 0,
-        "neutral": 187,
+        "neutral": 189,
         "baseline_promotional": 6,
-        "baseline_critical": 143,
+        "baseline_critical": 147,
         "baseline_mixed": 0,
         "baseline_neutral": 20,
-        "opposition_events": 219,
+        "opposition_events": 221,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 149,
-        "promotional_share": 0.04,
+        "baseline_stance_items": 153,
+        "promotional_share": 0.039,
         "backfill": false
       }
     ],
@@ -1912,15 +1926,29 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 69,
+      "events_usable": 71,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 67,
+      "events_flat": 69,
       "measured": [
+        {
+          "jurisdiction": "Hudson Police Department, North Carolina",
+          "event_date": "2026-10-30",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Upland Police Department, California",
+          "event_date": "2026-10-30",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-10-29",
@@ -1931,6 +1959,13 @@
         {
           "jurisdiction": "Bessemer City Police Department, North Carolina",
           "event_date": "2026-10-28",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Hudson Police Department, North Carolina",
+          "event_date": "2026-10-27",
           "before": 0,
           "after": 0,
           "change": 0
@@ -2378,13 +2413,6 @@
         },
         {
           "jurisdiction": "Odessa Police Department, Texas",
-          "event_date": "2026-10-03",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Upland Police Department, California",
           "event_date": "2026-10-03",
           "before": 0,
           "after": 0,
