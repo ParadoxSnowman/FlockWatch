@@ -1179,14 +1179,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/@edmondx/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-11-02",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -1360,14 +1353,7 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "Facebook",
-        "url": "https://www.facebook.com/FerndaleMarket/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
+    "socials": [],
     "last_checked": "2026-11-02",
     "source_credit": "The News & Observer / Private Eyes"
   },
@@ -1407,7 +1393,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1420,7 +1406,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1433,7 +1419,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1446,7 +1432,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1459,7 +1445,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1472,7 +1458,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1485,7 +1471,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1498,7 +1484,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1510,8 +1496,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-10-16",
+    "socials": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1523,8 +1516,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-10-16",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/townoffranklintonnc/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1537,7 +1537,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1570,7 +1570,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1583,7 +1583,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1596,7 +1596,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1609,7 +1609,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1622,7 +1622,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1635,7 +1635,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1648,7 +1648,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1661,7 +1661,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1674,7 +1674,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1687,7 +1687,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1700,7 +1700,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1713,7 +1713,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -1726,7 +1726,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-10-17",
+    "last_checked": "2026-11-03",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
