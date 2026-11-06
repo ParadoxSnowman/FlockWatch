@@ -6,7 +6,7 @@
     "periods_comparable": 10,
     "periods_backfill": 50,
     "provenance": "ok",
-    "baseline_items": 511,
+    "baseline_items": 514,
     "series": [
       {
         "period": "2024-02-05",
@@ -1072,50 +1072,57 @@
       },
       {
         "period": "2026-11-02",
-        "total": 39,
-        "promotional": 2,
+        "total": 42,
+        "promotional": 4,
         "critical": 25,
         "mixed": 0,
-        "neutral": 12,
-        "baseline_promotional": 0,
+        "neutral": 13,
+        "baseline_promotional": 2,
         "baseline_critical": 12,
         "baseline_mixed": 0,
-        "baseline_neutral": 0,
-        "opposition_events": 17,
+        "baseline_neutral": 1,
+        "opposition_events": 18,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 12,
-        "promotional_share": 0.0,
+        "baseline_stance_items": 14,
+        "promotional_share": 0.143,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": -0.0064,
+      "slope_per_period": 0.0014,
       "first": 0.069,
-      "last": 0.0,
-      "direction": "falling"
+      "last": 0.143,
+      "direction": "flat"
     },
     "opposition_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": -7.5636,
+      "slope_per_period": -7.5091,
       "first": 125,
-      "last": 17,
+      "last": 18,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 79,
+      "events_usable": 80,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 77,
+      "events_flat": 78,
       "measured": [
+        {
+          "jurisdiction": "MN",
+          "event_date": "2026-11-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-11-05",
@@ -1679,7 +1686,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 511,
+    "baseline_items": 514,
     "series": [
       {
         "period": "2024-02-01",
@@ -1989,20 +1996,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 40,
-        "promotional": 2,
+        "total": 43,
+        "promotional": 4,
         "critical": 25,
         "mixed": 0,
-        "neutral": 13,
-        "baseline_promotional": 0,
+        "neutral": 14,
+        "baseline_promotional": 2,
         "baseline_critical": 12,
         "baseline_mixed": 0,
-        "baseline_neutral": 0,
-        "opposition_events": 18,
+        "baseline_neutral": 1,
+        "opposition_events": 19,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 12,
-        "promotional_share": 0.0,
+        "baseline_stance_items": 14,
+        "promotional_share": 0.143,
         "backfill": false
       }
     ],
@@ -2018,15 +2025,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 79,
+      "events_usable": 80,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 77,
+      "events_flat": 78,
       "measured": [
+        {
+          "jurisdiction": "MN",
+          "event_date": "2026-11-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Costa Mesa Police Department, California",
           "event_date": "2026-11-05",
