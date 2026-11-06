@@ -16,12 +16,12 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "baseline",
-    "first_seen": "2026-11-05T18:44:05.906735Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-05T18:44:05.906735Z"
   },
   {
     "id": "auto-a9cfa47996e0ef",
-    "published_at": "2026-11-05T14:12:51Z",
+    "published_at": "2026-11-05T14:08:00Z",
     "title": "After pausing use, NKY city council votes to end funding for, permanently remove Flock cameras - WLWT",
     "summary": "After pausing use, NKY city council votes to end funding for, permanently remove Flock cameras WLWT",
     "publisher": "WLWT",
@@ -37,8 +37,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-05T18:44:05.906735Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-05T18:44:05.906735Z"
   },
   {
     "id": "auto-0c56c31ea28b8a",
@@ -102,7 +102,7 @@
     "critical_hits": 0,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "opposition",
+    "query_set": "newsroom",
     "opposition_event": true,
     "body_status": "google-redirect",
     "first_seen": "2026-11-05T02:26:57.019034Z"
@@ -217,6 +217,31 @@
     "first_seen": "2026-10-04T02:38:01.954194Z"
   },
   {
+    "id": "auto-c4e1ad6f2b17bd",
+    "published_at": "2026-11-04T10:12:00Z",
+    "title": "Culver's Menu With Prices - ButterBurger, Cheese Curds & Custard ...",
+    "summary": "Culver's Signature Items & Most Popular Menu Items The most-ordered items at Culver's — Original ButterBurger, Wisconsin Cheese Curds, ButterBurger Deluxe, Flavor of the Day frozen custard, and Concrete Mixers.",
+    "publisher": "Culver City Police Department",
+    "url": "https://getfoodmenus.com/culvers",
+    "domain": "getfoodmenus.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "agency",
+    "opposition_event": true,
+    "jurisdiction": "Culver City Police Department, California",
+    "state": "CA",
+    "agency_id": "culver-city-police-department-ca",
+    "first_seen": "2026-11-06T00:15:04.180230Z",
+    "body_text": "Updated November 2026 · American , Fast Food , Burgers , Ice Cream 43 items 900 stores Prices +4.9% vs 2025 Culver's is a fast food chain with over 900 locations known for Original ButterBurger, Wisconsin Cheese Curds (Regular), ButterBurger Deluxe. Our Culver's menu guide covers prices, nutrition info, deals, and secret menu items. Browse full menu sections including butterburgers, chicken & sandwiches, value baskets (combos), sides. Current deals include MyCulver's Rewards: Free Custard & Exclusive Offers. Breakfast 6:00 AM–10:30 AM daily Menu & hours The Culver's menu features 43 items across ButterBurgers, Chicken & Sandwiches, Value Baskets (Combos), Sides , and more , with current prices, calories, and full nutrition facts, updated November 2026 . The most-ordered items at Culver's — Original ButterBurger, Wisconsin Cheese Curds, ButterBurger Deluxe, Flavor of the Day frozen custard, and Concrete Mixers. Fresh never-frozen beef on a lightly buttered toasted bun with pickles, ketchup, mustard, and onion Fresh white cheddar cheese curds from Wisconsin, hand-battered and fried to order ButterBurger with American cheese, lettuce, tomato, mayo, and ketchup Daily-rotating frozen custard flavor — 100+ flavors in rotation Frozen custard blended thick with up to 3 free mix-ins Complete Culver's menu with 2026 prices — ButterBurgers, chicken sandwiches, Value Baskets, Wisconsin Cheese Curds, crinkle fries, frozen custard, shakes, concretes, and kids meals. Menu items and nutrition last checked against official Culver's sources on October 30, 2026. How we check Table Cards Filter All Vegan Vegetarian Under 500 cal High protein 43 item s Fresh never-frozen beef on a lightly buttered toasted bun with pickles, ketchup, mustard, and onion Original ButterBurger with American cheese ButterBurger with cheese, lettuce, tomato, mayo, and ketchup Deluxe ButterBurger with smoked bacon $8.79 670 33g Double ButterBurger › Two beef patties with American cheese on a buttered toasted bun Sautéed mushrooms, Swiss cheese, and an onion ring on a buttered bun Double-patty Deluxe with bacon — the premium ButterBurger Hand-breaded crispy chicken breast with lettuce, tomato, and mayo on a toasted bun Spicy hand-breaded crispy chicken with pickles and spicy mayo on a toasted bun Hand-breaded chicken tenders with choice of dipping sauce Four hand-breaded chicken tenders with dipping sauce Battered cod filet with tartar sauce, lettuce, and cheese on a toasted bun Iowa-style breaded pork tenderloin — a Culver's signature Midwest item Corned beef with Swiss, sauerkraut, and Thousand Island on rye ButterBurger with Crinkle Fries and a medium drink Cheese ButterBurger with Crinkle Fries and a medium drink Deluxe ButterBurger with Crinkle Fries and a medium drink Bacon Deluxe ButterBurger with Crinkle Fries and a medium drink Crispy Chicken Sandwich with Crinkle Fries and a medium drink Cod Filet Sandwich with Crinkle Fries and a medium drink Pork Loin Sandwich Value Basket from Culver's current menu, served with fries and a drink. Fresh white cheddar cheese curds from Wisconsin, hand-battered and fried to order Large order of hand-battered Wisconsin cheese curds Golden crinkle-cut fries — Culver's signature side Large crinkle-cut fries $3.99 430 5g Onion Rings (Regular) › Beer-battered onion rings Real mashed potatoes with country gravy $3.49 130 4g Coleslaw › Creamy coleslaw Daily-rotating frozen custard — 100+ flavors in rotation Double scoop of the daily rotating custard flavor Frozen custard blended thick with up to 3 free mix-ins Large frozen custard concrete with up to 3 free mix-ins Hand-spun frozen custard shake $4.99 740 15g Chocolate Shake (Regular) › Rich chocolate frozen custard shake Fresh strawberry frozen custard shake $5.99 — — Malt (Regular) › Custard shake with malted milk powder Custard with choice of hot fudge, caramel, strawberry, or pineapple topping Three scoops of custard with banana, three toppings, whipped cream, and a cherry Medium Culver's Root Beer Float from Culver's current menu. Junior ButterBurger with side and drink $7.39 — — Single ButterBurger Cheese Kids' Meal › Junior cheese ButterBurger with side and drink Two chicken tenders with side and drink $7.79 — — Corn Dog Kids' Meal › Corn dog with side and drink Prices are the highest of the locations we checked, for in-store orders, and vary by location and franchise. Delivery via DoorDash, UberEats, or restaurant app is typically 15 – 30% higher. Culver's menu calories and nutrition data for every item — ButterBurgers, chicken, seafood, cheese curds, fries, frozen custard, and gluten-free options. Allergen Notice: Menu items may contain or come into contact with common allergens including milk, eggs, wheat, soy, peanuts, tree nuts, fish, and shellfish. Always check with the restaurant directly if you have specific dietary needs or severe allergies. This information is provided as a reference and may not be complete. Menu Labeling & Nutrition Information 2,000 calories a day is used for general nutrition advice, but calorie needs vary. Full nutrition information, including saturated fat, trans fat, cholesterol, sodium, sugars, and fiber, is available upon request from the restaurant and in the official nutrition guide. Calorie counts shown are approximate and based on official restaurant nutrition data; values may vary by location, preparation, and portion size. Compare calories and protein across all chains on our nutrition comparison page . Breakfast 6:00 AM–10:30 AM daily. Prices and calories below. Cheapest item: Coleslaw at $3.29 ( Sides ) Real ways to save, calculated from the Culver's menu, deals, and rewards. Coleslaw at $3.29 (Sides) is the lowest-priced item on the Culver's menu. Chicken Tenders (4-piece) delivers 39g of protein for $8.39: the best protein-per-dollar pick on the menu. Culver's has a dedicated value lineup (Value Baskets (Combos)). These items are the cheapest way to eat here. Earn points for every dollar spent an",
+    "body_status": "captured"
+  },
+  {
     "id": "auto-6b6f007e810f2f",
     "published_at": "2026-11-04T09:15:00Z",
     "title": "Co-Cathedral of St. Thomas More | Tallahassee, FL",
@@ -238,6 +263,27 @@
     "agency_id": "st-louis-county-sheriff-s-office-mn",
     "first_seen": "2026-11-05T02:26:57.019034Z",
     "body_status": "unavailable"
+  },
+  {
+    "id": "auto-8a9b2d9711ce15",
+    "published_at": "2026-11-04T08:00:00Z",
+    "title": "Local Leaders Are Saying NO to Flock - ACLU of Massachusetts",
+    "summary": "Local Leaders Are Saying NO to Flock ACLU of Massachusetts",
+    "publisher": "ACLU of Massachusetts",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRi1OOW1JeE03Q1RnQ2NndVd2Wi1HTzl4LTFTcjFrOExTWDBKTnRrRkpNRzBBSzVsUWJlbWJ0NUZJRHMwWFFvMXJfOXJRZlZBTHRkbGl4U0dPVGlIX1oxcUxZVUhWMFlFb0pFWXVqUkhuN1k2dVk0SFBZekNqOWc0eVZ1ZDJZV1ln?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "state": "MA",
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z"
   },
   {
     "id": "auto-ac4e9dc0f992db",
@@ -8788,12 +8834,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-10-11T15:39:31.648635Z",
-    "shared_shingle_count": 16,
-    "shared_shingle_size": 5,
     "reuse_group": "reus-369558a27663",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
+    "shared_shingle_count": 16,
+    "shared_shingle_size": 5,
     "shared_passage": "flock executive defends crime fighting cameras as aclu attorney questions company's motives amid backlash fox news flock executive defends crime fighting cameras as aclu attorney questions company's motives amid backlash fox news",
     "shared_passage_words": 32
   },
@@ -8836,12 +8882,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-11-05T02:26:57.019034Z",
+    "shared_shingle_count": 16,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-369558a27663",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
-    "shared_shingle_count": 16,
-    "shared_shingle_size": 5,
     "shared_passage": "flock executive defends crime fighting cameras as aclu attorney questions company's motives amid backlash fox news flock executive defends crime fighting cameras as aclu attorney questions company's motives amid backlash fox news",
     "shared_passage_words": 32
   },
@@ -10394,7 +10440,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "baseline",
     "body_status": "google-redirect",
     "first_seen": "2026-10-06T15:10:52.411260Z"
   },
@@ -31446,27 +31492,6 @@
     "first_seen": "2026-09-03T04:35:33.173739Z"
   },
   {
-    "id": "auto-8a9b2d9711ce15",
-    "published_at": "2026-09-01T22:04:19Z",
-    "title": "Local Leaders Are Saying NO to Flock - ACLU of Massachusetts",
-    "summary": "Local Leaders Are Saying NO to Flock ACLU of Massachusetts",
-    "publisher": "ACLU of Massachusetts",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRi1OOW1JeE03Q1RnQ2NndVd2Wi1HTzl4LTFTcjFrOExTWDBKTnRrRkpNRzBBSzVsUWJlbWJ0NUZJRHMwWFFvMXJfOXJRZlZBTHRkbGl4U0dPVGlIX1oxcUxZVUhWMFlFb0pFWXVqUkhuN1k2dVk0SFBZekNqOWc0eVZ1ZDJZV1ln?oc=5",
-    "domain": "news.google.com",
-    "channel": "news",
-    "disclosure": "editorial",
-    "promotion_score": 0,
-    "stance": "critical",
-    "promotional_hits": 0,
-    "critical_hits": 1,
-    "matched_terms": [],
-    "origin_indicators": [],
-    "query_set": "accountability",
-    "state": "MA",
-    "body_status": "google-redirect",
-    "first_seen": "2026-09-02T11:27:02.398145Z"
-  },
-  {
     "id": "auto-f04931cbf26552",
     "published_at": "2026-09-01T22:00:30Z",
     "title": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse - Daily Dodge",
@@ -37855,7 +37880,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "newsroom",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T18:38:14.853976Z"
   },
@@ -39885,12 +39910,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T18:38:14.853976Z",
+    "shared_shingle_count": 23,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-f341eb26c396",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 1.0,
-    "shared_shingle_count": 23,
-    "shared_shingle_size": 5,
     "shared_passage": "flock announces security changes after dozens of reports of law enforcement abuse and public backlash abc news breaking news latest news and videos flock announces security changes after dozens of reports of law enforcement abuse and public backlash abc news breaking news latest news and videos",
     "shared_passage_words": 46
   },
@@ -42679,7 +42704,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "newsroom",
     "state": "NC",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T11:27:02.398145Z"
@@ -47222,8 +47247,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-11-04T21:51:35.733583Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-04T21:51:35.733583Z"
   },
   {
     "id": "auto-85465098470daa",
