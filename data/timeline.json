@@ -1072,16 +1072,16 @@
       },
       {
         "period": "2026-11-02",
-        "total": 38,
+        "total": 39,
         "promotional": 2,
         "critical": 25,
         "mixed": 0,
-        "neutral": 11,
+        "neutral": 12,
         "baseline_promotional": 0,
         "baseline_critical": 12,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 16,
+        "opposition_events": 17,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 12,
@@ -1100,21 +1100,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": -7.6182,
+      "slope_per_period": -7.5636,
       "first": 125,
-      "last": 16,
+      "last": 17,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 78,
+      "events_usable": 79,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 76,
+      "events_flat": 77,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -1140,6 +1140,13 @@
         {
           "jurisdiction": "Clearlake Police Department, California",
           "event_date": "2026-11-04",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Sarpy County Sheriff's Office, Nebraska",
+          "event_date": "2026-11-03",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1982,16 +1989,16 @@
       },
       {
         "period": "2026-11-01",
-        "total": 39,
+        "total": 40,
         "promotional": 2,
         "critical": 25,
         "mixed": 0,
-        "neutral": 12,
+        "neutral": 13,
         "baseline_promotional": 0,
         "baseline_critical": 12,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 17,
+        "opposition_events": 18,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 12,
@@ -2011,14 +2018,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 78,
+      "events_usable": 79,
       "window_days": 30,
       "promotional_before": 2,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 2,
-      "events_flat": 76,
+      "events_flat": 77,
       "measured": [
         {
           "jurisdiction": "Costa Mesa Police Department, California",
@@ -2044,6 +2051,13 @@
         {
           "jurisdiction": "Clearlake Police Department, California",
           "event_date": "2026-11-04",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Sarpy County Sheriff's Office, Nebraska",
+          "event_date": "2026-11-03",
           "before": 0,
           "after": 0,
           "change": 0
