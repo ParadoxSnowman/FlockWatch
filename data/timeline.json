@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-10-26",
-        "total": 70,
+        "total": 69,
         "promotional": 6,
         "critical": 34,
         "mixed": 0,
-        "neutral": 30,
+        "neutral": 29,
         "baseline_promotional": 5,
         "baseline_critical": 18,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
-        "opposition_events": 36,
+        "opposition_events": 35,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 23,
@@ -1072,16 +1072,16 @@
       },
       {
         "period": "2026-11-02",
-        "total": 53,
+        "total": 54,
         "promotional": 7,
         "critical": 30,
         "mixed": 0,
-        "neutral": 16,
+        "neutral": 17,
         "baseline_promotional": 4,
         "baseline_critical": 14,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
-        "opposition_events": 22,
+        "opposition_events": 23,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 18,
@@ -1100,9 +1100,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": -7.2909,
+      "slope_per_period": -7.2788,
       "first": 125,
-      "last": 22,
+      "last": 23,
       "direction": "falling"
     },
     "event_response": {
@@ -1116,6 +1116,13 @@
       "events_fell": 2,
       "events_flat": 78,
       "measured": [
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-11-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "MN",
           "event_date": "2026-11-06",
@@ -1203,13 +1210,6 @@
         {
           "jurisdiction": "Largo Police Department, Florida",
           "event_date": "2026-10-30",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
-          "event_date": "2026-10-29",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1978,16 +1978,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 496,
+        "total": 495,
         "promotional": 10,
         "critical": 299,
         "mixed": 0,
-        "neutral": 187,
+        "neutral": 186,
         "baseline_promotional": 8,
         "baseline_critical": 147,
         "baseline_mixed": 0,
         "baseline_neutral": 21,
-        "opposition_events": 220,
+        "opposition_events": 219,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 155,
@@ -1996,16 +1996,16 @@
       },
       {
         "period": "2026-11-01",
-        "total": 54,
+        "total": 55,
         "promotional": 7,
         "critical": 30,
         "mixed": 0,
-        "neutral": 17,
+        "neutral": 18,
         "baseline_promotional": 4,
         "baseline_critical": 14,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
-        "opposition_events": 23,
+        "opposition_events": 24,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 18,
@@ -2034,6 +2034,13 @@
       "events_fell": 2,
       "events_flat": 78,
       "measured": [
+        {
+          "jurisdiction": "Costa Mesa Police Department, California",
+          "event_date": "2026-11-06",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "MN",
           "event_date": "2026-11-06",
@@ -2121,13 +2128,6 @@
         {
           "jurisdiction": "Largo Police Department, Florida",
           "event_date": "2026-10-30",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Costa Mesa Police Department, California",
-          "event_date": "2026-10-29",
           "before": 0,
           "after": 0,
           "change": 0

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-07T13:59:51.822141Z",
+  "updated_at": "2026-11-07T18:46:26.982245Z",
   "collector": "public-rss",
-  "queries_ok": 57,
-  "queries_total": 57,
-  "agencies_checked": 16,
+  "queries_ok": 56,
+  "queries_total": 56,
+  "agencies_checked": 15,
   "agency_total": 375,
   "article_cadence_minutes": 60,
   "agency_rotation_hours": 24,
@@ -39,7 +39,7 @@
     "owned": 7,
     "promotional": 167
   },
-  "records_updated_at": "2026-11-07T14:01:01.294518Z",
+  "records_updated_at": "2026-11-07T18:47:37.684241Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
