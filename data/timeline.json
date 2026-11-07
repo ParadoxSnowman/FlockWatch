@@ -6,7 +6,7 @@
     "periods_comparable": 10,
     "periods_backfill": 50,
     "provenance": "ok",
-    "baseline_items": 518,
+    "baseline_items": 520,
     "series": [
       {
         "period": "2024-02-05",
@@ -1072,29 +1072,29 @@
       },
       {
         "period": "2026-11-02",
-        "total": 49,
+        "total": 50,
         "promotional": 6,
-        "critical": 28,
+        "critical": 29,
         "mixed": 0,
         "neutral": 15,
         "baseline_promotional": 4,
-        "baseline_critical": 13,
+        "baseline_critical": 15,
         "baseline_mixed": 0,
         "baseline_neutral": 2,
         "opposition_events": 21,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 17,
-        "promotional_share": 0.235,
+        "baseline_stance_items": 19,
+        "promotional_share": 0.211,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": 0.0064,
+      "slope_per_period": 0.0051,
       "first": 0.069,
-      "last": 0.235,
+      "last": 0.211,
       "direction": "rising"
     },
     "opposition_trend": {
@@ -1686,7 +1686,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 518,
+    "baseline_items": 520,
     "series": [
       {
         "period": "2024-02-01",
@@ -1996,20 +1996,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 50,
+        "total": 51,
         "promotional": 6,
-        "critical": 28,
+        "critical": 29,
         "mixed": 0,
         "neutral": 16,
         "baseline_promotional": 4,
-        "baseline_critical": 13,
+        "baseline_critical": 15,
         "baseline_mixed": 0,
         "baseline_neutral": 2,
         "opposition_events": 22,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 17,
-        "promotional_share": 0.235,
+        "baseline_stance_items": 19,
+        "promotional_share": 0.211,
         "backfill": false
       }
     ],
