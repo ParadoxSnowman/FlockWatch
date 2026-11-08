@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T02:28:05.902927Z",
+  "updated_at": "2026-11-08T10:18:39.734558Z",
   "collector": "public-rss",
   "queries_ok": 57,
   "queries_total": 57,
@@ -30,16 +30,16 @@
   "periods_comparable": 10,
   "baseline_items": 520,
   "query_sets": {
-    "accountability": 579,
+    "accountability": 578,
     "agency": 153,
     "baseline": 520,
     "newsroom": 40,
-    "opposition": 588,
+    "opposition": 589,
     "other": 0,
     "owned": 7,
     "promotional": 167
   },
-  "records_updated_at": "2026-11-08T02:29:10.303065Z",
+  "records_updated_at": "2026-11-08T10:19:48.049585Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3
