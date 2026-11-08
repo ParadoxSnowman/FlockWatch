@@ -16,8 +16,8 @@
     "matched_terms": [],
     "origin_indicators": [],
     "query_set": "accountability",
-    "first_seen": "2026-11-08T17:02:17.138481Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-08T17:02:17.138481Z"
   },
   {
     "id": "auto-f6b001a918f031",
@@ -37,8 +37,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-08T17:02:17.138481Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-08T17:02:17.138481Z"
   },
   {
     "id": "auto-44b4a15b7c9667",
@@ -58,8 +58,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-08T17:02:17.138481Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-08T17:02:17.138481Z"
   },
   {
     "id": "auto-db6bad3e169dbc",
@@ -79,8 +79,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-08T17:02:17.138481Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-08T17:02:17.138481Z"
   },
   {
     "id": "auto-87304c28884c16",
@@ -127,6 +127,34 @@
     "state": "AR",
     "body_status": "google-redirect",
     "first_seen": "2026-11-08T10:18:39.734558Z"
+  },
+  {
+    "id": "auto-ffc356c26d5c43",
+    "published_at": "2026-11-07T19:10:07Z",
+    "title": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse - ABC News - Breaking News, Latest News and Videos",
+    "summary": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse ABC News - Breaking News, Latest News and Videos",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFVMWW54ZUxmelNmNEx3QXlZZms0bFhzeFlwU1VHR204clFvdEhUUDdsV2J4cENJMVA4OFdZMElkUTdpdV9IQmE4S0tUOTR1VHI1czh1YXlmVWtDdV91ZUF4U3owMlREaDZSY0E3a0FaUnZ2YW9lUU83bjAwSlVNUDYzb0Zzd1RYZkR3V0NlclhGWkh3cnVCTUdxdXV2Vk9JREZLdDhXS1JveGvSAbABQVVfeXFMTVhrLWZGZlllMFZmdWdYOFk3RXB4Z2ExcVNaSDBKekwzMTc3czNKYU9OSWJOV3l5d0lWMUY3T1k4OE9WLWtLZmg1b3lwdkoxblFaSVVmN0RoMmxwN05RWUNpYUQ3TWZoS1Y0TVhwSlFTeU9OWUp0Vmg2MHJ5Ukp4SHNzMDNpZ0ZHbk1KTDZYR1V5c295ZWVUM1J5Q2pPbDNyaTZRRVVQaFkwcERFV3lsU3A?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "opposition",
+    "body_status": "google-redirect",
+    "first_seen": "2026-09-02T11:27:02.398145Z",
+    "reuse_group": "reus-f341eb26c396",
+    "reuse_kind": "reuse",
+    "reuse_role": "later capture",
+    "reuse_containment": 1.0,
+    "shared_shingle_count": 18,
+    "shared_shingle_size": 5,
+    "shared_passage": "flock cameras trigger nationwide backlash over privacy concerns police abuse abc news breaking news latest news and videos flock cameras trigger nationwide backlash over privacy concerns police abuse abc news breaking news latest news and videos",
+    "shared_passage_words": 36
   },
   {
     "id": "auto-e9baeaaa9f56fb",
@@ -17606,12 +17634,12 @@
     "query_set": "baseline",
     "body_status": "google-redirect",
     "first_seen": "2026-09-23T20:21:20.283116Z",
-    "shared_shingle_count": 12,
-    "shared_shingle_size": 5,
     "reuse_group": "mixe-7cbaf2095484",
     "reuse_kind": "mixed",
     "reuse_role": "earliest captured",
     "reuse_containment": 0.75,
+    "shared_shingle_count": 12,
+    "shared_shingle_size": 5,
     "shared_passage": "5 current former impd officers charged for alleged misuse of flock license plate reader technology wthr",
     "shared_passage_words": 16,
     "syndication_group": "mixe-7cbaf2095484"
@@ -32960,34 +32988,6 @@
     "query_set": "promotional",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T09:48:28.559553Z"
-  },
-  {
-    "id": "auto-ffc356c26d5c43",
-    "published_at": "2026-09-01T07:00:00Z",
-    "title": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse - ABC News - Breaking News, Latest News and Videos",
-    "summary": "Flock cameras trigger nationwide backlash over privacy concerns, police abuse ABC News - Breaking News, Latest News and Videos",
-    "publisher": "ABC News - Breaking News, Latest News and Videos",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFVMWW54ZUxmelNmNEx3QXlZZms0bFhzeFlwU1VHR204clFvdEhUUDdsV2J4cENJMVA4OFdZMElkUTdpdV9IQmE4S0tUOTR1VHI1czh1YXlmVWtDdV91ZUF4U3owMlREaDZSY0E3a0FaUnZ2YW9lUU83bjAwSlVNUDYzb0Zzd1RYZkR3V0NlclhGWkh3cnVCTUdxdXV2Vk9JREZLdDhXS1JveGvSAbABQVVfeXFMTVhrLWZGZlllMFZmdWdYOFk3RXB4Z2ExcVNaSDBKekwzMTc3czNKYU9OSWJOV3l5d0lWMUY3T1k4OE9WLWtLZmg1b3lwdkoxblFaSVVmN0RoMmxwN05RWUNpYUQ3TWZoS1Y0TVhwSlFTeU9OWUp0Vmg2MHJ5Ukp4SHNzMDNpZ0ZHbk1KTDZYR1V5c295ZWVUM1J5Q2pPbDNyaTZRRVVQaFkwcERFV3lsU3A?oc=5",
-    "domain": "news.google.com",
-    "channel": "news",
-    "disclosure": "editorial",
-    "promotion_score": 0,
-    "stance": "critical",
-    "promotional_hits": 0,
-    "critical_hits": 1,
-    "matched_terms": [],
-    "origin_indicators": [],
-    "query_set": "opposition",
-    "body_status": "google-redirect",
-    "first_seen": "2026-09-02T11:27:02.398145Z",
-    "reuse_group": "reus-f341eb26c396",
-    "reuse_kind": "reuse",
-    "reuse_role": "later capture",
-    "reuse_containment": 1.0,
-    "shared_shingle_count": 18,
-    "shared_shingle_size": 5,
-    "shared_passage": "flock cameras trigger nationwide backlash over privacy concerns police abuse abc news breaking news latest news and videos flock cameras trigger nationwide backlash over privacy concerns police abuse abc news breaking news latest news and videos",
-    "shared_passage_words": 36
   },
   {
     "id": "auto-02d5cea26d36c9",
