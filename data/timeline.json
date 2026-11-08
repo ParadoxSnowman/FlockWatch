@@ -6,7 +6,7 @@
     "periods_comparable": 10,
     "periods_backfill": 50,
     "provenance": "ok",
-    "baseline_items": 521,
+    "baseline_items": 520,
     "series": [
       {
         "period": "2024-02-05",
@@ -1078,23 +1078,23 @@
         "mixed": 0,
         "neutral": 17,
         "baseline_promotional": 4,
-        "baseline_critical": 15,
+        "baseline_critical": 14,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
         "opposition_events": 23,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 19,
-        "promotional_share": 0.211,
+        "baseline_stance_items": 18,
+        "promotional_share": 0.222,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
       "buckets": 10,
-      "slope_per_period": 0.0051,
+      "slope_per_period": 0.0057,
       "first": 0.069,
-      "last": 0.211,
+      "last": 0.222,
       "direction": "rising"
     },
     "opposition_trend": {
@@ -1686,7 +1686,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 521,
+    "baseline_items": 520,
     "series": [
       {
         "period": "2024-02-01",
@@ -2002,14 +2002,14 @@
         "mixed": 0,
         "neutral": 18,
         "baseline_promotional": 4,
-        "baseline_critical": 15,
+        "baseline_critical": 14,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
         "opposition_events": 24,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 19,
-        "promotional_share": 0.211,
+        "baseline_stance_items": 18,
+        "promotional_share": 0.222,
         "backfill": false
       }
     ],
