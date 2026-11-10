@@ -1,5 +1,66 @@
 [
   {
+    "id": "auto-df28b3388fa214",
+    "published_at": "2026-11-10T01:55:17Z",
+    "title": "Columbia labor union launches initiative petition amid Flock camera debate - ABC17NEWS",
+    "summary": "Columbia labor union launches initiative petition amid Flock camera debate ABC17NEWS",
+    "publisher": "ABC17NEWS",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZUpaRU1oUXVEUGJUUzNjaVNNeW1XeWNSeExlYmVheExzRTZqTWtwOUhnOWw5eGlXMGdjamxwYldDSnNldXVSWk5OWU1FQ1V1SEo3STY4WW9uNWd5em04Rk4yRUlJV3RSRW5hdnQxTXJzTWM0OHBDcWo5UUhPT2hRMjRPa1dFTUVQRFBSc1U2OEdaRnVEQ3FaNTRDV3VaOXpYSFg1TVFYYi15WDlSMW9MNzZweHo3WDNRalJBbnFoaw?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "neutral",
+    "promotional_hits": 0,
+    "critical_hits": 0,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "opposition",
+    "opposition_event": true,
+    "first_seen": "2026-11-10T02:06:02.899580Z",
+    "body_status": "google-redirect"
+  },
+  {
+    "id": "auto-60d44c6173b852",
+    "published_at": "2026-11-09T22:26:00Z",
+    "title": "NY civil liberties groups push for 48-hour limit on police retaining Flock camera data - Gothamist",
+    "summary": "NY civil liberties groups push for 48-hour limit on police retaining Flock camera data Gothamist",
+    "publisher": "Gothamist",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnMxWnloQzBiX0pvcEptVGlRNzJva05BUGxlbTRILUZtQ29KVWkyNDVxUEczZGtfOTVZTlo1MkRaZVZhQTJPUTRjdHJaaWMxcEowQTJCazVSN2xlWS1JRkVMRVFTcmNjdmNZUk1reTRkaTdOZml0d0d1WmJ6TTVOZGpmWk50T3kwcmE0WEVHd0Fud1pLc2dHc1VHV01nYWdSTXNXVGhBc3FkVnVwTWxITGVOOA?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "accountability",
+    "first_seen": "2026-11-10T02:06:02.899580Z",
+    "body_status": "google-redirect"
+  },
+  {
+    "id": "auto-446cabfb11f59c",
+    "published_at": "2026-11-09T21:38:54Z",
+    "title": "Jim Anderson on the debate that Flock cameras are a mass surveillance tool - NewsNation",
+    "summary": "Jim Anderson on the debate that Flock cameras are a mass surveillance tool NewsNation",
+    "publisher": "NewsNation",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLUN1dUNPSHZ1dnJ6cTZ4cFhNVXY5cTNvSG8xaHZERzd1cTlHNmFPenZwWkdNQndjNEpqelNzYmd0MzhFQmZGZjVkTWRyMjZ5QjRUallTcnVhSVFsajhoZ29nWDJBWl9QbzFoX2RpR1dWck44VDNCbEZTWlU4a2lYOXY5bnBIeXpQbWw1M1VrYjVlNC1CckZjWURCX29sbThhVkRDRmpMMHRmLWRQdVVGdTJUU1J4eTFOT21iZTNURkVqUndReTdNWjdB0gHPAUFVX3lxTE5VWkdDYnpsZTFKTjhzU25ZbjQtTTVnQ2d6VFhOUHZRVFRTZVBFeEladkhoYmJIV01neFkwNzlxTEJoSEEyRGxfY3FibWM3RWZUdEhOc2FSR3pDTEVmZXFOcE9tSXkzUDQ4QWhnNmR5T0lnc2ZzRVlNajdiY3g4TFltOW1YQ0t5VV9INVBQS1Nad1dRQTBKa2hzOEpQZDJqWE9IemktcjNKcjNVY1lIbXBZLTJCT1FpVER3bUF1X2xPa01TQzBTOGVuNzdVLWR3cw?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 0,
+    "stance": "critical",
+    "promotional_hits": 0,
+    "critical_hits": 1,
+    "matched_terms": [],
+    "origin_indicators": [],
+    "query_set": "baseline",
+    "first_seen": "2026-11-10T02:06:02.899580Z",
+    "body_status": "google-redirect"
+  },
+  {
     "id": "auto-3329d541dc3a0c",
     "published_at": "2026-11-09T16:34:00Z",
     "title": "(LISTEN): Columbia’s city council plans Monday hearing on Flock cameras; CPD says they helped solve last weekend’s downtown shooting - KWOS",
@@ -19,8 +80,8 @@
     "origin_indicators": [],
     "query_set": "baseline",
     "opposition_event": true,
-    "first_seen": "2026-11-09T18:47:14.771587Z",
     "body_status": "google-redirect",
+    "first_seen": "2026-11-09T18:47:14.771587Z",
     "reuse_group": "reus-8dc861a8408e",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
@@ -50,8 +111,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-09T18:47:14.771587Z",
     "body_status": "google-redirect",
+    "first_seen": "2026-11-09T18:47:14.771587Z",
     "reuse_group": "reus-8dc861a8408e",
     "reuse_kind": "reuse",
     "reuse_role": "earliest captured",
@@ -79,8 +140,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-09T18:47:14.771587Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-09T18:47:14.771587Z"
   },
   {
     "id": "auto-a59d144b95942d",
@@ -100,8 +161,8 @@
     "origin_indicators": [],
     "query_set": "opposition",
     "opposition_event": true,
-    "first_seen": "2026-11-09T18:47:14.771587Z",
-    "body_status": "google-redirect"
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-09T18:47:14.771587Z"
   },
   {
     "id": "auto-30509934e142e2",
@@ -458,6 +519,30 @@
     "first_seen": "2026-11-06T20:53:34.615464Z"
   },
   {
+    "id": "auto-849df949ed67f3",
+    "published_at": "2026-11-06T17:02:00Z",
+    "title": "Cedar Rapids police credit Flock cameras for solving theft case - KCRG",
+    "summary": "Cedar Rapids police credit Flock cameras for solving theft case KCRG",
+    "publisher": "KCRG",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVlozWXJwZFlHS2s3Q1M2a254Y0JiSnNJY2otZ1R0cXJUV29zQi1JV1pBV0c0YTNObThoSEtHYlZzdk9SXzB0UHI4NUYtcnpmelkydXZWSDZySHdPclVlSXBxNl9pS1U3NzJfb2F0VXVRRHNsR2lnOVFwZWNJWjl3cUZDZC1uMlZlMnBydGFpQUppUzUwWlNZLXR0aHE0eFU?oc=5",
+    "domain": "news.google.com",
+    "channel": "news",
+    "disclosure": "editorial",
+    "promotion_score": 1,
+    "stance": "promotional",
+    "promotional_hits": 1,
+    "critical_hits": 0,
+    "matched_terms": [
+      "credits Flock"
+    ],
+    "origin_indicators": [
+      "single-source police attribution"
+    ],
+    "query_set": "baseline",
+    "body_status": "google-redirect",
+    "first_seen": "2026-11-06T20:53:34.615464Z"
+  },
+  {
     "id": "auto-41be988ee6751d",
     "published_at": "2026-11-06T16:22:42Z",
     "title": "Bob Gualtieri calls Flock critics 'wrong' as third Pinellas deputy faces charges for database misuse - Florida Politics",
@@ -617,30 +702,6 @@
     "shared_passage": "after pausing use nky city council votes to end funding for permanently remove flock cameras wlwt",
     "shared_passage_words": 16,
     "syndication_group": "synd-27b87fa9d285"
-  },
-  {
-    "id": "auto-849df949ed67f3",
-    "published_at": "2026-11-06T03:29:22Z",
-    "title": "Cedar Rapids police credit Flock cameras for solving theft case - KCRG",
-    "summary": "Cedar Rapids police credit Flock cameras for solving theft case KCRG",
-    "publisher": "KCRG",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVlozWXJwZFlHS2s3Q1M2a254Y0JiSnNJY2otZ1R0cXJUV29zQi1JV1pBV0c0YTNObThoSEtHYlZzdk9SXzB0UHI4NUYtcnpmelkydXZWSDZySHdPclVlSXBxNl9pS1U3NzJfb2F0VXVRRHNsR2lnOVFwZWNJWjl3cUZDZC1uMlZlMnBydGFpQUppUzUwWlNZLXR0aHE0eFU?oc=5",
-    "domain": "news.google.com",
-    "channel": "news",
-    "disclosure": "editorial",
-    "promotion_score": 1,
-    "stance": "promotional",
-    "promotional_hits": 1,
-    "critical_hits": 0,
-    "matched_terms": [
-      "credits Flock"
-    ],
-    "origin_indicators": [
-      "single-source police attribution"
-    ],
-    "query_set": "baseline",
-    "body_status": "google-redirect",
-    "first_seen": "2026-11-06T20:53:34.615464Z"
   },
   {
     "id": "auto-a9cfa47996e0ef",
@@ -38502,7 +38563,7 @@
     "critical_hits": 1,
     "matched_terms": [],
     "origin_indicators": [],
-    "query_set": "accountability",
+    "query_set": "newsroom",
     "body_status": "google-redirect",
     "first_seen": "2026-09-03T18:38:14.853976Z"
   },
@@ -40729,12 +40790,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-09-02T18:41:40.498821Z",
-    "shared_shingle_count": 9,
-    "shared_shingle_size": 5,
     "reuse_group": "reus-b7427c70a30a",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.643,
+    "shared_shingle_count": 9,
+    "shared_shingle_size": 5,
     "shared_passage": "flock safety mandates safeguards after reports of police misuse of plate reader network",
     "shared_passage_words": 13
   },
@@ -41153,12 +41214,12 @@
     "query_set": "accountability",
     "body_status": "google-redirect",
     "first_seen": "2026-10-02T15:48:00.578290Z",
+    "shared_shingle_count": 9,
+    "shared_shingle_size": 5,
     "reuse_group": "reus-b7427c70a30a",
     "reuse_kind": "reuse",
     "reuse_role": "later capture",
     "reuse_containment": 0.643,
-    "shared_shingle_count": 9,
-    "shared_shingle_size": 5,
     "shared_passage": "flock safety mandates safeguards after reports of police misuse of plate reader network",
     "shared_passage_words": 13
   },
