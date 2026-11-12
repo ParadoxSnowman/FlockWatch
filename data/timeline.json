@@ -6,7 +6,7 @@
     "periods_comparable": 11,
     "periods_backfill": 49,
     "provenance": "ok",
-    "baseline_items": 535,
+    "baseline_items": 538,
     "series": [
       {
         "period": "2024-02-05",
@@ -802,9 +802,9 @@
       },
       {
         "period": "2026-07-27",
-        "total": 38,
+        "total": 39,
         "promotional": 4,
-        "critical": 26,
+        "critical": 27,
         "mixed": 0,
         "neutral": 8,
         "baseline_promotional": 0,
@@ -1072,19 +1072,19 @@
       },
       {
         "period": "2026-11-09",
-        "total": 38,
+        "total": 43,
         "promotional": 0,
-        "critical": 12,
+        "critical": 14,
         "mixed": 0,
-        "neutral": 26,
+        "neutral": 29,
         "baseline_promotional": 0,
-        "baseline_critical": 7,
+        "baseline_critical": 9,
         "baseline_mixed": 0,
-        "baseline_neutral": 9,
-        "opposition_events": 28,
+        "baseline_neutral": 10,
+        "opposition_events": 32,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 7,
+        "baseline_stance_items": 9,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1100,24 +1100,31 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 11,
-      "slope_per_period": -6.7727,
+      "slope_per_period": -6.5909,
       "first": 125,
-      "last": 28,
+      "last": 32,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 87,
+      "events_usable": 88,
       "window_days": 30,
       "promotional_before": 10,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 4,
-      "events_flat": 83,
+      "events_flat": 84,
       "measured": [
         {
           "jurisdiction": "Dixon Police Department, California",
+          "event_date": "2026-11-10",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Upland Police Department, California",
           "event_date": "2026-11-10",
           "before": 0,
           "after": 0,
@@ -1735,7 +1742,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 535,
+    "baseline_items": 538,
     "series": [
       {
         "period": "2024-02-01",
@@ -1973,9 +1980,9 @@
       },
       {
         "period": "2026-07-01",
-        "total": 118,
+        "total": 119,
         "promotional": 8,
-        "critical": 84,
+        "critical": 85,
         "mixed": 0,
         "neutral": 26,
         "baseline_promotional": 0,
@@ -2045,20 +2052,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 100,
+        "total": 105,
         "promotional": 7,
-        "critical": 44,
+        "critical": 46,
         "mixed": 0,
-        "neutral": 49,
+        "neutral": 52,
         "baseline_promotional": 4,
-        "baseline_critical": 21,
+        "baseline_critical": 23,
         "baseline_mixed": 0,
-        "baseline_neutral": 12,
-        "opposition_events": 57,
+        "baseline_neutral": 13,
+        "opposition_events": 61,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 25,
-        "promotional_share": 0.16,
+        "baseline_stance_items": 27,
+        "promotional_share": 0.148,
         "backfill": false
       }
     ],
@@ -2074,17 +2081,24 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 87,
+      "events_usable": 88,
       "window_days": 30,
       "promotional_before": 10,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 4,
-      "events_flat": 83,
+      "events_flat": 84,
       "measured": [
         {
           "jurisdiction": "Dixon Police Department, California",
+          "event_date": "2026-11-10",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Upland Police Department, California",
           "event_date": "2026-11-10",
           "before": 0,
           "after": 0,
