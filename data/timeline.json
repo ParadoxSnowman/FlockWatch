@@ -6,7 +6,7 @@
     "periods_comparable": 11,
     "periods_backfill": 49,
     "provenance": "ok",
-    "baseline_items": 542,
+    "baseline_items": 543,
     "series": [
       {
         "period": "2024-02-05",
@@ -118,9 +118,9 @@
       },
       {
         "period": "2025-10-20",
-        "total": 8,
+        "total": 9,
         "promotional": 0,
-        "critical": 8,
+        "critical": 9,
         "mixed": 0,
         "neutral": 0,
         "baseline_promotional": 0,
@@ -1078,13 +1078,13 @@
         "mixed": 0,
         "neutral": 31,
         "baseline_promotional": 0,
-        "baseline_critical": 14,
+        "baseline_critical": 15,
         "baseline_mixed": 0,
         "baseline_neutral": 9,
         "opposition_events": 37,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 14,
+        "baseline_stance_items": 15,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1749,7 +1749,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 542,
+    "baseline_items": 543,
     "series": [
       {
         "period": "2024-02-01",
@@ -1825,9 +1825,9 @@
       },
       {
         "period": "2025-10-01",
-        "total": 11,
+        "total": 12,
         "promotional": 0,
-        "critical": 10,
+        "critical": 11,
         "mixed": 0,
         "neutral": 1,
         "baseline_promotional": 0,
@@ -2065,14 +2065,14 @@
         "mixed": 0,
         "neutral": 54,
         "baseline_promotional": 4,
-        "baseline_critical": 28,
+        "baseline_critical": 29,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
         "opposition_events": 66,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 32,
-        "promotional_share": 0.125,
+        "baseline_stance_items": 33,
+        "promotional_share": 0.121,
         "backfill": false
       }
     ],
