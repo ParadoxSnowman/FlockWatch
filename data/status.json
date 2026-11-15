@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:08:11.419924Z",
+  "updated_at": "2026-11-15T21:47:18.500578Z",
   "collector": "public-rss",
   "queries_ok": 56,
   "queries_total": 56,
@@ -7,12 +7,12 @@
   "agency_total": 375,
   "article_cadence_minutes": 60,
   "agency_rotation_hours": 24,
-  "signals_retained": 2138,
+  "signals_retained": 2139,
   "bodies_captured": 100,
   "bodies_enriched_this_run": 0,
   "stance_counts": {
+    "critical": 1367,
     "neutral": 697,
-    "critical": 1366,
     "promotional": 75
   },
   "reuse_groups": 160,
@@ -21,7 +21,7 @@
   "agency_feeds_ok": 0,
   "publisher_feeds_ok": 0,
   "publisher_feeds_total": 0,
-  "google_redirect_items": 1955,
+  "google_redirect_items": 1956,
   "agency_feeds_total": 0,
   "opposition_events": 836,
   "jurisdictions_tagged": 146,
@@ -30,7 +30,7 @@
   "periods_comparable": 11,
   "baseline_items": 547,
   "query_sets": {
-    "accountability": 582,
+    "accountability": 583,
     "agency": 162,
     "baseline": 547,
     "newsroom": 43,
@@ -39,7 +39,7 @@
     "owned": 7,
     "promotional": 171
   },
-  "records_updated_at": "2026-11-15T17:09:19.001528Z",
+  "records_updated_at": "2026-11-15T21:48:32.209754Z",
   "records_count": 4,
   "records_queries_ok": 3,
   "records_queries_total": 3

@@ -964,16 +964,16 @@
       },
       {
         "period": "2026-10-05",
-        "total": 108,
+        "total": 107,
         "promotional": 2,
         "critical": 76,
         "mixed": 0,
-        "neutral": 30,
+        "neutral": 29,
         "baseline_promotional": 2,
         "baseline_critical": 33,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 37,
+        "opposition_events": 36,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 35,
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-11-09",
-        "total": 60,
+        "total": 62,
         "promotional": 1,
-        "critical": 24,
+        "critical": 25,
         "mixed": 0,
-        "neutral": 35,
+        "neutral": 36,
         "baseline_promotional": 0,
         "baseline_critical": 16,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
-        "opposition_events": 40,
+        "opposition_events": 41,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 16,
@@ -1082,9 +1082,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 11,
-      "slope_per_period": -6.1909,
+      "slope_per_period": -6.1455,
       "first": 125,
-      "last": 40,
+      "last": 41,
       "direction": "falling"
     },
     "event_response": {
@@ -1098,6 +1098,13 @@
       "events_fell": 4,
       "events_flat": 86,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Louisiana",
+          "event_date": "2026-11-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "IN",
           "event_date": "2026-11-12",
@@ -1576,13 +1583,6 @@
         },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
-          "event_date": "2026-10-11",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-11",
           "before": 0,
           "after": 0,
@@ -2030,16 +2030,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 494,
+        "total": 493,
         "promotional": 10,
         "critical": 299,
         "mixed": 0,
-        "neutral": 185,
+        "neutral": 184,
         "baseline_promotional": 8,
         "baseline_critical": 146,
         "baseline_mixed": 0,
         "baseline_neutral": 21,
-        "opposition_events": 218,
+        "opposition_events": 217,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 154,
@@ -2048,16 +2048,16 @@
       },
       {
         "period": "2026-11-01",
-        "total": 123,
+        "total": 125,
         "promotional": 8,
-        "critical": 56,
+        "critical": 57,
         "mixed": 0,
-        "neutral": 59,
+        "neutral": 60,
         "baseline_promotional": 4,
         "baseline_critical": 29,
         "baseline_mixed": 0,
         "baseline_neutral": 15,
-        "opposition_events": 70,
+        "opposition_events": 71,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 33,
@@ -2086,6 +2086,13 @@
       "events_fell": 4,
       "events_flat": 86,
       "measured": [
+        {
+          "jurisdiction": "Lafayette Police Department, Louisiana",
+          "event_date": "2026-11-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "IN",
           "event_date": "2026-11-12",
@@ -2564,13 +2571,6 @@
         },
         {
           "jurisdiction": "Council Bluffs Police Department, Iowa",
-          "event_date": "2026-10-11",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Lafayette Police Department, Indiana",
           "event_date": "2026-10-11",
           "before": 0,
           "after": 0,
