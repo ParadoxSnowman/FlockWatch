@@ -6,7 +6,7 @@
     "periods_comparable": 11,
     "periods_backfill": 48,
     "provenance": "ok",
-    "baseline_items": 547,
+    "baseline_items": 546,
     "series": [
       {
         "period": "2024-02-05",
@@ -1062,7 +1062,7 @@
         "baseline_promotional": 0,
         "baseline_critical": 16,
         "baseline_mixed": 0,
-        "baseline_neutral": 12,
+        "baseline_neutral": 11,
         "opposition_events": 41,
         "agency_posts": 0,
         "sponsored": 0,
@@ -1738,7 +1738,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 547,
+    "baseline_items": 546,
     "series": [
       {
         "period": "2024-02-01",
@@ -2056,7 +2056,7 @@
         "baseline_promotional": 4,
         "baseline_critical": 29,
         "baseline_mixed": 0,
-        "baseline_neutral": 15,
+        "baseline_neutral": 14,
         "opposition_events": 71,
         "agency_posts": 0,
         "sponsored": 1,
