@@ -6,7 +6,7 @@
     "periods_comparable": 12,
     "periods_backfill": 48,
     "provenance": "ok",
-    "baseline_items": 552,
+    "baseline_items": 553,
     "series": [
       {
         "period": "2024-02-05",
@@ -916,14 +916,14 @@
         "mixed": 0,
         "neutral": 63,
         "baseline_promotional": 21,
-        "baseline_critical": 45,
+        "baseline_critical": 44,
         "baseline_mixed": 0,
         "baseline_neutral": 13,
         "opposition_events": 84,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 66,
-        "promotional_share": 0.318,
+        "baseline_stance_items": 65,
+        "promotional_share": 0.323,
         "backfill": false
       },
       {
@@ -1036,16 +1036,16 @@
       },
       {
         "period": "2026-11-02",
-        "total": 62,
+        "total": 63,
         "promotional": 7,
-        "critical": 32,
+        "critical": 33,
         "mixed": 0,
         "neutral": 23,
         "baseline_promotional": 4,
         "baseline_critical": 13,
         "baseline_mixed": 0,
         "baseline_neutral": 3,
-        "opposition_events": 29,
+        "opposition_events": 30,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 17,
@@ -1054,16 +1054,16 @@
       },
       {
         "period": "2026-11-09",
-        "total": 63,
+        "total": 65,
         "promotional": 1,
-        "critical": 25,
+        "critical": 26,
         "mixed": 0,
-        "neutral": 37,
+        "neutral": 38,
         "baseline_promotional": 0,
         "baseline_critical": 18,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
-        "opposition_events": 42,
+        "opposition_events": 43,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 18,
@@ -1072,27 +1072,27 @@
       },
       {
         "period": "2026-11-16",
-        "total": 5,
+        "total": 12,
         "promotional": 0,
-        "critical": 4,
+        "critical": 9,
         "mixed": 0,
-        "neutral": 1,
+        "neutral": 3,
         "baseline_promotional": 0,
-        "baseline_critical": 2,
+        "baseline_critical": 4,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
-        "opposition_events": 1,
+        "opposition_events": 3,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 2,
-        "promotional_share": null,
+        "baseline_stance_items": 4,
+        "promotional_share": 0.0,
         "backfill": false
       }
     ],
     "share_trend": {
       "status": "ok",
-      "buckets": 11,
-      "slope_per_period": 0.0004,
+      "buckets": 12,
+      "slope_per_period": -0.0033,
       "first": 0.069,
       "last": 0.0,
       "direction": "flat"
@@ -1100,21 +1100,21 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 12,
-      "slope_per_period": -6.9056,
+      "slope_per_period": -6.7727,
       "first": 125,
-      "last": 1,
+      "last": 3,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 92,
+      "events_usable": 94,
       "window_days": 30,
       "promotional_before": 10,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 4,
-      "events_flat": 88,
+      "events_flat": 90,
       "measured": [
         {
           "jurisdiction": "Gilroy Police Department, California",
@@ -1133,6 +1133,13 @@
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-11-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Fargo, North Dakota",
+          "event_date": "2026-11-13",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1272,6 +1279,13 @@
         },
         {
           "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-11-02",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Fargo, North Dakota",
           "event_date": "2026-11-02",
           "before": 0,
           "after": 0,
@@ -1770,7 +1784,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 552,
+    "baseline_items": 553,
     "series": [
       {
         "period": "2024-02-01",
@@ -2050,13 +2064,13 @@
         "mixed": 0,
         "neutral": 276,
         "baseline_promotional": 29,
-        "baseline_critical": 240,
+        "baseline_critical": 239,
         "baseline_mixed": 0,
         "baseline_neutral": 47,
         "opposition_events": 348,
         "agency_posts": 2,
         "sponsored": 0,
-        "baseline_stance_items": 269,
+        "baseline_stance_items": 268,
         "promotional_share": 0.108,
         "backfill": false
       },
@@ -2080,20 +2094,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 131,
+        "total": 141,
         "promotional": 8,
-        "critical": 61,
+        "critical": 68,
         "mixed": 0,
-        "neutral": 62,
+        "neutral": 65,
         "baseline_promotional": 4,
-        "baseline_critical": 33,
+        "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 15,
-        "opposition_events": 73,
+        "opposition_events": 77,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 37,
-        "promotional_share": 0.108,
+        "baseline_stance_items": 39,
+        "promotional_share": 0.103,
         "backfill": false
       }
     ],
@@ -2109,14 +2123,14 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 92,
+      "events_usable": 94,
       "window_days": 30,
       "promotional_before": 10,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
       "events_fell": 4,
-      "events_flat": 88,
+      "events_flat": 90,
       "measured": [
         {
           "jurisdiction": "Gilroy Police Department, California",
@@ -2135,6 +2149,13 @@
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-11-15",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Fargo, North Dakota",
+          "event_date": "2026-11-13",
           "before": 0,
           "after": 0,
           "change": 0
@@ -2274,6 +2295,13 @@
         },
         {
           "jurisdiction": "Lafayette Police Department, Indiana",
+          "event_date": "2026-11-02",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
+        {
+          "jurisdiction": "Fargo, North Dakota",
           "event_date": "2026-11-02",
           "before": 0,
           "after": 0,
