@@ -6,7 +6,7 @@
     "periods_comparable": 12,
     "periods_backfill": 48,
     "provenance": "ok",
-    "baseline_items": 560,
+    "baseline_items": 564,
     "series": [
       {
         "period": "2024-02-05",
@@ -1000,16 +1000,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 145,
+        "total": 144,
         "promotional": 1,
         "critical": 84,
         "mixed": 0,
-        "neutral": 60,
+        "neutral": 59,
         "baseline_promotional": 0,
         "baseline_critical": 36,
         "baseline_mixed": 0,
         "baseline_neutral": 8,
-        "opposition_events": 71,
+        "opposition_events": 70,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 36,
@@ -1072,19 +1072,19 @@
       },
       {
         "period": "2026-11-16",
-        "total": 24,
+        "total": 33,
         "promotional": 0,
-        "critical": 11,
+        "critical": 13,
         "mixed": 0,
-        "neutral": 13,
+        "neutral": 20,
         "baseline_promotional": 0,
-        "baseline_critical": 5,
+        "baseline_critical": 6,
         "baseline_mixed": 0,
-        "baseline_neutral": 5,
-        "opposition_events": 13,
+        "baseline_neutral": 8,
+        "opposition_events": 21,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 5,
+        "baseline_stance_items": 6,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1100,22 +1100,29 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 12,
-      "slope_per_period": -6.3881,
+      "slope_per_period": -6.0909,
       "first": 125,
-      "last": 13,
+      "last": 21,
       "direction": "falling"
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 95,
+      "events_usable": 97,
       "window_days": 30,
-      "promotional_before": 10,
+      "promotional_before": 18,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
-      "events_fell": 4,
+      "events_fell": 6,
       "events_flat": 91,
       "measured": [
+        {
+          "jurisdiction": "Huntsville Airport Police Department, Alabama",
+          "event_date": "2026-11-17",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Edina Police Department, Minnesota",
           "event_date": "2026-11-16",
@@ -1474,13 +1481,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "Huntsville Airport Police Department, Alabama",
-          "event_date": "2026-10-19",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "Culpeper Police Department, Virginia",
           "event_date": "2026-10-19",
           "before": 0,
@@ -1769,6 +1769,20 @@
         },
         {
           "jurisdiction": "KY",
+          "event_date": "2026-11-18",
+          "before": 4,
+          "after": 0,
+          "change": -4
+        },
+        {
+          "jurisdiction": "KY",
+          "event_date": "2026-11-17",
+          "before": 4,
+          "after": 0,
+          "change": -4
+        },
+        {
+          "jurisdiction": "KY",
           "event_date": "2026-11-10",
           "before": 4,
           "after": 0,
@@ -1791,7 +1805,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 560,
+    "baseline_items": 564,
     "series": [
       {
         "period": "2024-02-01",
@@ -2083,16 +2097,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 494,
+        "total": 493,
         "promotional": 10,
         "critical": 300,
         "mixed": 0,
-        "neutral": 184,
+        "neutral": 183,
         "baseline_promotional": 8,
         "baseline_critical": 146,
         "baseline_mixed": 0,
         "baseline_neutral": 21,
-        "opposition_events": 217,
+        "opposition_events": 216,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 154,
@@ -2101,20 +2115,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 154,
+        "total": 163,
         "promotional": 8,
-        "critical": 71,
+        "critical": 73,
         "mixed": 0,
-        "neutral": 75,
+        "neutral": 82,
         "baseline_promotional": 4,
-        "baseline_critical": 37,
+        "baseline_critical": 38,
         "baseline_mixed": 0,
-        "baseline_neutral": 20,
-        "opposition_events": 87,
+        "baseline_neutral": 23,
+        "opposition_events": 95,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 41,
-        "promotional_share": 0.098,
+        "baseline_stance_items": 42,
+        "promotional_share": 0.095,
         "backfill": false
       }
     ],
@@ -2130,15 +2144,22 @@
     },
     "event_response": {
       "status": "ok",
-      "events_usable": 95,
+      "events_usable": 97,
       "window_days": 30,
-      "promotional_before": 10,
+      "promotional_before": 18,
       "promotional_after": 0,
       "ratio": 0.0,
       "events_rose": 0,
-      "events_fell": 4,
+      "events_fell": 6,
       "events_flat": 91,
       "measured": [
+        {
+          "jurisdiction": "Huntsville Airport Police Department, Alabama",
+          "event_date": "2026-11-17",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Edina Police Department, Minnesota",
           "event_date": "2026-11-16",
@@ -2497,13 +2518,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "Huntsville Airport Police Department, Alabama",
-          "event_date": "2026-10-19",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "Culpeper Police Department, Virginia",
           "event_date": "2026-10-19",
           "before": 0,
@@ -2789,6 +2803,20 @@
           "before": 1,
           "after": 0,
           "change": -1
+        },
+        {
+          "jurisdiction": "KY",
+          "event_date": "2026-11-18",
+          "before": 4,
+          "after": 0,
+          "change": -4
+        },
+        {
+          "jurisdiction": "KY",
+          "event_date": "2026-11-17",
+          "before": 4,
+          "after": 0,
+          "change": -4
         },
         {
           "jurisdiction": "KY",
