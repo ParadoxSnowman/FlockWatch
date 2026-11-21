@@ -2679,7 +2679,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-19",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2692,7 +2692,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-19",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2705,7 +2705,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-19",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2718,7 +2718,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-19",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2730,8 +2730,15 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [],
-    "last_checked": "2026-11-19",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/monroviaplants/",
+        "verified": false,
+        "discovered_via": "public search"
+      }
+    ],
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2744,7 +2751,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2757,7 +2764,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2770,7 +2777,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2783,7 +2790,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2796,7 +2803,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2809,7 +2816,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2822,7 +2829,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2835,7 +2842,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2848,7 +2855,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2861,7 +2868,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2874,7 +2881,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2887,7 +2894,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2900,7 +2907,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2913,7 +2920,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2925,15 +2932,8 @@
     "confirmation_type": "Flock transparency portal",
     "documented_at": "2024-04-26",
     "status": "documented",
-    "socials": [
-      {
-        "platform": "YouTube",
-        "url": "https://www.youtube.com/watch/",
-        "verified": false,
-        "discovered_via": "public search"
-      }
-    ],
-    "last_checked": "2026-11-20",
+    "socials": [],
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2946,7 +2946,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2959,7 +2959,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2972,7 +2972,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
@@ -2985,7 +2985,7 @@
     "documented_at": "2024-04-26",
     "status": "documented",
     "socials": [],
-    "last_checked": "2026-11-20",
+    "last_checked": "2026-11-21",
     "source_credit": "The News & Observer / Private Eyes"
   },
   {
