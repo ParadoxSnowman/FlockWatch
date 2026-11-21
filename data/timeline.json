@@ -6,7 +6,7 @@
     "periods_comparable": 12,
     "periods_backfill": 48,
     "provenance": "ok",
-    "baseline_items": 572,
+    "baseline_items": 575,
     "series": [
       {
         "period": "2024-02-05",
@@ -298,9 +298,9 @@
       },
       {
         "period": "2026-01-12",
-        "total": 2,
+        "total": 3,
         "promotional": 0,
-        "critical": 1,
+        "critical": 2,
         "mixed": 0,
         "neutral": 1,
         "baseline_promotional": 0,
@@ -874,9 +874,9 @@
       },
       {
         "period": "2026-08-31",
-        "total": 288,
+        "total": 289,
         "promotional": 8,
-        "critical": 178,
+        "critical": 179,
         "mixed": 0,
         "neutral": 102,
         "baseline_promotional": 4,
@@ -954,7 +954,7 @@
         "baseline_promotional": 0,
         "baseline_critical": 51,
         "baseline_mixed": 0,
-        "baseline_neutral": 6,
+        "baseline_neutral": 5,
         "opposition_events": 46,
         "agency_posts": 0,
         "sponsored": 0,
@@ -1000,16 +1000,16 @@
       },
       {
         "period": "2026-10-19",
-        "total": 144,
+        "total": 143,
         "promotional": 1,
         "critical": 84,
         "mixed": 0,
-        "neutral": 59,
+        "neutral": 58,
         "baseline_promotional": 0,
         "baseline_critical": 35,
         "baseline_mixed": 0,
         "baseline_neutral": 8,
-        "opposition_events": 70,
+        "opposition_events": 69,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 35,
@@ -1036,9 +1036,9 @@
       },
       {
         "period": "2026-11-02",
-        "total": 64,
+        "total": 63,
         "promotional": 7,
-        "critical": 33,
+        "critical": 32,
         "mixed": 0,
         "neutral": 24,
         "baseline_promotional": 4,
@@ -1054,37 +1054,37 @@
       },
       {
         "period": "2026-11-09",
-        "total": 63,
+        "total": 64,
         "promotional": 0,
-        "critical": 26,
+        "critical": 27,
         "mixed": 0,
         "neutral": 37,
         "baseline_promotional": 0,
-        "baseline_critical": 18,
+        "baseline_critical": 19,
         "baseline_mixed": 0,
         "baseline_neutral": 12,
         "opposition_events": 42,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 18,
+        "baseline_stance_items": 19,
         "promotional_share": 0.0,
         "backfill": false
       },
       {
         "period": "2026-11-16",
-        "total": 59,
+        "total": 66,
         "promotional": 1,
-        "critical": 27,
+        "critical": 30,
         "mixed": 0,
-        "neutral": 31,
+        "neutral": 35,
         "baseline_promotional": 0,
-        "baseline_critical": 13,
+        "baseline_critical": 15,
         "baseline_mixed": 0,
-        "baseline_neutral": 11,
-        "opposition_events": 34,
+        "baseline_neutral": 12,
+        "opposition_events": 38,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 13,
+        "baseline_stance_items": 15,
         "promotional_share": 0.0,
         "backfill": false
       }
@@ -1100,9 +1100,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 12,
-      "slope_per_period": -5.5979,
+      "slope_per_period": -5.4545,
       "first": 125,
-      "last": 34,
+      "last": 38,
       "direction": "falling"
     },
     "event_response": {
@@ -1116,6 +1116,13 @@
       "events_fell": 7,
       "events_flat": 91,
       "measured": [
+        {
+          "jurisdiction": "Puyallup Police Department, Washington",
+          "event_date": "2026-11-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-11-18",
@@ -1420,13 +1427,6 @@
         {
           "jurisdiction": "MI",
           "event_date": "2026-10-21",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Puyallup Police Department, Washington",
-          "event_date": "2026-10-20",
           "before": 0,
           "after": 0,
           "change": 0
@@ -1812,7 +1812,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 572,
+    "baseline_items": 575,
     "series": [
       {
         "period": "2024-02-01",
@@ -1942,9 +1942,9 @@
       },
       {
         "period": "2026-01-01",
-        "total": 7,
+        "total": 8,
         "promotional": 0,
-        "critical": 5,
+        "critical": 6,
         "mixed": 0,
         "neutral": 2,
         "baseline_promotional": 0,
@@ -2086,9 +2086,9 @@
       },
       {
         "period": "2026-09-01",
-        "total": 893,
+        "total": 894,
         "promotional": 41,
-        "critical": 576,
+        "critical": 577,
         "mixed": 0,
         "neutral": 276,
         "baseline_promotional": 29,
@@ -2104,16 +2104,16 @@
       },
       {
         "period": "2026-10-01",
-        "total": 493,
+        "total": 492,
         "promotional": 10,
         "critical": 300,
         "mixed": 0,
-        "neutral": 183,
+        "neutral": 182,
         "baseline_promotional": 8,
         "baseline_critical": 145,
         "baseline_mixed": 0,
-        "baseline_neutral": 21,
-        "opposition_events": 216,
+        "baseline_neutral": 20,
+        "opposition_events": 215,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 153,
@@ -2122,20 +2122,20 @@
       },
       {
         "period": "2026-11-01",
-        "total": 187,
+        "total": 194,
         "promotional": 8,
-        "critical": 86,
+        "critical": 89,
         "mixed": 0,
-        "neutral": 93,
+        "neutral": 97,
         "baseline_promotional": 4,
-        "baseline_critical": 44,
+        "baseline_critical": 47,
         "baseline_mixed": 0,
-        "baseline_neutral": 26,
-        "opposition_events": 108,
+        "baseline_neutral": 27,
+        "opposition_events": 112,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 48,
-        "promotional_share": 0.083,
+        "baseline_stance_items": 51,
+        "promotional_share": 0.078,
         "backfill": false
       }
     ],
@@ -2160,6 +2160,13 @@
       "events_fell": 7,
       "events_flat": 91,
       "measured": [
+        {
+          "jurisdiction": "Puyallup Police Department, Washington",
+          "event_date": "2026-11-20",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Lafayette Police Department, Louisiana",
           "event_date": "2026-11-18",
@@ -2464,13 +2471,6 @@
         {
           "jurisdiction": "MI",
           "event_date": "2026-10-21",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Puyallup Police Department, Washington",
-          "event_date": "2026-10-20",
           "before": 0,
           "after": 0,
           "change": 0
