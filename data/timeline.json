@@ -6,7 +6,7 @@
     "periods_comparable": 13,
     "periods_backfill": 47,
     "provenance": "ok",
-    "baseline_items": 592,
+    "baseline_items": 595,
     "series": [
       {
         "period": "2024-02-05",
@@ -82,9 +82,9 @@
       },
       {
         "period": "2025-10-20",
-        "total": 6,
+        "total": 3,
         "promotional": 0,
-        "critical": 6,
+        "critical": 3,
         "mixed": 0,
         "neutral": 0,
         "baseline_promotional": 0,
@@ -772,13 +772,13 @@
         "mixed": 0,
         "neutral": 8,
         "baseline_promotional": 0,
-        "baseline_critical": 0,
+        "baseline_critical": 1,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
         "opposition_events": 10,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 0,
+        "baseline_stance_items": 1,
         "promotional_share": null,
         "backfill": true
       },
@@ -946,16 +946,16 @@
       },
       {
         "period": "2026-10-05",
-        "total": 107,
+        "total": 106,
         "promotional": 2,
         "critical": 76,
         "mixed": 0,
-        "neutral": 29,
+        "neutral": 28,
         "baseline_promotional": 2,
         "baseline_critical": 34,
         "baseline_mixed": 0,
         "baseline_neutral": 4,
-        "opposition_events": 36,
+        "opposition_events": 35,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 36,
@@ -1006,14 +1006,14 @@
         "mixed": 0,
         "neutral": 27,
         "baseline_promotional": 5,
-        "baseline_critical": 17,
+        "baseline_critical": 18,
         "baseline_mixed": 0,
         "baseline_neutral": 6,
         "opposition_events": 33,
         "agency_posts": 0,
         "sponsored": 0,
-        "baseline_stance_items": 22,
-        "promotional_share": 0.227,
+        "baseline_stance_items": 23,
+        "promotional_share": 0.217,
         "backfill": false
       },
       {
@@ -1072,16 +1072,16 @@
       },
       {
         "period": "2026-11-23",
-        "total": 29,
+        "total": 32,
         "promotional": 1,
-        "critical": 14,
+        "critical": 15,
         "mixed": 0,
-        "neutral": 14,
+        "neutral": 16,
         "baseline_promotional": 1,
         "baseline_critical": 7,
         "baseline_mixed": 0,
-        "baseline_neutral": 2,
-        "opposition_events": 16,
+        "baseline_neutral": 3,
+        "opposition_events": 18,
         "agency_posts": 0,
         "sponsored": 0,
         "baseline_stance_items": 8,
@@ -1092,7 +1092,7 @@
     "share_trend": {
       "status": "ok",
       "buckets": 13,
-      "slope_per_period": -0.0011,
+      "slope_per_period": -0.0012,
       "first": 0.068,
       "last": 0.125,
       "direction": "flat"
@@ -1100,9 +1100,9 @@
     "opposition_trend": {
       "status": "ok",
       "buckets": 13,
-      "slope_per_period": -5.5714,
+      "slope_per_period": -5.5,
       "first": 125,
-      "last": 16,
+      "last": 18,
       "direction": "falling"
     },
     "event_response": {
@@ -1116,6 +1116,13 @@
       "events_fell": 8,
       "events_flat": 93,
       "measured": [
+        {
+          "jurisdiction": "Woonsocket Police Department, Rhode Island",
+          "event_date": "2026-11-26",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Indialantic Police Department, Florida",
           "event_date": "2026-11-25",
@@ -1670,13 +1677,6 @@
           "change": 0
         },
         {
-          "jurisdiction": "Woonsocket Police Department, Rhode Island",
-          "event_date": "2026-10-10",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
           "jurisdiction": "Mahoning Twp Police Department, Pennsylvania",
           "event_date": "2026-10-10",
           "before": 0,
@@ -1833,7 +1833,7 @@
     "periods_comparable": 3,
     "periods_backfill": 15,
     "provenance": "ok",
-    "baseline_items": 592,
+    "baseline_items": 595,
     "series": [
       {
         "period": "2024-02-01",
@@ -1909,9 +1909,9 @@
       },
       {
         "period": "2025-10-01",
-        "total": 6,
+        "total": 3,
         "promotional": 0,
-        "critical": 6,
+        "critical": 3,
         "mixed": 0,
         "neutral": 0,
         "baseline_promotional": 0,
@@ -2077,13 +2077,13 @@
         "mixed": 0,
         "neutral": 27,
         "baseline_promotional": 0,
-        "baseline_critical": 0,
+        "baseline_critical": 1,
         "baseline_mixed": 0,
         "baseline_neutral": 0,
         "opposition_events": 29,
         "agency_posts": 1,
         "sponsored": 0,
-        "baseline_stance_items": 0,
+        "baseline_stance_items": 1,
         "promotional_share": null,
         "backfill": true
       },
@@ -2125,34 +2125,34 @@
       },
       {
         "period": "2026-10-01",
-        "total": 495,
+        "total": 494,
         "promotional": 10,
         "critical": 305,
         "mixed": 0,
-        "neutral": 180,
+        "neutral": 179,
         "baseline_promotional": 8,
-        "baseline_critical": 145,
+        "baseline_critical": 146,
         "baseline_mixed": 0,
         "baseline_neutral": 19,
-        "opposition_events": 213,
+        "opposition_events": 212,
         "agency_posts": 0,
         "sponsored": 1,
-        "baseline_stance_items": 153,
+        "baseline_stance_items": 154,
         "promotional_share": 0.052,
         "backfill": false
       },
       {
         "period": "2026-11-01",
-        "total": 241,
+        "total": 244,
         "promotional": 10,
-        "critical": 117,
+        "critical": 118,
         "mixed": 0,
-        "neutral": 114,
+        "neutral": 116,
         "baseline_promotional": 5,
         "baseline_critical": 59,
         "baseline_mixed": 0,
-        "baseline_neutral": 29,
-        "opposition_events": 132,
+        "baseline_neutral": 30,
+        "opposition_events": 134,
         "agency_posts": 0,
         "sponsored": 1,
         "baseline_stance_items": 64,
@@ -2181,6 +2181,13 @@
       "events_fell": 8,
       "events_flat": 93,
       "measured": [
+        {
+          "jurisdiction": "Woonsocket Police Department, Rhode Island",
+          "event_date": "2026-11-26",
+          "before": 0,
+          "after": 0,
+          "change": 0
+        },
         {
           "jurisdiction": "Indialantic Police Department, Florida",
           "event_date": "2026-11-25",
@@ -2729,13 +2736,6 @@
         },
         {
           "jurisdiction": "Morgan Hill Police Department, California",
-          "event_date": "2026-10-10",
-          "before": 0,
-          "after": 0,
-          "change": 0
-        },
-        {
-          "jurisdiction": "Woonsocket Police Department, Rhode Island",
           "event_date": "2026-10-10",
           "before": 0,
           "after": 0,
